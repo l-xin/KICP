@@ -1,0 +1,6 @@
+0	sense
+1	sememe
+2	hypernym
+3	hyponym
+4	antonym
+5	converse

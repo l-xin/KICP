@@ -1,0 +1,734 @@
+P489	currency symbol description
+P834	railway depot	rail yard	depot	train depot
+P2629	bbfc rating	bbfc certificate
+P734	has surname	family name	surname	last name
+P98	compiler	compiled by	editor	edited by
+P1001	jurisdiction	country of jurisdiction	belongs to jurisdiction	applies to jurisdiction	valid in jurisdiction	applied to jurisdiction	linked to jurisdiction	of jurisdiction	applies to territorial jurisdiction
+P3018	protected area	state park	located in protected area	national park
+P4545	sexually homologous with
+P878	sensors	electronics	avionics
+P189	location of discovery	location of discovered object	findspot	find location	discovered at:	discovery place	find spot	place of discovery
+P1071	made in	mint	assembly location	location of origin	production place	minted at	manufactured in	place built	place made	place of production	location created	location of final assembly	creation location	place of origin	manufacturing location
+P945	loyalty	fidelity	allegiance
+P3094	evolves from	antecedent anatomical structure	developed from	develops from	evolved from
+P1037	director/manager	director general	general manager	director	manager/director	manager
+P749	owned by (company or organisation)	superior formation	owned by (company or organization)	subsidiary of	parent agency	part of	holding	holding company	parent company	parent unit	parent organization	parent organisation
+P184	advisor	supervisor	phd advisor	doctoral advisor	doctoral supervisor
+P2922	month of the year	month	month of year
+P1398	replaces (structure)	replacement building	structure replaces	replaced by (structure)
+P1435	heritage designation	listed status	protected status	designation	listing	protection	heritage status	legal protection
+P2974	habitat
+P88	commissioned by	client	built for	commissioner	orderer	made for	developer
+P3461	designated as terrorist by
+P287	designer	designed by	has designer
+P248	originating source	stated in	source of claim
+P610	pinnacle	highest point	summit	highest peak	extreme point highest	zenith
+P355	subsidiary	owns	has subsidiary	subsidiary company	subsidiary entities	parent company of
+P1950	spanish second name	second family name in spanish name	spanish maternal name	spanish name	spanish mother's maiden name	maternal surname	second surname in spanish name	second spanish name
+P47	borders	next to	shares border with	border	adjacent to	bordered by
+P3403	same territory as	coterminous with	coextensive with	territory identical with
+P200	inflows	inflow	lake inflows	river inflows	lake inflow
+P114	airline alliance
+P2881	competitor promoted	promotion	team promoted	player promoted	promoted
+P2852	emergency phone number
+P4320	mountains classification	best climber classification
+P1142	political ideology	ideology
+P735	christian name	forename	first name	personal name	middle name	given name
+P3259	intangible cultural heritage status
+P4292	possessed by spirit
+P816	decays to
+P36	chef-lieu	principal place	county seat	capital	has capital	administrative centre	administrative headquarters	capital town	capital city
+P404	gameplay	game mode	mode
+P40	has daughters	has kids	daughter	daughters	has children	has kid	has daughter	offspring	has child	kids	son	parent of	children	has sons	sons	child	has son	kid
+P1480	reliability	precision	certainty	qualitative valuation	validity	accuracy	confidence	sourcing circumstances
+P3938	coined by	namer	named by
+P2152	antiparticle	antiparticle of	anti-particle
+P942	theme music	theme song
+P112	co-founded by	established by	founded by	co-founder	founders	founder
+P3912	newspaper format
+P1406	writting directionality	script directionality	script direction	letter direction	letter directionality	writting direction
+P689	afflicts
+P1012	including
+P3349	carries	intended to carry	design payload	cargo	intended cargo	intended payload	designed to carry
+P459	method of determination	methodology	determined by	rationale	determination method	method	justification	standard
+P2849	produced by	secreted by
+P121	equipment operated	operator of	fleet	operated	runs	controls	aircraft carried	facility operated	aircraft in fleet	item operated	aircraft operated	acop	service operated	item used	eq	operates	uses item
+P744	asteroid family
+P2935	has connector	connector	ports
+P3416	until period	end period
+P275	license	content license	content licence	licence
+P1531	parent of this hybrid	parent(s) of this hybrid	parents of this hybrid	parent of this hybrid, breed, or cultivar
+P1327	partnership with	team mate	partner in sports	business partner	team-mate	sport partner	sports partner	partnered with	collaborator	partner in business	professional partner	work partner	writing partner	partner in business or sport
+P421	located in time zone	time zone	time	timezone
+P276	location	moveable object location	location of item	in	located in	event location	neighborhood	is in	place held	based in	region	venue
+P2176	treated by	treatment	drug used for treatment	prescribed drug	used for treatment
+P553	user account on	website account on	social media account on	account on
+P1456	list of monuments
+P3014	law applied	legal base	laws applied
+P1170	transmits	transmitted signal type	signal transmitted
+P3729	next lower rank
+P1365	preceded by	continues from	forefather	replaces	predecessor	previous job holder	supersedes	replaced	succeeds
+P527	has member	parts	set of	amalgamation of	formed out of	assembled out of	has as part	has component	composed of	has ingredients	contain	has part	consists of	formed from	created out of	holonym of	comprised of	includes part	has ingredient	assembled from	includes	have part	contains	created from	ingredients
+P1211	fuel system
+P138	named after	name after	eponym	toponym	named for	namesake	etymology
+P137	service operator	managed by	item operator	user	administrator	facility operator	operated by	operator
+P937	place of work	active in	working at	workplace	place of activity	location of work	work location
+P807	forked from	schism from	separated from	seceded from
+P4220	order of battle	battle formation
+P1552	has property	quality	defining parameter	characterized by	requirement	has quality	attribute	has characteristic	defined by	trait	inherent property	defining feature	parameter	aspect	required property	has feature
+P1136	solved by
+P1039	relationship (kinship)	kinship	type of relationship	type of kinship
+P3497	teams classification by time
+P1408	community of license	licensed to broadcast to	city of license
+P624	guidance system
+P612	cell of	mother house	motherhouse
+P1227	wavelength band	filter	astronomical filter	colour filter
+P608	exhibition history	exhibited at	shown	displayed at	shown at	salon
+P197	next station	previous station	adjacent station	neighbouring station	next stop
+P609	to	from	destination	terminus location	between	departure point
+P3833	diaspora
+P159	hq location	headquarters location	principle office	headquarters	head office location	garrison	seat	based in	admin hq	hq	head quarters
+P2560	gpu	graphics processing unit
+P1924	target disease	vaccine for
+P126	maintainer	maintenance	administered by	administrator	maintained by	custodian
+P2827	flower colour	flower color	colour of the flower	color of the flower
+P467	passed by	legislated by	enacted by
+P1202	scientific equipment	carries scientific instrument	metering equipment
+P2567	amended by
+P840	narrative set in	narrative location	playing in	location of narrative	takes place in	setting location	set in location
+P3985	supports programming language
+P2376	superpartner of
+P751	introduced feature	new feature
+P1809	choreographer
+P568	overlies
+P194	representative body	council	diet	rural council	municipal council	aboriginal council	zila	jila	assembly	city council	tehsil	indigenous council	local government area	parliament	lga	district council	district	legislative body
+P50	written by	authors	author(s)	author	writers	writer	writer(s)
+P178	developed by	developer
+P2872	contact station	tourist office	visitor center
+P930	electrification type	type of electrification
+P1382	part of (partially)	partially overlaps	concurrent with	overlaps	overlaps with	partially in	partially include	partially coincident with	partial concurrency	coincident with	overlapping with	concurrency
+P765	surface played on
+P2289	venous return	vein	venous drainage
+P927	anatomical location
+P2318	debut country	debut participant	first-time participant	first appearance for
+P2416	sports discipline competed in	event in sports	sports event	sport disciplines competed in	discipline of sport	sports discipline	sporting event	sport discipline	sport discipline competed in	sports disciplines competed in
+P943	software developer	programmed by	programmer
+P1074	fictional analog of	fictional version of
+P141	conservation status	iucn conservation status
+P488	president	chairman	chairperson	leader	chairwoman	chair	headed by
+P2820	cardinality of this set
+P417	patron saint
+P155	preceded by	successor to	follows	sequel of	predecessor	split from	comes after	prequel is	succeeds to	before was	previous is
+P306	os	operating system
+P1876	spaceship	ship	orbiter	vessel	boat	spacecraft	vehicle	craft
+P2512	spin-offs	has spin-off	series spin-off
+P2293	genetic association
+P4428	implementation of
+P4147	conjugate acid
+P410	rank	military rank
+P1346	titleholder	prizewinner	1st place medalist	top dog	awardee	champ	winner	leader	champion	victor	won by	winners
+P2578	studies	learning what?	scholarly field for	working on what?	study of	academic field for	is a study of	researches	research
+P463	member of
+P859	funded by	sponsored by	patron	sponsor	endorsed by	funder
+P3279	statistical leader	mvp	most valuable player	record setter
+P1891	signatories	signatory	signed by	ratified by	first signatories
+P517	interaction
+P921	keyword	describes	theme	aboutness	main subject	topic	main thing	mainly about	topic of work	mentions	subject heading	subject	is about	artistic theme	main topic	refers to	primary subject	about	main issue	index term	primary topic
+P611	religious order	order
+P500	exclave of
+P3803	film size	original film format	film gauge	film format
+P69	alumna of	educated at	studied at	alumnus of	faculty	graduate of	education	alumni of	college attended	university attended	school attended	graduated from	alma mater
+P3033	software package	package management system
+P2770	source of revenue	source of income	revenue source	income source
+P1640	curation authority	curated by	curator	keeper	biocurator	has curator	digital curator
+P1897	highest note
+P800	famous works	famous for	significant works	literary works	notable books	major works	representative work	known for	bibliography	work	significance	works	famous books	artwork	notable work
+P461	antonym	antonym of	inverse of	is the antonym of	inverse	opposite	opposite of	is the opposite of
+P1445	fictional universe described in
+P567	underlies
+P1196	circumstance of death	manner of death	death manner	type of death	death type
+P655	translated by	translator
+P4151	game mechanics	game system
+P451	domestic partner	partner	cohabitant	life partner	lover	girlfriend	mistress	boyfriend	significant other	concubine	sex partner	enbyfriend	common-law spouse
+P175	recorded by	musician	played by	actor	recording by	dancer	artist	portrayed by	performer	musical artist
+P1875	rep	represented by	managing agent	representative	agent	manager	talent agency
+P3173	has view of	view of	views to	view to	offers view on	views of	sights	has views of	offers view of
+P1308	incumbent	noble title holder	officeholder	position holder
+P364	created on language	language	original language	language of the original work	original language of film or tv show
+P279	whose instances are among	hyponym of	rdfs:subclassof	⊆	is a subtype of	⊂	whose instances ⊆ those of	subset of	is a type of	type of	is thereby also a	is a class of	is necessarily also a	is a category of	form of	subcategory of	has superclass	subclass of	is also a	subtype of
+P413	fielding position	position (on team)	player position	specialism	position played on team / speciality	speciality
+P4387	update method
+P462	colors	colour	colours	color
+P2822	by-product of
+P3137	parent mountain	parent peak
+P39	political seat	holds position	position held	political office held	office held	public office	position occupied
+P1304	central bank
+P2321	gc	general classification of race participants
+P3719	regulator	regulated by	regulatory authority
+P2378	emitted by	issued by	assigned by
+P2597	gram staining
+P516	power source	engine	powered by	propulsion	drive	powerplant	prime mover
+P1830	owns	owner of
+P1885	is cathedral of	is cathedral of diocese	cathedral
+P277	written in	language	programming language
+P2650	area of research	vested interest	lobbies for	interests	interested in	field of research	field of study
+P3189	innervated by
+P767	contributor(s) to the subject	contributor	collaborator	assistant	contributor(s) to the creative work or subject
+P3005	valid in place	country	applies to place	true in	applies to location	valid in territory	valid in location
+P2094	qualification class	disability sport classifications	compclass	class for competition	weight class	qualifies for	competition class	rated at
+P91	sexual orientation	sexuality
+P2288	lymphatic drainage
+P1303	plays	instrument	musical instrument
+P177	over	crosses	under	spans	through	bridge over	tunnel under	spanning
+P533	attack target	target	military target	target of attack
+P3712	objective	goal	end	intention	desired outcome	objective of project or action	aim	to support	stated goal	purpose	desired result
+P1075	rector
+P1018	regulatory body	language regulatory body
+P54	of team	plays for	team	player of	played for	member of sports team	club played for	member of team	team played for	teams played for	part of team
+P3085	qualifies for event	league this event qualifies for
+P2061	image aspect ratio	aspect ratio	ratio
+P195	museum collection	collection	archives	art collection	archival holdings
+P2743	this zoological name is coordinate with	coordinate name
+P780	symptoms	signs
+P803	professorship position	endowed professorship	chair	professorship	named professorship	endowed chair	named chair
+P136	literary genre	artistic genre	film genre	kind of music	type of film	type of music	music genre	genre	genre of music
+P3373	has brother	sister	sis	sister or brother	brother or sister	brother	has sister	sibling	sib	bro
+P2366	agnomen	roman agnomen
+P397	parent body	parent astronomical body	planetary system	orbits	star
+P2279	ambitus
+P912	facility	has facility	has amenity	amenity	features	has feature
+P3501	catholic rite
+P2554	scenic designer	scenic design by	production designer
+P1656	unveiled by
+P1639	pendant of	pendant to
+P1013	on the basis of	with reference to	criteria used	by	respectively to	basis	based on	according to	with respect to	criterion used
+P2012	cuisine
+P135	trend	school	movement
+P812	studied	academic field	major	academic subject	field of study	academic major	subject
+P511	pre-nominal	referred to as	called	honorific prefix	style prefix
+P641	plays	sport	sport played	play	sports
+P282	writing system	script	alphabet
+P3815	volcano observatory	volcano monitored by	eruption monitored by
+P2647	source of material
+P3174	artistic director	art director
+P376	located on astronomical body	located on astronomical location	planet	astronomical body (location)
+P2184	history	chronology of topic	history of topic	timeline of topic
+P2388	secretary's office	ceo's office	office held by head of the organisation	minister's office	president's office	head's office	leader's office	chairperson's office	position held by head of the organisation	office held by head of the organization	chief's office
+P509	death cause	die of	method of murder	murder method	cause of death	die from
+P607	conflict	participated in conflict	in conflict	theatre (military)	war	battle	in action	participant in conflict	theater (military)
+P1951	investor	investors	private investor
+P629	translation of	version of	edition or translation of	edition of
+P518	for	applies to part	line item	applies to form	applies to aspect	apply to part	when viewed as	in form	applied to	apply to	of part	involved part	limited to part	valid for part
+P736	cover artist	cover art by
+P2319	qualified voters	elector	eligible voters	type of electors
+P170	made by	sculptor	created by	creator	creators	painter	painters	artist (non-musical)	sculptors
+P210	party chief	communist party secretary	party chief representative	party secretary	communist party chief
+P1340	eyecolour	eye color	eyecolor	eye colour
+P3701	reincarnation of	incarnation of
+P2825	journey via	called at	stopover	calling point	intermediate point	journey stopover	routing point	calling at	via	waystation	route via
+P3320	member of the board of directors	board member
+P3179	overlaps	partly located in territorial entity	partially contains territorial extent	partially located in territorial entity	territory overlaps
+P2839	gait
+P504	home port	homeport
+P1424	template for this topic (main)	main template	topic's main template
+P1877	inspirational artist	inspiring artist	after a work by	copy of a work by	artist who inspired this
+P822	mascot
+P479	input	input device	input method	digitiser	mouse
+P974	tributary
+P823	speaker
+P790	approved by
+P741	tennis hand	playing hand
+P241	formation	military branch	branch	service branch
+P872	printer	printed by
+P286	coached by	team manager	head coach	coach	senior coach	club manager	manager
+P805	artfor	subject of the claim	dedicated item	article	subject of the statement	is subject of	statement is subject of	subject of	dedicated article
+P450	astronaut mission	cosmonaut mission
+P710	victim	belligerents	participants	candidate	party	suspect	attendee	between	player	competitor	perpetrator	agent	accused	event participant	participant
+P1165	home world	homeworld	planet
+P2239	first aid response	first aid measures
+P1068	isa	architecture	instruction set
+P708	bishopric	diocese	archbishopric	archdiocese
+P3022	flag bearer
+P1432	b-side	b-side (deprecated)
+P3019	signalling system	signalling type	type of signalling	railway signalling system
+P923	medical examinations	examinations	possible examinations
+P910	has category	topic's main category	category for this topic	subject category	main category
+P27	citizenship	subject of (country)	national of	nationality	country of citizenship	citizen of
+P2438	narrated by	narrator
+P469	reservoir on this river	waterfalls on this river	lakes on river
+P1412	language written	speaks language	uses language	languages spoken, written or signed	language(s) spoken, written or signed	second language	language used	signed language	language of expression	spoke language	language signed	signs language	language	writes language	languages spoken	language spoken	languages spoken, written, or signed	languages of expression	used language	languages signed	language read	wrote language
+P140	denomination	life stance	religion	religious affiliation	faith
+P684	ortholog
+P2673	next crossing upstream
+P86	musical score by	written by	music by	composer	songwriter	composed by
+P559	terminus	termini	trailhead	terminating connection	end point
+P2848	wi-fi	wi-fi access	wifi	wlan
+P2098	office of replacement	substitute office	office of substitute	replacement office	substitute/deputy/replacement of office/officeholder	deputy office	office of deputy
+P737	influenced by	role model	informed by	has influence	favorite player
+P3342	notable person	associated person	person associated with the subject	significant person	friends	friend
+P2384	statement describes
+P541	contested office	office contested	contested position	position contested
+P2680	author of afterword	afterword by
+P1595	charge
+P1399	guilty of	convicted of	found guilty of
+P505	general manager
+P1050	medical condition	illness	disorder	disease	health problem	ailment	health issue	paralympic disability	disability	health condition	suffers from
+P2632	jailed at	gaol	forced exile to	penitentiary	imprisoned at	gaoled at	incarcerated at	imprisoned in	detained at	place of detention	detention place	prison	internment at	jail	gaoled in	in jail	place of internment	internment place	place of imprisonment	penal
+P65	discovery site	site of astronomical discovery
+P1464	category for place of birth	category for people born here
+P4185	has attribute	iconographic symbol
+P565	crystal habit
+P2564	köppen climate classification
+P551	resident in	lives in	residence	home town	resident of	hometown	lived in	place of residence
+P543	oath made by
+P1423	template's main topic	module's main topic	main topic of template
+P1444	to	destination	end of journey	destination point	ending at	end point (journey)	journey destination	stopping at	finish
+P161	film starring	actor	actress	cast member	contestant or a play	starring
+P674	characters
+P2375	has superpartner	supersymmetric particle	has sparticle	has supersymmetric particle	superpartner	sparticle
+P344	director of photography	dop	cinematography	cinematographer
+P1383	contains settlement	populated places within
+P1560	given name version for other gender
+P4322	best sprinter classification
+P631	structural engineer	engineer	building engineer
+P3275	story artist	storyboard artist	visualizer
+P2515	costume designer
+P66	native place	ancestral village	ancestral home	native village
+P1672	this taxon is the source of	this taxon is source of	this taxon is a source of
+P1534	cause of ending	end cause	ended by
+P4345	excavation director
+P1462	standards developing organisation	standards setting organisation	standards developing organization	standards organisation	standards setting organization	standards body
+P2925	angel of	domain of deity or saint	god of	guardian of	goddess of	sacred domain	saint or deity domain	divine patron	is patron saint of	patron of	domain of saint or deity	patron saint of
+P3437	cargo carried	people or cargo transported	cargo transported	payload	passengers transported
+P108	working for	worked for	works for	works at	worked at	workplace	employer	working place	employed by
+P1817	sent to	to:	addressee	addressed to	recipient
+P437	edition	media	media format	media type	distribution format	format	book format	form of publication	type of media	medium	distribution
+P1811	episodes list	list of episodes	episode list
+P1073	can write	writable file format	writes file format	file format written
+P550	chivalric order
+P131	in	is in the county of	is in the arrondissement of	is in the town of	is in the prefecture of	indian reservation	is in the municipality of	is in the ward of	is in the city of	is in the parish of	is in the territory of	is in the indian reserve of	is in the administrative unit	is in the indian reservation of	in the administrative unit	happens in	city	location (administrative territorial entity)	located in the territorial entity	is in the province of	is in the region of	in administrative unit	is in the settlement of	is in the administrative region of	located in administrative unit	located in the administrative unit	is in the rural city of	is in the borough of	is in the department of	is in the state of	locality	region	town	state	is in the principal area of	is in the commune of	administrative territorial entity	is in the shire of	is in the local government area of	is in the voivodeship of	is in administrative unit	is in the village of	is located in	based in	is in the district of	located in the administrative territorial entity
+P406	has soundtrack album	soundtrack extended play	soundtrack release	soundtrack album	soundtrack single
+P162	produced by	record producer	film producer	producer
+P208	executive body	executive branch
+P1151	portal	main portal
+P1343	written about in	described in source	entry	described by source
+P3150	birthday
+P832	bank holiday	national holiday	legal holiday	public holiday
+P1046	detection method	discovery method
+P1322	dual to
+P206	on bay	on lake	next to lake	on harbour	sea	on the shore of	on coast of	bay	on shore of	on the coast of	located next to body of water	located on body of water	body of water	located in or next to body of water	lake	loc (water)	on river	ocean
+P1158	landing location	location of landing	landing site
+P190	partner city	twin city	sister city	sister town	partner town	twin cities	twin town	twinned administrative body
+P1547	requires	dependency	interfaces with	software dependency	software framework	depends on software	runs on
+P4312	camera setup
+P25	is son of	is daughter of	daughter of	mom	has mother	mam	mother	parent	is child of	son of	mum	child of
+P179	part of the series	part of series	series
+P3764	pole position
+P750	distributor	distributed by
+P415	format	genre	radio format	radio station format
+P3205	patient of
+P2575	measures
+P3095	practioner	associated with	studied by	practiced by	implementor	has practitioner	implemented by	proponent	has proponent
+P1035	style suffix	post-nominal	honorific suffix	postnominal	honourific suffix
+P2408	set in era	narrative period	set during	era	set in time	period covered	period	takes place in time	narrative time	set in period
+P20	location of death	death location	died in	place of death	death place	deathplace	pod
+P3025	days open	open on days	open days	opening days
+P119	interment	tomb	buried in	place of grave	resting place	location of burial	burial place	place of burial	buried at	grave at	place of interment
+P3969	hand-signed form	signed form
+P1060	pathogen transmission process	transmission process	transmitted by
+P3082	destroyed	structures destroyed
+P1906	state headed by	office held by head of state	head of state	position held by head of state
+P972	registry	exhibition catalogue	catalog	catalogue
+P172	ethnicity	people	ethnic group	culture
+P2700	communication protocol	protocol
+P201	outflow	outflows	lake outflow
+P103	native language	mother tongue	first language	l1 speaker of	language native
+P408	software engine	game engine	powered by	engine of software	render engine
+P3842	located in present-day administrative territorial entity	today part of	located in present day administrative territorial entity
+P944	code of nomenclature
+P466	inhabitant	lessee	location of	occupant	renter	tenant	houses
+P412	type of voice	vocal type	range of voice	voice type	tessitura	register
+P3092	film crew member
+P915	studio where filmed	filming location	shooting location	recorded at	location of filming	place where filmed	place of filming	location where filmed	filmed at
+P452	field of action	branch	economic branch	industry	sector	field of exercise
+P787	spore print color
+P22	dad	father	is son of	is daughter of	daughter of	has father	daddy	parent	is child of	son of	child of
+P2959	duplicate of item	duplicate	same concept as	permanently duplicated item	duplicate item	permanent duplicated item	identical to	duplicate of
+P37	spoken in	language official	speaking	language spoken	official language
+P4000	has fruit type
+P2587	has phoneme
+P21	female	male	woman	biological sex	intersex	gender	gender identity	sex or gender	man	sex	gender expression
+P2499	promotion to	level above (league)	league level above
+P748	appointed by
+P1411	nomination received	nominee for	nominated for
+P199	divisions	business division	has division
+P545	torch lit by
+P618	fuel type	energy source	battery	source of energy	fertilizer	nutrient
+P4330	wraps	contents	has contents	encloses	contains	surrounds	stores	holds
+P770	cause of destruction	reason of failure
+P3447	mirrors data from
+P1192	connecting service
+P841	feast day
+P634	captain
+P3931	proprietor	licensor	copyright holder	copyright ‘owner’
+P110	illustration by	illustrator	illustrated by
+P3643	significant environmental impact
+P2414	substrate of
+P3262	has anatomical branch
+P407	language of name	language of the name	available in	used language	language of spoken text	language of the reference	named in language	language of work	language of website	broadcasting language	audio language	language of url	language of work or name
+P642	in	of	within the scope of	within scope of	in the scope of	scope	in scope of	applies to
+P1302	primary destinations
+P1000	record held
+P1026	thesis	phd thesis	dissertation	doctoral dissertation	doctoral thesis
+P703	found in species	found in taxon
+P1789	coo	chief operating officer
+P747	edition	has edition	editions	has translation	translation(s)
+P1431	executive producer	showrunner
+P264	label	record label
+P676	lyrics by	lyricist	writer (of song lyrics)	lyracist	author	words by
+P425	activity corresponding to this occupation	field of this profession	field of this occupation	profession's field
+P418	seal	seal description
+P660	enzyme commission classification name	ec enzyme classification
+P2989	cases	has case	has grammatical case
+P2596	civilisation	culture
+P1433	part of work	published in journal	published in	on the tracklist of	venue
+P2545	bowling	bowling style
+P1210	supercharger
+P169	ceo	chief executive officer	executive director	chief executive
+P35	emperor	king	president	queen	leader	state headed by	monarch	governor	head of state	chief of state
+P831	major league affiliate	parent team	affiliate of	parent club
+P460	same	the same as	equivalent of	said to be different from	possibly equivalent to	close to	similar to	equivalent to	same as	is the same as	possibly the same as	disputed equivalence	see also	is said to be the same as	said to be the same as
+P3902	last meal	had as last meal
+P57	film director	director	directed by	movie director
+P654	drtl	direction relative to location
+P501	enclave within	enclaved by
+P84	architecture firm	architect
+P2633	geography of topic
+P1546	motto
+P552	handedness
+P31	has type	occurrence of	unitary element of class	is an	is a particular	unsubclassifiable member of	is an individual	unsubclassable example of	not a type but is instance of	instance of	uninstantiable instance of	distinct element of	has class	is a unique	is a	distinct individual member of	member of	distinct member of	non-type member of	is a specific	is an example of	unique individual of	rdf:type	unsubtypable particular	type
+P2695	(co)-type locality	type locality (geology)
+P1678	has vertex figure
+P881	variable type	type of variable star
+P4149	conjugate base
+P3730	next higher rank
+P1455	list of works	bibliography	catalog of works	catalogue of works
+P1038	ancestor	family member	mother-in-law	relation	niece	kinsman	aunt	grandchild	co-husband	cousin	granddauther	nephew	grandson	relative	lineal descendant	sister-in-law	grandchildren	grandparent	grandfather	co-wife	grandmother	brother-in-law	son-in-law	uncle	collateral descendant	father-in-law	family	daughter-in-law	descendant
+P562	authority	central bank/issuer	issuing authority	issuer
+P183	endemism	endemic to
+P399	companion of
+P532	port of registry
+P1027	bestowed by	conferred by	given by	awarded by	granted by	presented by
+P2341	endemic to	native to	indigenous to
+P3460	colonel-in-chief
+P2360	target group	target market	for	intended public	for audience of	audience of	made for	created for	for market	designed for	serving
+P115	home venue	arena	home field	stadium	home ground	ballpark	home water	ground	venue
+P2992	software qa	qa	software quality assurance
+P16	routes system	system of routes	highway system	transport network	part of network	network of routes	road type
+P483	studio	recording venue	recording studio	recorded at
+P3512	locomotion method	means of locomotion	locomotion
+P706	is on	location (terrain feature)	takes place in	located on terrain feature	terrain feature	on natural feature	is in	geographical region	on	loc (terr)	on geographical feature
+P2670	is constructed with members of	has part of the class	is assemblage with parts that are	has part(s) forming subclass of	parts of(p361) subject are some	some parts form subclass(p279)of	has parts of the class	constitutent(s) are classified as	is built/made with example(s) of	of subcomponents whose class is	has parts of class	has part(s) that are instances of	has parts(p527): instances(p31)of	composition has pieces that are
+P521	scheduled service destination
+P2551	used metre	metre used
+P127	stockholders	owners	belongs to	is owned by	shareholders	shareholder	stockholder	provenance	owned by	owner
+P1598	consecrated by	has consecrator	consecrator
+P3716	social status	social classification	social class
+P3015	backup or reserve team or crew	reserve team	backup team	reserve crew	backup crew
+P556	crystal system
+P1336	territory claimed by	sovereignty claimed by	claimed by
+P1589	deepest point	extreme point deepest	extreme point lowest	lowest point
+P171	higher taxon	parent taxon	taxon parent
+P205	basin countries	basin country
+P534	streak color
+P4353	nominated by
+P1840	investigated by
+P2417	stage classification
+P1040	editor	edited by	film editor
+P1479	indirectly caused by	significant contributing factor	indirect cause	has contributing factors	contributing factor	is/was indirectly caused by	has contributing factor
+P825	dedication	dedicated to	dedicatee	tribute to
+P873	phase point
+P1637	aircraft landing gear	undercarriage	aircraft undercarriage	landing gear
+P1066	advisor	supervisor	studied under	master	mentor	professor	disciple of	academic supervisor	pupil of	student of	teacher	tutor
+P2500	level below (league)	league level below	relegation to
+P102	member of political party	member of party	party	member of	political party	party membership
+P1283	filmography
+P931	train station serves	place served by transport hub	serves city	city served
+P85	official song	anthem	national anthem	march
+P2936	working languages	language used	working language
+P1414	user interface	gui toolkit or framework	default user interface
+P403	drain	outlet	confluences	mouth of the watercourse	river mouth	tributary of	watercourse ends in	watercourse drain	watercourse outflow	outflow
+P885	source of a stream	river head	origin of the watercourse	stream source	water origin	river source	source of watercourse	water source
+P1344	took part in	takes part	competes in	competed in	present at	participant of event	took part	participant of	participated in	participant in
+P118	sports league	league	division
+P1347	military casualty classification	casualty type	casualty classification
+P1079	launch service provider	launch contractor
+P129	physically interacts with
+P101	scientific discipline	academic discipline	domain	fields	fow	specialism	academic area	research on	scientific area	academic subject	conduct research about	field of study	discipline	subject	studies	field of work	be researcher in	area	responsible for
+P598	commands	commander of
+P2157	lithography
+P680	molecular function
+P1750	name day
+P53	noble family	royal house	house	family	dynasty
+P1576	follows lifestyle	lifestyle	has lifestyle
+P3780	active ingredient in
+P1990	resident animal species	resident animals	captive animals	species kept	rose varity in rose garden	species holdings	animals at zoo	plant in herborium	animals species kept	animals in aquarium	trees in arboretum	plant taxon in botanical garden	animals housed	plant taxon in collection	animals kept
+P797	executive authority	authority	has governing body	has authority	governed by	governing body	governing authority
+P2522	won	awarded	victory	won event	winner of
+P289	class of vessel	submarine class	spacecraft class	ship class	vessel class
+P1542	causes	outcome	led to	cause of	implies	result	effect	consequence	has symptom	has result	has effect	has outcome
+P1532	sport nationality	sports country	sports nationality	sporting nationality	country for sport	sport country
+P237	coat of arms
+P3967	final event
+P1389	product certification
+P97	royal and noble ranks	royal title	title (hereditary)	noble title	peerage	hereditary title
+P523	temporal range start
+P3261	anatomical branch of
+P720	asteroid spectral type
+P1557	realization of	reification of	manifestation of
+P756	removed feature
+P3491	muscle insertion
+P3103	has tense
+P1596	sentence	judicial sentence	penalty
+P2813	mouthpiece	manifest	official newspaper	mouth piece	official publication	propaganda arm	has mouthpiece	publication	official media	house organ	publishes
+P542	officially opened by
+P2789	intersects at grade	connects to	connected to	connects with	couples with	binds to	attached to	meets at grade	mates with	connected with	attaches to
+P30	continent
+P2962	chess title	title of chess person
+P1080	from universe	featured in universe	in world of	fictional universe where entity is from	universe	in continuity	from narrative	from fictional universe	cycle	in cycle	story cycle	appears in universe	mythology	from mythology	continuity
+P588	coolant
+P263	domicile	lives at	resides at	lives in	home	official residence
+P833	osi	interchange station	out of station interchange
+P193	building contractor	built by	constructed by	main building contractor	main contractor	builder
+P538	fracturing
+P134	dialect	includes dialect	has dialect (deprecated)	has as dialect
+P1792	category of associated people
+P3300	choir director	musical director	conductor	musical conductor
+P1419	shape
+P739	cartridge	ammunition	ammo
+P2563	superhuman feature or ability	superpower
+P769	drug interaction	significant drug interaction
+P793	main events	outcome	notable incident	significant incident	major event	significant event	event	fate	known for	notable event	key incident	key event	big event
+P106	career	occupation	employment	profession	work	job	craft
+P3081	structures damaged	damaged
+P2882	team relegated	relegation	relegated	competitor relegated	player relegated
+P61	inventor of	inventor	discoverer of	first described	inventor or discoverer	developer of	discoverer or inventor	coined	discoverer	discoverer or inventor of	developer
+P2283	wields	uses	instrument played	using	makes use of	item used
+P26	wed	married to	husband	partner	life partner	wives	marriage partner	consort	marry	husbands	partners	wedded to	wife	spouse	married	spouses
+P3989	member occupation	members have occupation	occupation of members
+P1537	indirectly caused	contributing factor of
+P702	encoded by
+P546	docking port
+P3301	broadcast by	radio channel	radio network	tv channel	radio station	broadcaster	tv station	streamed by	tv network
+P196	minor planet group	asteroid group
+P163	flag	flag description
+P1366	successor	superseded by	continued by	mediatised to	next job holder	succeeded by	heir	replaced by
+P3679	stock market index
+P636	route of administration
+P2868	function	acting as	subject has generic identity	subject had role	as	has role	role	purpose	had role	duty	subject has role
+P1028	donated by	bestowed by	given by	gift from	donor	gift of	donation from
+P2976	patronym or matronym for this name	patronym	matronym
+P1194	received signal type
+P3080	game artwork by	video game artist	video game artwork by	game artist
+P449	radio network	original network	tv channel	television channel	network	radio station	channel	first air channel	original air channel	broadcast on	original channel
+P4552	located in mountain range	mountain belt	mountain system	range	hill range	mountain range	parent range	located on mountain range	system of mountains
+P1049	worshipped by	deity of
+P2853	mains plug type	electrical plug type	mains connector	plug type	electrical connector type	socket type	mains socket type	electrical socket type
+P515	phase of matter
+P3195	league points system
+P81	rail line connected to	is on	line connected to	railway line	rapid transit line	connecting line
+P3263	base
+P669	on street	road	is on	located on street	street	square	located at street (item)	address street
+P3032	adjacent building	neighboring building	located next to
+P1568	domain	definition domain
+P2828	executive officer	corporate officer
+P398	orbited by	satellite	has planet	has moon	child astronomical body	child body
+P1310	disputed by	rejected by	statement disputed by	opposed by
+P522	type of orbit	orbit type	orbit
+P87	book by	librettist	libretto by
+P2365	roman cognomen	cognomen
+P2860	cites work	bibliographic citation	citation
+P1363	points scored by	scorer	points/goal scored by	scored by	goal scored by
+P1056	creates	maker of	product or material produced	manufacturer of	work produced	results in	commodity	product	products	makes	produces	has product	output	producer of	material produced	manufactures
+P272	broadcasting company	production company	production house	theater company	motion picture studio	theatre company	theatrical troupe	ballet company	movie studio	film studio	studio
+P530	foreign relations	ambassadorial relations	political relation	ambassadorial relation	foreign relation	diplomatic relations	diplomatic relation	political relations
+P740	place of foundation	from	source location of group/organisation	formed in	founded in	comes from	originates from	location of formation	place of formation	formation location	place of incorporation
+P59	part of constellation	constellation
+P371	tv host	tv presenter	hostess	presenter	presented by	host
+P1915	gene inversion association with
+P1372	binding of software library
+P2286	arterial supply	artery
+P38	currency	base currency	used money
+P2358	praenomen	roman praenomen
+P826	key of musical composition	musical key	tonality
+P1535	used by	played by	user
+P1731	φωνητική εξειδίκευση	fach
+P837	day	day in year for periodic occurrence	takes places during	day of periodic occurrence	recurring event	takes place on	day in year	periodic occurrence	date
+P1995	medical speciality	health specialty	medical specialty
+P400	published on	computing platform	game platform	hardware	runtime	platform	environment	platforms
+P185	doctoral student	supervise
+P1606	natural reservoir of
+P3190	innervates
+P913	symbol	notation
+P2155	solid solution series with
+P1478	has proximate causes	proximate result of	has immediate cause	immediate effect of	is immediately caused by	immediately caused by	has proximate cause	has immediate causes	proximate outcome of	proximate effect of	immediate outcome of	proximately caused by	immediate result of	is proximately caused by
+P1199	mode of inheritance
+P113	hub	airline hub	hub airport
+P2978	wheel arrangement
+P1605	natural reservoir	has natural reservoir
+P122	government	type of government	form of government	basic form of government
+P688	codes for	encodes
+P1654	wing configuration
+P2674	next crossing downstream
+P3113	has part missing	doesn't have	missing	does not have part	lacks	does not include
+P2058	depositary	depository	depositor
+P795	located on linear feature
+P1889	not the same as	different from	is not	not	confused with	often confused with	is different from	differs from	different to	distinguished from	not same as	not to be confused with	to be distinguished from	different than	mistakenly taken for	distinct from	see also	disambiguated from	isn't
+P3075	established religion	official religion	state religion
+P92	main regulatory text	legally established by	governing document	bylaws	governing text	by-laws
+P1427	from	launch site	launch pad	start location	launch location	journey origin	flight origin	start point	journey start
+P3602	candidate in election	candidacy in election
+P180	motif	portrays	represents	depicts	depiction of	painting of	portrait of	landscape of
+P2308	type	class
+P1855	eg	example item for this property	example of property	for example	property example	example	property sample	e.g.
+P547	memorial to	celebrates	commemorates	monument to	in memory of
+P495	country of origin	origin (country)	coo	originates	comes from	place of origin
+P3091	steed	mount	horse
+P2541	area of responsibility	area served	operating area	area operated	area of operations
+P291	location of publication	place of publication	published in (place)	publication location	release region	publication city	publication region	released in	publication place
+P512	diploma	academic diploma	academic degree	degree
+P105	taxonomic rank	type of taxon	rank	taxon rank
+P123	board game publisher	software publisher	video game publisher	published by	publisher	book publisher	publishing house
+P358	discography link	discography
+P166	prize received	prize awarded	awards received	recognition title	awarded	awards	honors	honorary title	medals	award received	award won	winner of	award	win	honours
+P2851	payment methods accepted	credit cards accepted	payment types accepted
+P2354	related list	list	topic's list	has list	list for this topic
+P2079	made by	asssembly process	by	technique used	assembly method	manufacturing process	manufacturing method	process	fabrication method	method	production method	fabrication process	production process
+P1574	contains work	includes work	exemplar of	contents
+P647	drafted by
+P176	producer (of product)	made by	product of	built by	maker	manufacturer	builder	manufactured by	mfr
+P2746	production statistics
+P1312	has facet polytope	facet of a polytope
+P3494	points classification
+P991	elected person	winner of election	successful candidate
+P2359	roman nomen gentilicium	nomen gentilicium	gens (roman)
+P156	precedes	successor	sequel is	preceeds	succeded by	prequel of	comes before	followed by	next is
+P361	meronym of	in	subsystem of	subassembly of	section of	system of	part of-property	merged into	within	component of	merged with	contained within	is part of	part of	assembly of
+P1057	on chromosome	chromosome
+P375	launch vehicle	rocket used	carrier rocket	space launch vehicle
+P788	mushroom ecological type
+P111	measure of	measured physical quantity	quantity	physical quantity
+P3438	motorcycle driven by subject	vehicle normally used	automobile used	drives this car
+P1420	synonym of this name	taxon synonym	this taxon has as synonym
+P828	implied by	underlying cause	had underlying cause	originated due to	has causes	ultimate cause	outcome of	effect of	caused by	has underlying cause	due to	had cause	result of	had reason	cause	has cause	because	ultimate causes	initial cause	reason	why	has reason
+P868	foods traditionally associated
+P1264	period of applicability	applies to period	time period	valid in period	period of validity	period of time
+P457	constitution	enabling law	establishing document	created by	founding document	constitutive text	charter	foundational text	treaty	organic law	created in document
+P485	archives at	correspondence at	archive location	papers at
+P150	contains administrative territorial entity	has local government areas	has regions	has states	has cities	divides into	has towns	has villages	has administrative divisions	has wards	has members	has municipalities	divided into	has districts	has boroughs	subdivided into	has shires	has arrondissements	has rural cities	contains	has counties	has countries
+P2652	partnership with	commercial partnership with
+P1716	brand
+P3415	since period	start period
+P922	magnetic ordering
+P524	temporal range end
+P1299	appears in	played by	portrayed by	depicted in	acted by	depicted by
+P78	domain	gtld	top-level internet domain	top level domain	internet domain	tld
+P1880	measured by
+P1625	to the tune of	has melody	ttto
+P520	wields	armament	armed with	weapon	ship armament
+P4379	youth organisation	youth wing
+P3828	outfit	wore	accessory	wears	garment	clothing
+P149	architecture	architectural style	style of architecture
+P1434	describes fictional universe	universe described	takes place in fictional universe	universe featured	fictional universe described	describes the fictional universe	set in fictional universe	continuity
+P1773	credited to	possibly	attributed to	believed to be	might have been	may have been	could have been
+P2894	day of week
+P1533	family name identical to this first name	related family name	related surname	family name identical to this given name
+P2348	historic period	historical period	time period	sports season	legislative period	era	theatre season	historic era	epoch
+P167	succeeded by (structure)	replaced by (structure)	structure replaced by
+P3448	stepmother	step-father	stepparent	step mother	step parent	step father	step-mother	stepfather
+P2869	record or record progression	world record	olympic record
+P4132	typology	linguistic typology
+P4323	young rider classification
+P1393	proxy	viceroy	regent
+P4425	mtdna haplogroup
+P19	location of birth	birthplace	pob	birth city	birth place	born at	place of birth	birth location	location born	born in
+P144	based upon	remake of	based on	fork of	adaptation of	theme	modeled after	copy of	extended from	adapted from	themed after	derived from
+P1268	represents	represents organisation
+P2389	organization led from the office or person	runs	leads	organization directed from the office	leader of	head of	directs	organization directed from the office or person	heads
+P4006	overruled	overrules
+P1029	crew member	member of crew of
+P2291	charted in
+P3158	enclosure
+P1454	legal structure	legal form	structured as	type of business entity
+P2579	science, that studies	domain	reserached by	studied by
+P1321	place of origin (switzerland)	luogo d'origine	lieu d'origine	heimatort	bürgerort
+P2679	foreword by	author of introduction	author of foreword	introduction by
+P3264	radix
+P1201	upper stage	space tug	payload deliverer
+P1884	hair color	hair colour	colour of hair	color of hair
+P2505	carries
+P186	crafted out of	manufactured out of	constructed from	crafted from	formed out of	source material	built from	medium	ingredients	construction material	built out of	formed from	feedstock	reactant	ore	media	raw material	constructed out of	manufactured from	ingredient	material used	made of	made from
+P2546	sidekick of	helper of
+P1064	track gauge	gauge
+P1923	participating team	teams
+P1318	proven by	proof by	proved by	author of proof
+P2238	symbol	national animal	emblem	national flower	national bird	official emblem	floral emblem	official symbol
+P360	list of	is a list of	main article of list	main topic of list
+P3161	has grammatical mood	mode	mood	grammatical mode	grammatical mood	has grammatical mode
+P783	hymenium type
+P411	canonisation status	sainthood status	canonization status
+P427	type genus	type species	taxonomic type
+P4426	y-dna haplogroup
+P1034	diet	food source	main food source	eats	ration	food plant
+P1376	capital of	county seat of	county seat for
+P1956	takeoff and landing capability
+P1313	position of head of government	office held by head of government	title of head of government	position held by head of government	office of head of government
+P366	use	used in	function	used for	used as	usage	utility	as	role	mission	purpose
+P2634	model	posed	modeled after	sitter
+P1881	list of characters
+P4321	best combative classification
+P682	biological process
+P1078	valvetrain configuration
+P3919	contributed to creative work	collaborator on	contributed to	contributor	contributor to
+P870	instrumentation
+P1290	godparent	godmother	godfather
+P1002	engine configuration	configuration of engine cylinders
+P658	track listing	songs	list of tracks	track list	tracks	tracklist
+P6	premier	executive power headed by	head of government	chancellor	government headed by	mayor	governor	prime minister	first minister	head of national government
+P725	vo	voice actress	voice actresses	seiyu	dubbed by	cv	voice actors	va	voice actor	voice dubber	voiced by
+P880	cpu	processor	central processing unit
+P3966	programming paradigm
+P3490	muscle origin
+P1898	lowest note
+P209	highest judicial authority
+P681	subcellular localization	cell component
+P1441	in work	appears in	discussed in work	featured in work	from narrative	described by work	in narrative	mentioned in	from work	is shown in	present in work
+P924	therapy	possible treatment	treatment	medical treatment	medical therapy	health treatment
+P1591	defendant	accused	respondant
+P1387	political position	alignment	political alignment
+P726	candidate
+P3975	perpetual secretary	secretary general	leader	general secretary
+P58	film script by	teleplay by	written by	screenplay by	screenwriter	writer (of screenplays)	scriptwriter
+P2462	member of the deme	deme	of the deme
+P414	listed on	exchange	listed on stock exchange	stock exchange	listed on exchange
+P768	electoral district	constituency	electorate	riding	ward	electoral area
+P4424	requires	requests	mandates
+P1620	claimant	pursuer	plaintiff
+P941	source of inspiration	inspiration	inspired by
+P1429	has pet
+P802	pupil	student	disciples	teacher of	pupils	disciple	students
+P1536	has immediate result	immediate outcome	immediate effect	has immediate outcome	is immediate cause of	immediate cause of	has immediate effect	immediate result
+P2175	treats medical condition	medical condition treated	disease treated	capable of inhibiting or preventing pathological process	treats	treats disease
+P3450	sports season of league or competition	season of sports tournament	sport season	season of	season of sports league	is a season of	seasons of	is season of	season of sports competition
+P664	event producer	organizer	organised by	organising body	organizing body	organiser	organized by
+P2445	metasubclass of	metaclass of
+P17	state	country	sovereign state	land	host country
+P1072	can read	reads file format	file format readable	readable file format
+P1582	comes from (taxon)	natural product of taxon	fruit of (taxon)	made from
+P1652	umpire	referee
+P157	slain by	assassin	murderer	mortally wounded by	executioner	executed by	killer	assassinated by	slaughtered by	murdered by	killed by
+P1269	main topic	subtopic of	subject in	facet of	subitem of	aspect of	topic of
+P1416	affiliation	affiliated with	sister society
+P3093	recovery group	recovery vehicle	recovered by
+P2821	byproduct	by-product
+P1594	judge

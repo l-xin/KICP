@@ -1,0 +1,1000 @@
+{"id": "35", "text": "在 一 正方形 花池 的 四周 栽 了 n 棵 柳树 ， 每 两棵 柳树 之间 的 间隔 是 n 米 ， 这个 正方形 的 周长 = 多少 米 ？", "expr": "* temp_a temp_b", "answer": 880.0, "num_list": [44, 20]}
+{"id": "65", "text": "张明 有 n 元 钱 ， 买 书 用 去 n ， 买 文具 的 钱 是 买 书 的 n ． 买 文具 用 去 多少 元 ？", "expr": "* * temp_a temp_b temp_c", "answer": 14.399999999999999, "num_list": [120, 0.8, 0.15]}
+{"id": "118", "text": "一 个 工厂 要 生产 n 个 零件 ， 前 n 天 生产 了 n 个 ， 剩下 的 要 在 n 天 内 完成 ， 平均 每天 生产 多少 个 ？", "expr": "/ - temp_a temp_c temp_d", "answer": 150.0, "num_list": [3000, 6, 750, 15]}
+{"id": "163", "text": "一 本 字典 定价 n 元 ， n 出售 后 还 赚 n ， 这本 字典 进价 = 多少 元 ．", "expr": "/ * temp_a temp_b + 1 temp_c", "answer": 6.0, "num_list": [9, 0.8, 0.2]}
+{"id": "233", "text": "修 一段 长 n 米 的 路 ， 前 n 小时 共 修 了 n 米 ， 剩下 的 每 小时 修 n 米 ， 还要 几小时 才能 修 完 ？", "expr": "/ - temp_a temp_c temp_d", "answer": 4.0, "num_list": [324, 8, 240, 21]}
+{"id": "243", "text": "一 个 圆 的 半径 是 n 厘米 ， 如果 把 它 的 半径 延长 n 厘米 ， 那么 面积 增加 多少 ．", "expr": "* 3.14 - ^ + temp_a temp_b temp_b ^ temp_a temp_b", "answer": 50.24, "num_list": [3, 2]}
+{"id": "244", "text": "山上 有 苹果树 n 棵 ， 桃树 比 苹果树 多 n ， 桃树 有 多少 棵 ？", "expr": "* temp_a + 1 temp_b", "answer": 240.0, "num_list": [200, 0.2]}
+{"id": "253", "text": "除数 是 n ， 商 是 n ， 余数 是 n ， 被除数 = ．", "expr": "+ * temp_b temp_a temp_c", "answer": 451.0, "num_list": [6, 75, 1]}
+{"id": "306", "text": "一 捆 电线 ， 第一次 用 去 全长 的 n ， 第 二 天 用 去 余下 的 n ， 这时 还 剩 n 米 ． 这 捆 电线 共 长 多少 米 ？", "expr": "/ temp_c - - 1 temp_a * - 1 temp_a temp_b", "answer": 180.0, "num_list": [0.25, 0.2, 108]}
+{"id": "316", "text": "甲乙 两辆 汽车 同时 从 同一 地点 向 相反 的 方向 行驶 ， n 小时 后 两车 相距 n 千米 ， 已知 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 多少 千米 ？", "expr": "- / temp_b temp_a temp_c", "answer": 35.0, "num_list": [4, 300, 40]}
+{"id": "327", "text": "甲乙 两根 绳子 分别 长 n 米 和 n 米 ， 各剪 去 同样 长 的 一段 后 ， 乙 根 的 长 是 甲 根 的 n ， 甲 根 剪 去 多少 米 ．", "expr": "- temp_a / - temp_a temp_b - 1 temp_c", "answer": 1.5, "num_list": [9, 6, 0.6]}
+{"id": "340", "text": "鸡蛋 有 n 个 ， 鸭蛋 比 鸡蛋 多 n ， 请问 两种 蛋 共有 几个 ？", "expr": "+ + temp_a * temp_a temp_b temp_a", "answer": 260.0, "num_list": [120, 0.16666666666666666]}
+{"id": "362", "text": "计算 ： n + n - n * n + n / n = ．", "expr": "+ - + temp_a temp_b * temp_c temp_d / temp_e temp_f", "answer": 700.0, "num_list": [234, 432, 4, 8, 330, 5]}
+{"id": "406", "text": "n 除 多少 的 商 是 n ， 余数 是 n ．", "expr": "+ * temp_a temp_b temp_c", "answer": 344.0, "num_list": [54, 6, 20]}
+{"id": "432", "text": "图书馆 里 有 一些 科技 书 和 文艺 书 ， 其中 科技 书 占 n ， 如果 用 文艺 书 换 走 科技 书 n 本 ， 那么 科技 书 占 全部 的 n ， 问 原来 科技 书 有 多少 本 ？", "expr": "* / temp_b - temp_a temp_c temp_a", "answer": 59.99999999999999, "num_list": [0.8, 20, 0.5333333333333333]}
+{"id": "440", "text": "甲队 调 n 的 人 给 乙 队 ， 两队 的 人数 就 相等 ． 原来 乙 队 是 甲队 人数 的 多少 ．", "expr": "- - 1 temp_a temp_a", "answer": 0.6666666666666667, "num_list": [0.16666666666666666]}
+{"id": "514", "text": "一 项 工程 ， n 个 工人 n 天 完成 ． 如果 要 n 天 完成 ， 需要 多少 个 工人 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 15.0, "num_list": [12, 25, 20]}
+{"id": "581", "text": "教室 的 长 是 n 米 ， 宽 是 n 米 ， 高 是 n 米 ， 现在 要 粉刷 教室 四周 的 墙壁 ， 扣除 门窗 的 面积 n 平方米 ， 要 粉刷 的 面积 = 多少 平方米 ？ 如果 每 n 平方米 用 涂料 n 千克 ， 粉刷 这个 教室 共 需 涂料 多少 千克 ？", "expr": "* / - * + * temp_a temp_c * temp_b temp_c temp_e temp_d temp_e temp_f", "answer": 41.0, "num_list": [8, 6, 3.5, 16, 2, 1]}
+{"id": "588", "text": "王 华 和 张 强 两 人 骑 自行车 同时 从 两地 相对 出发 ， 王 华 骑 到 全程 的 n 与 张 强 相遇 ， 张 强 继续 以 每 小时 n 千米 的 速度 向前 骑 ， 用 n 小时 骑 完 余下 的 路程 ， 求 王 华 的 速度 ．", "expr": "/ temp_b / - 1 temp_a temp_a", "answer": 20.0, "num_list": [0.625, 12, 2.5]}
+{"id": "610", "text": "饲养场 养 了 n 只 公鸡 ， n 只 母鸡 ， 平均 每 只 卖 n 元 ， 一共 卖 多少 元 钱 ？", "expr": "* + temp_a temp_b temp_c", "answer": 18375.0, "num_list": [257, 268, 35]}
+{"id": "643", "text": "某 工程队 n 天 完成 一项 工程 的 n ， 照 这样 计算 ， 完成 这项 工程 一共 需要 多少 天 ？", "expr": "/ 1 / temp_b temp_a", "answer": 14.0, "num_list": [4, 0.2857142857142857]}
+{"id": "706", "text": "春季 植树 ． 五年级 植树 n 棵 ， 六年级 植树 n 棵 ， 全校 植树 的 棵 数 是 n 、 六年级 植树 棵 数 的 n 倍 ， 全校 共 植树 多少 棵 ？", "expr": "* + temp_a temp_b temp_d", "answer": 84.0, "num_list": [12, 16, 5, 3]}
+{"id": "730", "text": "小 明 n 分钟 行走 了 n 米 ， 那么 小 明 平均 每分钟 行走 了 多少 ．", "expr": "/ temp_b temp_a", "answer": 4.375, "num_list": [8, 35]}
+{"id": "742", "text": "文具盒 n 元 一个 ， 买 n 个 文具盒 ， 一共 需要 多少 元 ．", "expr": "* temp_a temp_b", "answer": 66.0, "num_list": [22, 3]}
+{"id": "754", "text": "服装店 购进 一批 衬衫 ， 其中 男式 衬衫 n 件 ， 女式 衬衫 比 男式 衬衫 的 n 多 n 件 ． 购进 女式 衬衫 多少 件 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 80.0, "num_list": [150, 0.4, 20]}
+{"id": "771", "text": "为了 庆祝 国庆节 ， 在 润扬 大桥 的 栏杆 上 插 彩旗 ， 从头到尾 共 插 n 面 ， 每 两面 彩旗 中间 放 一 盆花 ， 一共 需要 多少 盆花 ．", "expr": "* - temp_a 1 1", "answer": 499.0, "num_list": [500]}
+{"id": "793", "text": "果园 里 苹果树 棵 数 的 n 相当于 梨树 棵 数 的 n ， 梨树 n 棵 ， 苹果树 有 多少 棵 ？", "expr": "/ * temp_c temp_b temp_a", "answer": 60.0, "num_list": [0.4, 0.42857142857142855, 56]}
+{"id": "829", "text": "食堂 大米 比 面粉 多 n ， 正好 多 n 千克 ， 食堂 面粉 有 多少 千克 ？", "expr": "/ temp_b temp_a", "answer": 360.0, "num_list": [0.8333333333333334, 300]}
+{"id": "842", "text": "小 红 到 书店 想 买 一本 n 元 的 童话 书 ， 可是 差 n 元 ， 她 只好 买 了 n 元 的 笔记本 一本 ， 剩下 的 钱 正好 买 了 一枝 钢笔 ， 这 枝 钢笔 多少 钱 ？", "expr": "- - temp_a temp_b temp_c", "answer": 2.0, "num_list": [7.8, 0.7, 5.1]}
+{"id": "853", "text": "爸爸 开车 从 家 去 动物园 ， 去 时 平均 每 时 行 n 千米 ， n 时 到达 ． 回来 时 ， 为了 赶时间 ， 只用 了 n 时 ． 爸爸 回来 时 平均 每 时 行 多少 千米 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 50.0, "num_list": [37.5, 0.4, 0.3]}
+{"id": "915", "text": "在 一个 比例 中 ， 两个 内 项 的 积 是 n ， 其中 一个 外 项 是 n ， 另 一个 外 项 = ．", "expr": "/ temp_a temp_b", "answer": 4.0, "num_list": [10, 2.5]}
+{"id": "923", "text": "某 机关 原有 工作人员 n 人 ， 现有 n 人 ． 精简 了 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.25, "num_list": [120, 90]}
+{"id": "969", "text": "一 桶 油 ， 分 两次 倒 完 ． 第一次 倒 出 全部 的 n ， 第 二 次 比 第一次 多 倒 出 n 千克 ， 求 第一次 倒 出 多少 千克 ？", "expr": "* / temp_b - - 1 temp_a temp_a temp_a", "answer": 37.5, "num_list": [0.25, 75]}
+{"id": "978", "text": "光大 花卉市场 举办 花展 ， 展出 玫瑰 n 盆 ， 展出 的 兰花 是 玫瑰 的 n ， 展出 兰花 多少 盆 ？", "expr": "* temp_a temp_b", "answer": 312.0, "num_list": [780, 0.4]}
+{"id": "1035", "text": "六年级 一班 有 n 人 ， 数学 测验 有 n 人 得 优秀 ， 成绩优秀 的 学生 占 全班 总 人数 的 百分之几 ？", "expr": "/ temp_b temp_a", "answer": 0.76, "num_list": [50, 38]}
+{"id": "1120", "text": "甲乙 两个 修路 队 合 修 完 一条 公路 ， 甲队 修 的 公路 长 增加 到 n 倍 多 n 米 ， 才 和 乙 对 修 的 一样 多 ， 甲队 修 了 n 米 ． 这 条 公路 长 多少 米 ？", "expr": "+ + * temp_c temp_a temp_b temp_c", "answer": 780.0, "num_list": [2, 30, 250]}
+{"id": "1125", "text": "小 刚 和 小强 在 n 米 的 环形 跑道 上 ， 从 同一 地点 相 背 出发 ． 小 刚 每秒 跑 n 米 ， 小强 每秒 跑 n 米 ， 出发 后 多少 秒 两 人 第一次 相遇 ？", "expr": "/ temp_a + temp_c temp_b", "answer": 40.0, "num_list": [400, 4.5, 5.5]}
+{"id": "1131", "text": "一 根 钢材 长 n 米 ， 锯下 n 米 后 ， 剩下 的 比 锯下 的 长 几米 ？", "expr": "- - temp_a temp_b temp_b", "answer": 10.799999999999997, "num_list": [18.4, 3.8]}
+{"id": "1140", "text": "在 一个 停车场 上 ， 汽车 、 摩托车 共 停 了 n 辆 ， 其中 每辆 汽车 有 n 个 轮子 ， 每辆 摩托车 有 n 个 轮子 ， 这些 车 共 n 个 轮子 ， 停车场 上 有 摩托车 多少 辆 ．", "expr": "/ - * temp_a temp_b temp_d - temp_b temp_c", "answer": 20.0, "num_list": [48, 4, 3, 172]}
+{"id": "1235", "text": "比 n 与 n 的 积 少 n 的 数 = ．", "expr": "- * temp_a temp_b temp_c", "answer": 420.0, "num_list": [12, 40, 60]}
+{"id": "1249", "text": "王老师 要 买 一个 足球 和 n 根 跳绳 共用 n 元 ， 每个 足球 n 元 ， 每 根 跳绳 多少 元 ？", "expr": "/ - temp_b temp_c temp_a", "answer": 3.0, "num_list": [4, 50, 38]}
+{"id": "1275", "text": "一 个 圆形 水池 周围 每隔 n 米 栽 一棵 杨树 ， 共 栽 了 n 棵 ， 水池 的 周长 = 多少 米 ．", "expr": "* temp_b temp_a", "answer": 80.0, "num_list": [2, 40]}
+{"id": "1278", "text": "n 再 添 上 多少 个 n 是 n ．", "expr": "/ - temp_c temp_a temp_b", "answer": 4.0, "num_list": [0.42857142857142855, 0.14285714285714285, 1]}
+{"id": "1291", "text": "喜洋洋 和 灰 太 狼 在 体育场 进行 n 米 赛跑 ， 灰 太 狼 的 速度 是 喜洋洋 速度 的 n 倍 ． 当 它们 从 起点 一起 出发 后 ， 喜洋洋 不停 地 跑 ， 灰 太 狼 跑 到 某 一处 开始 睡觉 ， 当 灰 太 狼 醒来 后 ， 喜洋洋 已经 领先 灰 太 狼 n 米 ， 灰 太 狼 奋起直追 ， 当 喜洋洋 到达 终点 时 ， 灰 太 狼 仍 落后 n 米 ， 那么 灰 太 狼 睡觉 期间 ， 喜洋洋 跑 了 多少 米 ．", "expr": "/ - * temp_a temp_b - temp_a temp_d temp_b", "answer": 16700.0, "num_list": [20000, 6, 10000, 200]}
+{"id": "1302", "text": "某 厂 去年 第一季度 各 月 分别 完成 本季度 计划 的 n 、 n 、 n ， 超额完成 第一季度 计划 的 几分 之 几 ？", "expr": "- + + temp_a temp_b temp_c 1", "answer": 0.10833333333333339, "num_list": [0.4, 0.3333333333333333, 0.375]}
+{"id": "1329", "text": "一 个 除法 算式 ， 除数 是 n ， 商 是 n ， 被除数 = ．", "expr": "* temp_a temp_b", "answer": 12.5, "num_list": [2.5, 5]}
+{"id": "1338", "text": "一 辆 汽车 从 甲地 开往 乙地 ， 行 了 全程 n 时 ， 正好 是 n 千米 ， 如果 这辆 汽车 行 了 全程 的 n ， 这时 ， 这辆 汽车 行 了 多少 千米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 192.0, "num_list": [0.375, 108, 0.6666666666666666]}
+{"id": "1355", "text": "甲 数 的 n 与 乙 数 的 n 相等 ， 乙 数 是 n ， 甲 数 = ．", "expr": "/ * temp_c temp_b temp_a", "answer": 22.5, "num_list": [0.8, 0.75, 24]}
+{"id": "1372", "text": "一 列 火车 每 小时 行 n 千米 ， 小 明 家 和 省城 相距 n 千米 ， 小 明 坐火车 到 省城 需要 几小时 ？", "expr": "/ temp_b temp_a", "answer": 3.0, "num_list": [95, 285]}
+{"id": "1392", "text": "n 板 巧克力 ， 每 n 板 包 一包 ， 每 n 包装 一盒 ． 一共 可以 装 多少 盒 ？", "expr": "/ / temp_a temp_b temp_c", "answer": 50.0, "num_list": [800, 2, 8]}
+{"id": "1393", "text": "王 叔叔 存入 银行 n 元 ， 年利率 是 n ， 存期 n 年 ． 到期 后 可以 取回 多少 钱 ？", "expr": "+ temp_a * * temp_a temp_b temp_c", "answer": 6388.8, "num_list": [6000, 0.032400000000000005, 2]}
+{"id": "1411", "text": "小 涛 家 买 了 一套 房子 准备 装修 ， 原 计划 花 n 万元 装修 ， 实际 装修 后 用 去 了 n 万元 ． 小 涛 家 实际 用 去 的 装修费 比 原 计划 节约 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.09999999999999994, "num_list": [12, 10.8]}
+{"id": "1433", "text": "甲乙 两个 小镇 的 公路 长 n 千米 ． 小 王 驾驶 一辆 汽车 行驶 n 千米 共用 去 n 升 汽油 ． 照 这样 计算 ， 这辆 汽车 行 完全 程 还 需要 多少 升 汽油 ？", "expr": "* / temp_c temp_b - temp_a temp_b", "answer": 3.0, "num_list": [75, 30, 2]}
+{"id": "1462", "text": "某 工程队 n 天 修 完 一条 公路 的 n ， 修 完 这 条 路 需 多少 天 ．", "expr": "/ 1 / temp_b temp_a", "answer": 18.0, "num_list": [3, 0.16666666666666666]}
+{"id": "1466", "text": "某 山庄 今年 稻谷 收 n 吨 ， 比 去年 增产 n ， 去年 这 山庄 收 稻谷 多少 吨 ？", "expr": "/ temp_a + 1 temp_b", "answer": 59.99999999999999, "num_list": [66, 0.1]}
+{"id": "1474", "text": "一 根 水泥 桩 露出 水面 n m ， 在 水中 的 占 全长 的 n ， 水中 的 比 泥 中 的 多 n m ， 这根 桩 全长 多少 米 ？", "expr": "/ - temp_a temp_c - - temp_c temp_b temp_b", "answer": 5.000000000000001, "num_list": [2, 0.4, 1]}
+{"id": "1514", "text": "东华 小学 要 买 n 套 课桌椅 ， 每张 桌子 n 元 ， 每 把 椅子 n 元 ． 一共 付 多少 元 ？", "expr": "* temp_a + temp_b temp_c", "answer": 5000.0, "num_list": [50, 75, 25]}
+{"id": "1520", "text": "甲 数 是 n ， 乙 数 是 n ， 甲 数 与 乙 数 的 比值 = ．", "expr": "/ temp_a temp_b", "answer": 12.0, "num_list": [3, 0.25]}
+{"id": "1536", "text": "n 箱 蜜蜂 一年 可以 酿 n 千克 蜂蜜 ． 小林 家养 了 这样 的 蜜蜂 n 箱 ， 一年 可以 酿 多少 千克 蜜蜂 ？", "expr": "* / temp_b temp_a temp_c", "answer": 975.0, "num_list": [5, 375, 13]}
+{"id": "1538", "text": "两只 轮船 同时 从 青岛 去 上海 ， n 小时 后 ， 甲 船 落后 乙 船 n 千米 ， 甲 船 平均 每 小时 行 n 千米 ， 乙 船 平均 每 小时 行 多少 千米 ？", "expr": "+ / temp_b temp_a temp_c", "answer": 35.7, "num_list": [18, 57.6, 32.5]}
+{"id": "1553", "text": "n 吨 水泥 ， 用 去 n ， 还 剩 多少 吨 ？", "expr": "* temp_a - 1 temp_b", "answer": 1.5, "num_list": [2, 0.25]}
+{"id": "1591", "text": "一 堆 黄沙 ， 第一天 运走 n ， 比 第 二 天 少运 n 吨 ． 这时 还 剩下 n 吨 ． 这 堆 黄沙 共 多少 吨 ？", "expr": "/ + temp_c temp_b - 1 + temp_a temp_a", "answer": 120.0, "num_list": [0.25, 4, 56]}
+{"id": "1592", "text": "华阳 小学 六年级 有 女生 n 人 ， 男生 占 全年 级 总 人数 的 n ， 全年 级 有 学生 多少 人 ？", "expr": "/ temp_a - 1 temp_b", "answer": 225.0, "num_list": [100, 0.5555555555555556]}
+{"id": "1595", "text": "一 根 木头 ， 用 n 秒 的 时间 分成 了 n 段 ， 以 同样 的 速度 将 另 一根 木头 分成 n 段 ， 需要 多少 时间 ？", "expr": "* / temp_a - temp_b 1 - temp_c 1", "answer": 48.0, "num_list": [32, 5, 7]}
+{"id": "1606", "text": "一 套 运动服 的 售价 是 n 元 ， 其中 上衣 占 售价 的 n ， 如果 只 买 上衣 ， 应付 多少 元 ？", "expr": "* temp_a temp_b", "answer": 150.0, "num_list": [240, 0.625]}
+{"id": "1611", "text": "小 明 体重 n 千克 ， 由于 生病 住院 ， 他 的 体重减轻 了 n ， 这时 小 明 的 体重 为 多少 千克 ？", "expr": "* temp_a - 1 temp_b", "answer": 56.0, "num_list": [60, 0.06666666666666667]}
+{"id": "1631", "text": "东江 水泥厂 今年 n 月份 生产 水泥 n 吨 ， 比 计划 超产 n ， 计划 生产 水泥 多少 吨 ？", "expr": "/ temp_b + 1 temp_c", "answer": 2250.0, "num_list": [3, 2700, 0.2]}
+{"id": "1675", "text": "一 袋 大米 吃 了 n 千克 正好 是 这 袋 大米 的 n ， 还 剩下 多少 千克 ？", "expr": "- / temp_a temp_b temp_a", "answer": 10.0, "num_list": [15, 0.6]}
+{"id": "1688", "text": "小 红 看 一 本书 故事书 ， 第一天 看 了 全书 的 n ， 还 剩 几分 之 几 没 看 ？", "expr": "- 1 temp_a", "answer": 0.8888888888888888, "num_list": [0.1111111111111111]}
+{"id": "1705", "text": "学校 买来 n 套 课桌椅 ， 其中 桌子 每张 n 元 ， 椅子 每张 n 元 ． 一共 花 了 多少 钱 ？", "expr": "* + temp_b temp_c temp_a", "answer": 7000.0, "num_list": [35, 115, 85]}
+{"id": "1739", "text": "n 一 期间 ， 商场 打折 促销 ． 一款 原来 售价 n 元 的 时尚手机 打 n 出售 ， 促销 期间 买 这 款 手机 可以 节省 多少 元 ？", "expr": "* temp_b - 1 temp_c", "answer": 299.99999999999994, "num_list": [5, 1500, 0.8]}
+{"id": "1779", "text": "我 过 大多数 的 高速公路 的 最高 时速 为 每 小时 n 千米 ， 比 磁悬浮列车 的 时速 的 n 少 n 千米 ， 磁悬浮列车 的 时速 可 达到 每 小时 多少 千米 ．", "expr": "/ + temp_a temp_c temp_b", "answer": 430.0, "num_list": [120, 0.3, 9]}
+{"id": "1789", "text": "学校食堂 买来 面粉 n 千克 ， 比 买来 的 大米 少 n ． 学校 买来 的 面粉 和 大米 共 多少 千克 ？", "expr": "+ / temp_a - 1 temp_b temp_a", "answer": 630.0, "num_list": [180, 0.6]}
+{"id": "1790", "text": "小 华 的 爸爸 买 了 一辆 n 万元 的 小轿车 ， 如果 按 车价 的 n 缴纳 购置税 ， 小 华 的 爸爸 应 缴纳 购置税 多少 元 ．", "expr": "* temp_a temp_b", "answer": 1.56, "num_list": [15.6, 0.1]}
+{"id": "1795", "text": "一 辆 汽车 从 甲地 开 乙地 ， 行 了 全程 的 n ， 剩下 的 路程 如果 以 每 小时 n 千米 的 速度 行驶 ， n 小时 可以 到达 ， 甲乙 两地 相距 多少 千米 ？", "expr": "/ * temp_b temp_c - 1 temp_a", "answer": 269.99999999999994, "num_list": [0.3333333333333333, 60, 3]}
+{"id": "1818", "text": "我校 教学楼 有 n 层 ， 如果 每层 有 n 个 教室 ， 每个 教室 摆 n 盆花 ， 一共 要 摆 多少 盆花 ？", "expr": "* * temp_a temp_b temp_c", "answer": 192.0, "num_list": [4, 6, 8]}
+{"id": "1830", "text": "超市 运 来 一 怕 运动服 ， 卖 了 n 天 ， 平均 每天 卖 了 n 件 ， 还 剩 n 件 ， 这 批 运动服 一共 有 多少 件 ？", "expr": "+ * temp_b temp_a temp_c", "answer": 760.0, "num_list": [6, 108, 112]}
+{"id": "1832", "text": "n 元 存入 银行 n 年 ， 年利率 是 n ． 到期 可 得 利息 多少 元 ． （ 不 扣 利息税 ）", "expr": "* * temp_a temp_c temp_b", "answer": 375.0, "num_list": [5000, 3, 0.025]}
+{"id": "1883", "text": "一 个数 的 n 倍 比 它 的 n 倍 多 n ， 这个 数 = ？", "expr": "/ temp_c - temp_a temp_b", "answer": 3.8, "num_list": [2, 1.5, 1.9]}
+{"id": "1888", "text": "某 书店 经 每 本 n 元 的 价格 购进 一批 书 ， 每 本 售价 n 元 ， 卖完 后 ， 除了 收回 成本 外 ， 还 获得 了 n 元 的 利润 ， 这个 书店 共 购进 这 批 书 多少 本 ？", "expr": "/ temp_c - temp_b temp_a", "answer": 75.00000000000001, "num_list": [14.98, 21.7, 504]}
+{"id": "1911", "text": "爱心 超市 运 来 n 千克 大米 ， 卖 了 n 天 后 ， 还 剩 n 千克 ， 平均 每天 卖 大米 多少 千克 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 210.0, "num_list": [1780, 8, 100]}
+{"id": "1919", "text": "一 桶 油 重 n 千克 ， n 桶 油 重 多少 千克 ．", "expr": "* temp_a temp_b", "answer": 0.75, "num_list": [1.5, 0.5]}
+{"id": "1929", "text": "食堂 买来 n 吨 煤 ， n 天 烧 完 ， 平均 每天 烧煤 多少 吨 ？ （ 用 分数 表示 ）", "expr": "/ temp_a temp_b", "answer": 0.7272727272727273, "num_list": [8, 11]}
+{"id": "1938", "text": "长方体 的 长 、 宽 、 高 分别 是 n cm 、 n cm 、 n cm ， 它 的 表面积 = 多少 cm ^ n ．", "expr": "* + + * temp_a temp_b * temp_a temp_c * temp_b temp_c temp_d", "answer": 162.0, "num_list": [7, 6, 3, 2]}
+{"id": "1970", "text": "n 个 同学 在 假期 里 约定 ， 每 两 人 互通 一封信 ， 他们 共 要 写 多少 封信 ．", "expr": "* temp_a - temp_a 1", "answer": 12.0, "num_list": [4]}
+{"id": "1988", "text": "一 种 商品 ， 第一次 打 了 n ， 第 二 次 又 降价 n ， 现在 该 商品 是 原价 的 多少 % ．", "expr": "* * 1 temp_a - 1 temp_b", "answer": 0.855, "num_list": [0.9, 0.05]}
+{"id": "2075", "text": "做 n 根 长 n 米 ， 管 口 直径 是 n 米 的 通风管 ， 至少 需要 铁皮 多少 平方米 ．", "expr": "* * * 3.14 temp_c temp_b temp_a", "answer": 6.280000000000001, "num_list": [5, 2, 0.2]}
+{"id": "2079", "text": "n + n + n + n + n = ．", "expr": "+ + + + temp_a temp_b temp_c temp_d temp_e", "answer": 98760.0, "num_list": [8, 88, 888, 8888, 88888]}
+{"id": "2102", "text": "小 天才 培训 学校 选出 一批 优秀 的 学生 参加 全国 作文 比赛 和 数学 比赛 ， 结果 n 人 两项 比赛 都 获奖 了 ， 有 n 人 两项 比赛 都 没有 获奖 ， 已知 作文 比赛 获奖 的 有 n 人 ， 数学 比赛 获奖 的 有 n 人 ． 那么 这 批 优秀 的 学生 一共 有 多少 人 ．", "expr": "+ - + temp_c temp_d temp_a temp_b", "answer": 46.0, "num_list": [7, 13, 12, 28]}
+{"id": "2141", "text": "小 明 的 体重 是 n 千克 ， 比 表弟 中 n 千克 ， 而 爸爸 的 体重 是 表弟 的 n 倍 ， 爸爸 的 体重 = 多少 千克 ？", "expr": "* - temp_a temp_b temp_c", "answer": 88.0, "num_list": [28, 6, 4]}
+{"id": "2195", "text": "光明 小学 有 学生 n 人 ， 其中 n 的 同学 参加 了 课外 科技 活动 小组 ， 参加 课外 科技 活动 小组 的 有 多少 人 ？", "expr": "* temp_a temp_b", "answer": 194.0, "num_list": [485, 0.4]}
+{"id": "2205", "text": "林场 春天 种 n 棵 树苗 ， 成活率 为 n ， 成活 了 多少 棵 ？", "expr": "* temp_a temp_b", "answer": 490.0, "num_list": [500, 0.98]}
+{"id": "2216", "text": "县 图书馆 有 故事书 n 万册 ， 比 科技 书 少 n 万册 ， 这 两种 书 共 多少 万册 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 36.6, "num_list": [15.4, 5.8]}
+{"id": "2255", "text": "小 红 把 n 元 钱 存入 银行 ， 存 整存整取 n 年 ， 年利率 是 n ． 到期 时 小 红 可 得 利息 = 多少 元 ．", "expr": "* * temp_a temp_c temp_b", "answer": 97.20000000000002, "num_list": [1000, 3, 0.032400000000000005]}
+{"id": "2267", "text": "一 件 工作 ， 甲 每天 完成 全部 工作 的 n ， 乙 每天 完成 全部 工作 的 n ， 两 人 合作 n 天 ， 能 完成 全部 工作 的 多少 ．", "expr": "* + temp_a temp_b temp_c", "answer": 0.41666666666666663, "num_list": [0.125, 0.08333333333333333, 2]}
+{"id": "2305", "text": "一 根 铁丝 长 n 米 ， 第一次 剪 去 它 的 n ， 第 二 次 剪 去 n 米 还 剩下 多少 米 ．", "expr": "- * temp_a - 1 temp_b temp_c", "answer": 5.7, "num_list": [10, 0.4, 0.3]}
+{"id": "2316", "text": "n 个 同学 比赛 跳高 ， 王 军 跳 了 n 米 ， 张 华 比 王 军 多 跳 了 n 米 ， 李 林 比 张 华 少 跳 了 n 米 ， 李 林 跳 了 多少 米 ？", "expr": "- + temp_b temp_c temp_d", "answer": 1.5899999999999999, "num_list": [3, 1.52, 0.18, 0.11]}
+{"id": "2332", "text": "一 本 故事书 原价 n 元 ． 现在 按 原价 的 n 出售 ， 便宜 了 多少 元 ？", "expr": "* temp_a - 1 temp_b", "answer": 9.920000000000002, "num_list": [24.8, 0.6]}
+{"id": "2337", "text": "荣 荣 家 买来 一筐 苹果 ， 爸爸 吃 了 其中 的 n ， 荣 荣 吃 了 其中 的 n ， 剩下 的 都 是 妈妈 吃 的 ， 如果 爸爸 比 荣 荣 多 吃 了 n 个 苹果 ， 那么 ， 妈妈 吃 了 多少 个 ．", "expr": "* / temp_c - temp_a temp_b - - 1 temp_a temp_b", "answer": 15.000000000000005, "num_list": [0.3333333333333333, 0.25, 3]}
+{"id": "2339", "text": "学校 准备 发 《 感恩 教育 》 读本 给 n 个 班 ， 每班 n 本 ， 还要 给 学校 图书室 留 n 本 ． 学校 应 购买 《 感恩 教育 》 多少 本 ？", "expr": "+ * temp_b temp_a temp_c", "answer": 830.0, "num_list": [16, 50, 30]}
+{"id": "2349", "text": "已知 等差数列 首项 是 n ， 第 n 项 是 n ， 这个 等差数列 的 公差 = ．", "expr": "/ - temp_c temp_a - temp_b 1", "answer": 3.0, "num_list": [5, 8, 26]}
+{"id": "2350", "text": "一 个 县 今年 小麦 总产量 是 n 万吨 ， 比 去年 增产 n ， 去年 全县 小麦 总产量 = 多少 万吨 ？", "expr": "/ temp_a + 1 temp_b", "answer": 31.249999999999996, "num_list": [35, 0.12]}
+{"id": "2455", "text": "一 道 除法 算式 ， 除数 是 n ， 商 是 n ， 余数 是 n ， 则 被除数 = ．", "expr": "+ * temp_b temp_a temp_c", "answer": 383.0, "num_list": [18, 21, 5]}
+{"id": "2466", "text": "五年级 同学 收集 邮票 n 枚 ， 六年级 收集 的 比 五年级 多 n ， 六年级 收集 邮票 多少 枚 ？", "expr": "* temp_a + 1 temp_b", "answer": 64.0, "num_list": [48, 0.3333333333333333]}
+{"id": "2468", "text": "弟弟 n 小时 写 了 n 个 大字 ， 弟弟 平均 每 小时 写 几个 大字 ？", "expr": "/ temp_b temp_a", "answer": 36.0, "num_list": [0.6666666666666666, 24]}
+{"id": "2479", "text": "一 辆 汽车 上午 行驶 n 小时 ， 下午 用 同样 的 速度 行驶 n 小时 ． 如果 上午 行驶 了 n 千米 ， 下午 行驶 了 多少 千米 ？", "expr": "* / temp_c temp_a temp_b", "answer": 420.0, "num_list": [3, 4, 315]}
+{"id": "2498", "text": "n + n 的 和 乘 n ， 积 = ？", "expr": "* + temp_a temp_b temp_c", "answer": 4872.0, "num_list": [45, 129, 28]}
+{"id": "2506", "text": "鸡 有 n 只 ， 鸭 的 只 数 是 鸡 的 n 倍 ， 鸡 和 鸭 一共 有 多少 只 ？", "expr": "* temp_a + 1 temp_b", "answer": 108.0, "num_list": [36, 2]}
+{"id": "2519", "text": "n 与 n 的 和 乘 n = ？", "expr": "* + temp_a temp_b temp_c", "answer": 1897.98, "num_list": [3.14, 268, 7]}
+{"id": "2570", "text": "一 堆 煤 用 去 n ， 剩下 的 比 用 去 的 多 n 吨 ， 这 堆 煤 有 多少 吨 ？", "expr": "/ temp_b - - 1 temp_a temp_a", "answer": 19.999999999999996, "num_list": [0.2, 12]}
+{"id": "2587", "text": "原来 每 台 录音机 售价 n 元 ， 现在 每 台 售价 n 元 ， 每 台 降价 了 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.3, "num_list": [500, 350]}
+{"id": "2598", "text": "建筑工地 有 一堆 垃圾 分 两次 运走 ， 每 一次 运 n 吨 ， 第 二 次 运 的 吨数 是 第一次 的 n 倍 ． 这 堆 垃圾 有 多少 吨 ？", "expr": "+ * temp_a temp_b temp_a", "answer": 33.0, "num_list": [15, 1.2]}
+{"id": "2599", "text": "甲 数 的 n 是 n ， 甲 数 又 是 乙 数 的 n 倍 ， 乙 数 = ？", "expr": "/ / temp_b temp_a temp_c", "answer": 9.333333333333334, "num_list": [0.7142857142857143, 10, 1.5]}
+{"id": "2625", "text": "大豆 出油率 是 n ， 要 榨 豆油 n 千克 ， 需用 大豆 多少 千克 ．", "expr": "/ temp_b temp_a", "answer": 400.0, "num_list": [0.16, 64]}
+{"id": "2651", "text": "多少 千克 的 n 是 n 千克 ．", "expr": "/ temp_b temp_a", "answer": 1.2, "num_list": [0.75, 0.9]}
+{"id": "2717", "text": "n / n * n 的 积 ， 商 = ？", "expr": "/ temp_a * temp_b temp_c", "answer": 100.0, "num_list": [8400, 12, 7]}
+{"id": "2719", "text": "从 n 里 减去 n 的 n ， 所得 的 差 去除 n ， 商 = ？", "expr": "/ temp_d - temp_a * temp_b temp_c", "answer": 0.21428571428571427, "num_list": [30, 48, 0.3333333333333333, 3]}
+{"id": "2732", "text": "n （ n ） 班 有 n 名 同学 ： 订阅 《 少年报 》 的 有 n 名 同学 ， 订阅 《 童话 报 》 的 有 n 名 同学 ． 每人 至少 订 其中 一份 报纸 ， 有 多少 名 同学 既 订 《 少年报 》 又 订 《 童话 报 》 ．", "expr": "- + temp_e temp_d temp_c", "answer": 16.0, "num_list": [4, 1, 42, 31, 27]}
+{"id": "2747", "text": "修 一条 公路 ， 已经 修 了 n 千米 ， 比 未 修 的 少 n ， 这 条 公路 有 多少 千米 ？", "expr": "+ / temp_a - 1 temp_b temp_a", "answer": 52.0, "num_list": [20, 0.375]}
+{"id": "2772", "text": "一 批 货物 n 吨 ， n 天 运走 这 批 货物 的 n ． 平均 每天 运货 多少 吨 ？", "expr": "/ * temp_a temp_c temp_b", "answer": 45.0, "num_list": [120, 2, 0.75]}
+{"id": "2791", "text": "百货店 运 来 n 包 毛巾 ， 每包 n 条 ， 每 条 售价 n 元 ． 这些 毛巾 一共 售价 多少 元 ？", "expr": "* * temp_a temp_b temp_c", "answer": 1200.0, "num_list": [15, 20, 4]}
+{"id": "2801", "text": "李 总务 帮 学校 买来 n 张 办公桌 和 n 把 椅子 ， 共 花 去 n 元 钱 ． 每张 办公桌 的 价钱 是 n 元 ， 每 把 椅子 多少 元 ？", "expr": "/ - temp_c * temp_d temp_a temp_b", "answer": 42.0, "num_list": [5, 8, 1236, 180]}
+{"id": "2866", "text": "服装厂 n 月份 计划 加工 n 件 衣服 ， 结果 上 半月 完成 了 n ， 下半月 完成 了 n ， 这个 月 比 原 计划 多 加工 多少 件 ？", "expr": "* temp_b - + temp_c temp_d 1", "answer": 2249.999999999999, "num_list": [3, 5400, 0.75, 0.6666666666666666]}
+{"id": "2894", "text": "建筑工地 运来了 n 车 水泥 ， 每 车 n 吨 ， 共用 了 n 元 ， 平均 每吨 水泥 多少 元 ？", "expr": "/ / temp_c temp_a temp_b", "answer": 245.0, "num_list": [4, 4.5, 4410]}
+{"id": "2903", "text": "王老师 要 批改 n 篇 作文 ， 已经 批改 了 n 篇 ． 如果 每 小时 批改 n 篇 ， 还要 几小时 能 批改 完 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 5.0, "num_list": [48, 13, 7]}
+{"id": "2916", "text": "某 学校 图书馆 有 故事书 n 本 ， 比 科技 书 少 n 本 ， 连环画 是 科技 书 的 n 倍 ． 连环画 比 故事书 多 多少 本 ？", "expr": "- * + temp_a temp_b temp_c temp_a", "answer": 855.0, "num_list": [375, 35, 3]}
+{"id": "2929", "text": "甲 、 乙 两 数 的 和 是 n ， 甲 数 是 乙 数 的 n ， 乙 数 = ．", "expr": "/ temp_a + 1 temp_b", "answer": 40.0, "num_list": [60, 0.5]}
+{"id": "2954", "text": "n ： n = n ： 多少 ．", "expr": "/ * temp_b temp_c temp_a", "answer": 10.0, "num_list": [9, 6, 15]}
+{"id": "2957", "text": "一 辆 汽车 从 甲地 驶向 乙地 ， 第一 小时 行 了 n 千米 ， 第 二 小时 行 了 全程 的 n ， 还 剩下 n 千米 ． 甲乙 两地 相距 多少 千米 ？", "expr": "/ + temp_a temp_c - 1 temp_b", "answer": 300.0, "num_list": [50, 0.2, 190]}
+{"id": "2972", "text": "一 本 故事书 有 n 页 ， 小 军 看 了 n 页 ， 剩下 的 要 在 n 天 看 完 ， 平均 每天 看 几页 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 31.0, "num_list": [197, 42, 5]}
+{"id": "3003", "text": "一 列 快车 和 一列 慢车 同时 从 相距 n 千米 的 两地 相向 而 行 ． 已知 快车 每 时 行 n 千米 ， 慢车 每 时 行 n 千米 ， 经过 多少 时 两车 相遇 ？", "expr": "/ temp_a + temp_b temp_c", "answer": 4.0, "num_list": [500, 70, 55]}
+{"id": "3064", "text": "每瓶 洗发水 n 元 ， 买 n 瓶 送 一瓶 ， 妈妈 一次 买 n 瓶 ， 共用 多少 元 ．", "expr": "* * / temp_c + temp_b 1 temp_b temp_a", "answer": 144.0, "num_list": [18, 4, 10]}
+{"id": "3094", "text": "京沪 速 全长 n 千米 ， 一辆 汽车 从 北京 出发 开往 上海 ， 已经 行 了 n 千米 ， 剩下 的 路程 每 小时 行 n 千米 ， 还 行 几小时 就 到达 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 5.0, "num_list": [1300, 700, 120]}
+{"id": "3111", "text": "加工 一批 零件 ， 黄 师傅 n 天 完成 ， 洪 师傅 n 天 完成 ． 两 人 合作 多少 天 就 可以 完成 加工 任务 ．", "expr": "/ 1 + / 1 temp_a / 1 temp_b", "answer": 0.08333333333333333, "num_list": [0.2, 0.14285714285714285]}
+{"id": "3115", "text": "一 瓶 油 ， 将 它 的 n 倒入 一个 重 n 克 的 玻璃杯 里 ， 再 把 杯 放在 天平 的 一个 盘 里 ， 然后 在 天平 的 另 一个 盘中 放 人 n 克 砝码 ， 这时 天平 就 平衡 了 ． 这 瓶 油 重 多少 克 ．", "expr": "/ - temp_c temp_b temp_a", "answer": 1200.0, "num_list": [0.25, 200, 500]}
+{"id": "3161", "text": "王老师 计划 用 n 元 钱 买 一些 文具 作为 奖品 奖给 优秀学生 干部 ． 他 先 用 n 元 买 了 n 个 笔记本 ， 剩下 的 钱 准备 买 n 支 钢笔 ， 那么 钢笔 的 单价 必须 控制 在 多少 钱 以内 ？", "expr": "/ - temp_a temp_b temp_d", "answer": 6.919999999999999, "num_list": [100, 65.4, 6, 5]}
+{"id": "3180", "text": "小 红 看 一本 n 页 的 故事书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 全书 的 n ， 两天 共 看 了 多少 页 ？", "expr": "* temp_a + temp_b temp_c", "answer": 27.0, "num_list": [60, 0.2, 0.25]}
+{"id": "3188", "text": "小 平 今年 是 他 父亲 年龄 的 n ， 若干年 后 他们 相差 n 岁 ， 那么 小 平 今年 多少岁 ．", "expr": "* / temp_b - 1 temp_a temp_a", "answer": 10.999999999999996, "num_list": [0.3333333333333333, 22]}
+{"id": "3193", "text": "n + n + n + n + n + n + n = ．", "expr": "+ + + + + + temp_a temp_b temp_c temp_d temp_e temp_f temp_g", "answer": 148888888.0, "num_list": [20032003, 20320030, 23200300, 22003003, 20030032, 20300320, 23003200]}
+{"id": "3202", "text": "造纸厂 今年 前 n 个 月 完成 全年 造纸 任务 的 n ， 再生产 n 吨 就 可以 完成 全年 任务 ． 造纸厂 今年 计划 造纸 多少 吨 ？", "expr": "/ temp_c - 1 temp_b", "answer": 2999.9999999999995, "num_list": [5, 0.45, 1650]}
+{"id": "3242", "text": "饲养 小组 养 灰 兔 n 只 ， 养 的 白兔 是 灰 兔 的 n 倍 ． 两种 兔 共 多少 只 ？", "expr": "* temp_a + temp_b 1", "answer": 450.0, "num_list": [75, 5]}
+{"id": "3255", "text": "某年 n 月份 晴天 有 n 天 ， 雨天 的 天数 比 晴天 少 n ， 阴天 的 天数 比 雨天 多 n ． 这个 月 阴天 有 多少 天 ？", "expr": "* * temp_b - 1 temp_c + 1 temp_d", "answer": 5.999999999999998, "num_list": [9, 20, 0.8, 0.5]}
+{"id": "3258", "text": "超市 运进 水果 ， 第一批 运进 n 千克 ， 第 二 排 运进 n 千克 ， 这 两批 运进 水果 的 重量 占 超市 现在 所有 水果 的 n ， 超市 现在 一共 有 水果 多少 千克 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 1080.0, "num_list": [320, 400, 0.6666666666666666]}
+{"id": "3268", "text": "甲乙 两 数 的 差 是 n ， 甲 数 比 乙 数 的 n 倍 少 n ， 那么 甲 数 = ．", "expr": "+ / + temp_a temp_c - temp_b 1 temp_a", "answer": 223.0, "num_list": [144, 3, 14]}
+{"id": "3271", "text": "五年级 一班 n 个 同学 集体 合影 ． 定价 是 n 元 ， 给 n 张 相片 ． 另外 加印 是 每张 n 元 ． 全班 每人 一张 ， 再 送给 班主任 和 科任 教师 n 张 ， 一共 要 付 多少 元 ．", "expr": "+ * - + temp_a temp_e temp_c temp_d temp_b", "answer": 137.2, "num_list": [48, 24.5, 4, 2.3, 5]}
+{"id": "3301", "text": "学校 买来 n 只 足球 和 n 只 篮球 ， 共 付出 n 元 ， 每 只 足球 n 元 ， 每 只 篮球 多少 元 ？", "expr": "/ - temp_c * temp_a temp_d temp_b", "answer": 32.0, "num_list": [12, 18, 1392, 68]}
+{"id": "3379", "text": "一 辆 汽车 从 甲 城 到 乙 城 n 小时 行 n 千米 ， 照 这样 的 速度 ， 行 完全 程 共用 n 小时 ， 甲 、 乙 两城 相距 多少 千米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 294.0, "num_list": [3, 126, 7]}
+{"id": "3407", "text": "甲 、 乙 两 数 的 比 是 n ： n ， 甲 数 比 乙 数多 多少 ．", "expr": "/ - temp_a temp_b temp_b", "answer": 0.25, "num_list": [5, 4]}
+{"id": "3416", "text": "小兵 与 小 军 两 人 同时 从 两地 相向 而 行 ， 小兵 每分钟 走 n 米 ， 比 小 军 每分钟 少 走 n 米 ． n 分钟 后 两个 相遇 ， 两地 相距 多少 米 ．", "expr": "* + + temp_a temp_a temp_b temp_c", "answer": 1800.0, "num_list": [70, 10, 12]}
+{"id": "3421", "text": "某人 出差 从 甲地 到 乙地 ， 第一天 坐火车 行 了 全程 的 n ， 第 二 天 乘 汽车 行 了 n 千米 ， 这时 离 乙地 还有 全程 的 n ， 甲乙 两地 之间 的 路程 = 多少 千米 ？", "expr": "/ temp_b - - 1 temp_a temp_c", "answer": 1200.0000000000002, "num_list": [0.4, 270, 0.375]}
+{"id": "3439", "text": "把 n 米 长 的 木料 锯 成 n 小 段 ， 每 锯下 一小 段 需 n 分钟 ． 全部 锯 完 需 多少 分钟 ？", "expr": "* - temp_b 1 temp_c", "answer": 15.0, "num_list": [3, 4, 5]}
+{"id": "3456", "text": "李师傅 每 小时 织 n 米 的 毯子 ， n 小时 织 多少 米 ．", "expr": "* temp_a temp_b", "answer": 0.26666666666666666, "num_list": [0.4, 0.6666666666666666]}
+{"id": "3475", "text": "比 的 后 项 是 n ， 比值 是 n ， 比 的 前项 = ．", "expr": "* temp_b temp_a", "answer": 12.5, "num_list": [2.5, 5]}
+{"id": "3478", "text": "果园 里 一共 收 了 n 吨 苹果 ， 用 n 辆 卡车 运 了 一趟 后 还 剩下 n 吨 ， 每辆 卡车 一趟 能 运 多少 吨 苹果 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 16.0, "num_list": [220, 13, 12]}
+{"id": "3487", "text": "一 个数 的 n 与 n 的 n 相等 ， 求 这个 数 ？", "expr": "/ * temp_b temp_c temp_a", "answer": 12.8, "num_list": [0.625, 10, 0.8]}
+{"id": "3500", "text": "红星 小学 四年级 有 n 名 同学 去 参观 科技馆 ， 平均 分成 n 队 ， 每队 分成 n 组 ， 平均 每组 有 多少 人 ？", "expr": "/ temp_a * temp_b temp_c", "answer": 8.0, "num_list": [96, 4, 3]}
+{"id": "3501", "text": "花园 小学 四年级 两个 班 共有 学生 n 人 ． 开学 初 学校 为 四年级 全部 更换 了 新 的 单人 课桌 和 椅子 ， 每张 课桌 n 元 ， 每 把 椅子 n 元 ， 花园 小学 四年级 一 共用 了 多少 钱 ？", "expr": "* + temp_b temp_c temp_a", "answer": 8000.0, "num_list": [80, 68, 32]}
+{"id": "3513", "text": "n / n * n = ．", "expr": "* / temp_a temp_b temp_c", "answer": 686.0, "num_list": [98, 16, 112]}
+{"id": "3514", "text": "三角形 的 面积 是 n cm ^ n ， 高 是 n 米 厘米 ， 底 = 多少 厘米 ．", "expr": "/ * temp_a temp_b temp_c", "answer": 4.0, "num_list": [6.2, 2, 3.1]}
+{"id": "3561", "text": "用 货车 运 水泥 ， 要 运 n 吨 ， 已经 运 了 n 吨 ， 剩下 的 用 载重 n 吨 的 货车 一次 运 完 ， 需要 几辆 这样 的 货车 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 6.0, "num_list": [45, 15, 5]}
+{"id": "3583", "text": "有 一列 长 n 米 的 火车 ， 每秒 行驶 n 米 ． 它 通过 一座 长 n 米 的 大桥 需要 多少 秒 ．", "expr": "/ + temp_c temp_a temp_b", "answer": 70.0, "num_list": [200, 15, 850]}
+{"id": "3589", "text": "n / n 竖 式 计算 时 ， 除 得 的 商 是 n ， 余数 = ．", "expr": "- temp_a * temp_b temp_c", "answer": 0.019999999999999907, "num_list": [0.58, 0.14, 4]}
+{"id": "3645", "text": "三年级 n 个 班 参加 欢迎 中国航天 英雄 报告团 活动 ， 每班 选 n 个 同学 ， 每个 同学 要 n 个 气球 ， 一共 要 多少 个 气球 ？", "expr": "* * temp_a temp_b temp_c", "answer": 150.0, "num_list": [5, 15, 2]}
+{"id": "3724", "text": "三年级 同学 参加 “ 陈省身 杯 竞赛 颁奖典礼 ” ， 如果 每排 坐 n 人 ， 可以 坐满 n 排 ； 如果 每排 坐 n 人 ， 则 可以 坐满 多少 排 ．", "expr": "/ * temp_a temp_b temp_c", "answer": 9.0, "num_list": [6, 12, 8]}
+{"id": "3744", "text": "李 阿姨 用 n 元 买 了 n 箱 饮料 ． 上网 查询 后 ， 发现 该 产品 从 厂家 直接 购买 ， 每箱 只 需 n 元 ． 她 多 花 了 多少 元 ？", "expr": "- temp_a * temp_c temp_b", "answer": 240.0, "num_list": [1080, 30, 28]}
+{"id": "3757", "text": "一 件 上衣 与 一条 裤子 的 总价 为 n 元 ， 上衣 与 裤子 的 价钱 比 是 n ： n ， 买 一条 裤子 应 花 多少 元 ．", "expr": "* temp_a / temp_c + temp_b temp_c", "answer": 160.0, "num_list": [360, 5, 4]}
+{"id": "3775", "text": "一 堆 黄沙 重 n 吨 ， 第一天 运走 了 n ， 第 二 天 运走 n ， 还 剩 多少 吨 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 180.0, "num_list": [400, 0.25, 0.3]}
+{"id": "3784", "text": "已知 ： 梨子 n 千克 n 元 ， 桔子 n 千克 n 元 ． 张大妈 买 n 千克 梨子 和 n 千克 桔子 ， 共 应付 多少 钱 ？", "expr": "+ * / temp_e temp_a temp_b * / temp_f temp_c temp_d", "answer": 62.0, "num_list": [4, 6, 5, 11, 12, 20]}
+{"id": "3843", "text": "果园 里 有 n 棵 苹果树 ， 再 种 n 棵 梨树 就 正好 和 苹果树 相等 ． 如果 梨树 每 n 棵 种 一排 ， 梨树 一共 可以 种 多少 排 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 11.0, "num_list": [255, 35, 20]}
+{"id": "3852", "text": "超市 上午 运进 水果 n 千克 ， 下午 运进 n 千克 ， 要 把 这些 水果 分装 在 每箱 可 装 n 千克 的 包装箱 里 ， 需要 准备 多少 个 这样 的 包装箱 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 178.0, "num_list": [402.3, 398.7, 4.5]}
+{"id": "3906", "text": "杨树 与 柳树 棵 数 的 比 是 n ： n ， 柳树 的 棵 数 比 杨树 少 ( ( ( ) ) / ( ( ) ) ) ．", "expr": "/ - temp_a temp_b temp_a", "answer": 0.2, "num_list": [5, 4]}
+{"id": "3932", "text": "甲乙 两地 相距 n 千米 ， 一辆 客车 从 甲地 开往 乙地 ， 每 小时 行 n 千米 ， 行驶 n 小时 后 ， 一辆 货车 从 乙地 开往 甲地 ， 每 小时 行 n 千米 ， 货车 开出 几小时 后 与 客车 相遇 ？", "expr": "/ - temp_a * temp_b temp_c + temp_b temp_d", "answer": 3.6, "num_list": [496, 64, 1, 56]}
+{"id": "3946", "text": "某 修路 队 前 n 天 每天 修路 n 千米 ， 后 n 天 共 修路 n 千米 ． 平均 每天 修路 多少 千米 ？", "expr": "/ + * temp_b temp_a temp_d + temp_a temp_c", "answer": 170.0, "num_list": [3, 160, 4, 710]}
+{"id": "3950", "text": "王 叔叔 把 年终奖金 n 元 存入 银行 ， 定期 n 年 ， 年利率 是 n ． 到期 时 ， 王 叔叔 可 拿到 本息 多少 元 ．", "expr": "+ temp_a * * temp_a temp_c temp_b", "answer": 2743.75, "num_list": [2500, 3, 0.0325]}
+{"id": "4012", "text": "工厂 有 一堆 煤 ， 用 掉 n 后 ， 又 运 来 n 吨 ， 这时 工厂 的 煤 正好 与 原来 一样 多 ， 这个 工厂 原有 煤 多少 吨 ．", "expr": "/ temp_b temp_a", "answer": 54.0, "num_list": [0.6666666666666666, 36]}
+{"id": "4018", "text": "在 路 的 一侧 从头至尾 栽树 ， 每隔 n 米 栽 一棵 ， 共 栽 了 n 棵 ， 这 条 路 有 多长 ？", "expr": "* - temp_b 1 temp_a", "answer": 891.0, "num_list": [9, 100]}
+{"id": "4050", "text": "在 学校 举行 的 体育 达标 测试 中 ， 六年级 n 名 同学 参加 测试 ， 合格率 是 n ， 有 多少 名 同学 达标 ．", "expr": "* temp_a temp_b", "answer": 196.0, "num_list": [200, 0.98]}
+{"id": "4079", "text": "一 本 n 页 的 故事书 ， 读 了 多少 页 后 ， 还 剩 全书 的 n ．", "expr": "* temp_a - 1 temp_b", "answer": 135.0, "num_list": [225, 0.4]}
+{"id": "4084", "text": "小张 的 劳动 生产 技术 不断 提高 ， 第一天 生产 零件 n 个 ， 第 二 天 生产 零件 n 个 ， 第 n 天 生产 零件 n 个 … ， 照 这样 ， 每天 增加 n 个 ， 他 第 n 天 应 生产 零件 多少 个 ．", "expr": "+ temp_a * - temp_f 1 temp_e", "answer": 52.0, "num_list": [30, 32, 3, 34, 2, 12]}
+{"id": "4118", "text": "鸵鸟 每 小时 能 跑 n 千米 ， 照 这样 的 速度 ， 它 n 小时 能 跑 多少 千米 ．", "expr": "* temp_a temp_b", "answer": 128.0, "num_list": [64, 2]}
+{"id": "4129", "text": "佳佳 n 分钟 走 n 米 ， 照 这样 的 速度 ， 她 从 家里 到 学校 走 了 n 分钟 ， 佳佳 家 到 学校 的 路程 有 多少 米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 900.0, "num_list": [5, 300, 15]}
+{"id": "4142", "text": "小 红 看 一本 故事书 ， 第一天 看 了 n 页 ， 第 二 天 比 第一天 多 看 了 n 页 ， 还 剩下 n 页 没 看 ． 这本 故事书 有 多少 页 ？", "expr": "+ + temp_a + temp_a temp_b temp_c", "answer": 268.0, "num_list": [68, 16, 116]}
+{"id": "4143", "text": "一 个 平行四边形 相邻 的 两条 边 的 长度 是 n 厘米 和 n 厘米 ， 它 的 周长 = 多少 厘米 ．", "expr": "+ + + temp_a temp_a temp_b temp_b", "answer": 14.0, "num_list": [3, 4]}
+{"id": "4159", "text": "设 座位 若干 排 ， 若 每排 坐 n 人 ， 则 有 n 人 无 座位 ， 若 每排 坐 n 人 ， 则 空 n 个 座位 ， 共有 几排 座位 ？", "expr": "/ + temp_d temp_b - temp_c temp_a", "answer": 34.0, "num_list": [30, 8, 31, 26]}
+{"id": "4179", "text": "修 一条 公路 ， 第一天 修 了 全路 的 n ， 第 二 天 修 了 全路 的 n ， 还 剩 全路 的 多少 没有 修 ．", "expr": "- - 1 temp_a temp_b", "answer": 0.5142857142857142, "num_list": [0.2857142857142857, 0.2]}
+{"id": "4197", "text": "湖边 有 一排 柳树 ， 每 两棵树 之间 相距 n 米 ， 小 明 从 第 n 棵 树 跑 到 第 n 棵 树 ， 共 跑 多少 米 ．", "expr": "* - temp_c temp_b temp_a", "answer": 114.0, "num_list": [6, 1, 20]}
+{"id": "4219", "text": "有 一批 书 ， 第一天 卖出 n 本 ， 第 二 天 卖出 占 总数 的 n ， 第 n 天 卖出 总数 的 n ， 还 剩下 n 本 ． 这 批 书 一共 有 多少 本 ？", "expr": "/ + temp_a temp_e - - 1 temp_b temp_d", "answer": 1499.9999999999995, "num_list": [400, 0.3333333333333333, 3, 0.3, 150]}
+{"id": "4234", "text": "小 明 看 一本 n 页 的 故事书 ， 第一天 看 了 n ， 第 二 天 看 了 n ， 两天 一共 看 了 多少 页 ？", "expr": "* temp_a + temp_b temp_c", "answer": 72.00000000000001, "num_list": [120, 0.2, 0.4]}
+{"id": "4250", "text": "学校 有 一块 n 平方米 实验田 ， 用 n 平方米 种 豆角 ， 剩余 部分 的 n 种 黄瓜 ， 其余 的 全部种 西红柿 ， 种 西红柿 的 面积 = ？", "expr": "* - temp_a temp_b - 1 temp_c", "answer": 180.0, "num_list": [800, 500, 0.4]}
+{"id": "4289", "text": "一 个数 的 n + n 得 n ， 这个 数 = ？", "expr": "/ - temp_c temp_b temp_a", "answer": 1.2666666666666666, "num_list": [1.5, 0.5, 2.4]}
+{"id": "4294", "text": "我们 这栋 教学楼 有 n 层楼 安排 了 教室 ， 每层 有 n 间 教室 ， 如果 每间 教室 里 装有 n 盏 日光灯 ， 问 这栋 教学楼 总共 要 装 多少 盏 日光灯 ？", "expr": "* * temp_b temp_a temp_c", "answer": 144.0, "num_list": [3, 6, 8]}
+{"id": "4299", "text": "一 堆 煤 ， 原 计划 每天 烧 n 吨 ， 可以 n 天 ， 由于 改进 炉灶 ， 每天 烧 n 吨 ， 这 堆 煤 可以 烧 多少 天 ？", "expr": "/ * temp_b temp_a temp_c", "answer": 100.0, "num_list": [4, 75, 3]}
+{"id": "4346", "text": "A 、 B 两地 相距 n 千米 ， 甲 、 乙 两辆 汽车 同时 从 A 地 出发 开往 B 地 ， n 小时 后 乙 领先 甲 n 千米 ， 已知 甲 每 小时 行 n 千米 ， 乙 每 小时 行 多少 千米 ？", "expr": "- temp_d / temp_c temp_b", "answer": 60.0, "num_list": [2500, 4.2, 42, 70]}
+{"id": "4358", "text": "甲乙 两辆 汽车 分别 从 南京 和 上海 同时 出发 ， 在 沪宁 高速公路 上 相对 而 行 ． 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 n 千米 ， 经过 n 小时 两车 还 相距 n 千米 ． 沪宁 高速公路 全长 多少 千米 ？", "expr": "+ * + temp_a temp_b temp_c temp_d", "answer": 274.0, "num_list": [103, 112, 1.2, 16]}
+{"id": "4383", "text": "在 学校 为 四川 地震 举行 的 捐款 活动 中 ， 六年级 同学 踊跃 捐款 献爱心 ， 共 捐款 n 元 ， 比 五年级 同学 的 捐款 数多 n ， 两个 年级 共 向 灾区 捐款 多少 元 ？", "expr": "+ / temp_a + 1 temp_b temp_a", "answer": 2200.0, "num_list": [1200, 0.2]}
+{"id": "4412", "text": "湖滨 种 着 一排 柳树 ， 每 相邻 两棵树 之间 相距 n 米 ， 小 明 从 第 n 棵 树 跑 到 第 n 棵 树 ， 一共 跑 了 多少 米 ．", "expr": "* temp_a - temp_c temp_b", "answer": 760.0, "num_list": [8, 5, 100]}
+{"id": "4415", "text": "一 块 长方形 菜地 ， 宽 是 n 米 ， 长 比 宽 多 n ， 问 这块 菜地 的 面积 = ？", "expr": "* * temp_a + 1 temp_b temp_a", "answer": 500.0, "num_list": [20, 0.25]}
+{"id": "4436", "text": "小 猴 分桃 ． 一共 有 n 千克 桃子 ， 平均 分给 n 个 小伙伴 ． 每 只 小 猴 能 分 到 多少 千克 的 桃子 ？", "expr": "/ temp_a temp_b", "answer": 6.0, "num_list": [30, 5]}
+{"id": "4468", "text": "五年级 的 同学 去 参观 东莞 展览馆 ， 共用 去 n 小时 ， 其中 路上 用 去 的 时间 占 n ， 休息 的 时间 占 n ， 剩下 的 是 游览 时间 ， 游览 的 时间 占 几分 之 几 ？", "expr": "- - 1 temp_b temp_c", "answer": 0.6333333333333334, "num_list": [4, 0.2, 0.16666666666666666]}
+{"id": "4479", "text": "一 个 油桶 ， 装进 n 桶 花生油 后 ， 连 桶 共 重 n 千克 ， 把桶 装满 连 桶 共 重 n 千克 ， 这 桶 油 重 多少 千克 ？", "expr": "/ - temp_c temp_b - 1 temp_a", "answer": 5.0, "num_list": [0.4, 3.5, 6.5]}
+{"id": "4490", "text": "甲 数 是 n ， 甲乙 两 数 的 最小 公倍数 n ， 最大公约数 是 n ， 那 乙 数 应该 = ．", "expr": "/ * temp_c temp_b temp_a", "answer": 36.0, "num_list": [32, 288, 4]}
+{"id": "4493", "text": "A 城 到 B 城 的 公路 长 n 千米 ． 一辆 汽车 走 高速路 的 速度 是 n 千米 / 时 ， 走 普通 公路 的 速度 是 n 千米 / 时 ． 从 A 城 去 B 城 走 高速路 比 普通 公路 节省 多少 时间 ？", "expr": "- / temp_a temp_c / temp_a temp_b", "answer": 2.0, "num_list": [160, 80, 40]}
+{"id": "4497", "text": "在 家电 下乡 活动 中 ， 陈 伯伯 买 了 一台 彩色 电视机 ， 获得 政府 给予 销售价 的 n 资金 补贴 后 ， 这样 他 实际 付出 n 元 ． 这 台 彩色 电视机 的 销售价 = 多少 元 ？", "expr": "/ temp_b - 1 temp_a", "answer": 1300.0, "num_list": [0.13, 1131]}
+{"id": "4504", "text": "甲 、 乙 两车 分别 从 相距 n km 的 A 、 B 两地 同时 出发 ， 相向 而 行 ． 甲 车 每 小时 行 n km ， 乙 车 每 小时 行 n km ． 几小时 相遇 ？", "expr": "/ temp_a + temp_b temp_c", "answer": 5.0, "num_list": [650, 70, 60]}
+{"id": "4622", "text": "某班 统计 数学考试 成绩 ， 平均 成绩 为 n 分 ． 事后 复查 ， 发现 将 小 玲 的 成绩 n 分 误 作 n 分 计算 ， 经 重新 计算 后 ， 该班 平均 成绩 是 n 分 ． 这个 班 有 多少 个个 学生 ．", "expr": "/ - temp_b temp_c - temp_d temp_a", "answer": 49.9999999999981, "num_list": [85.13, 87, 78, 85.31]}
+{"id": "4640", "text": "从小 行 小区 开往 云南 北路 的 n 路 公交车 ， 从 总站 开出 时 车上 有 n 的 座位 空 着 ， 到 “ 雨花 新村 ” 这 一站 时 ， 有 n 人 下车 ， n 人 上车 ， 这时 车上 座位 全部 坐满 ， 这辆 公交车 共有 多少 个 座位 ．", "expr": "/ - temp_d temp_c temp_b", "answer": 32.0, "num_list": [26, 0.125, 6, 10]}
+{"id": "4664", "text": "期中考试 中 ， 我们 班 语文 优秀 的 有 n 人 ， 数学 优秀 的 有 n 人 ． 全班 共有 的 n 人 中 两门 都 优秀 的 有 多少 人 ？", "expr": "- + temp_a temp_b temp_c", "answer": 18.0, "num_list": [28, 25, 35]}
+{"id": "4716", "text": "李 丽 看 一本 故事书 ， 第一周 看 了 n ， 还 剩 几分 之 几 没有 看 ？", "expr": "- 1 temp_a", "answer": 0.6, "num_list": [0.4]}
+{"id": "4752", "text": "某 厂 计划 投资 n 万元 ， 实际 投资 n 万元 ， 节省 了 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.2, "num_list": [30, 24]}
+{"id": "4814", "text": "王老师 从 报社 获得 了 n 元 的 稿费 ， 按照 国家标准 ， 超过 n 元 的 部分 按照 n 的 税率 纳税 ． 王老师 实际 得到 稿费 多少 元 ？", "expr": "- temp_a * - temp_a temp_b temp_c", "answer": 1584.0, "num_list": [1780, 800, 0.2]}
+{"id": "4829", "text": "水果店 运 来 n 箱 苹果 ， 每箱 重 n 千克 ， 水果店 运 来 苹果 多少 千克 ？", "expr": "* temp_a temp_b", "answer": 180.0, "num_list": [15, 12]}
+{"id": "4872", "text": "滨河公园 原来 有 n 条 船 ， 每天 收入 n 元 ， 照 这样 计算 ， 现在 增加 了 n 条 船 ， 每天 可以 多 收入 多少 元 ？", "expr": "* / temp_b temp_a temp_c", "answer": 270.0, "num_list": [20, 360, 15]}
+{"id": "4922", "text": "学校 阅览室 看书 的 人 ， 人人 有 座位 ， 而且 座无虚席 ． 过 了 一会儿 ， 看书 的 人 走 了 n ， 又 新 来 了 n 人 ， 现在 座位 不够 了 ， 其中 n 人 是 n 人 合 坐 一个 座位 ， 这时 在 阅览室 看书 的 人 有 多少 ？", "expr": "+ / - temp_b / temp_c temp_d temp_a / temp_c temp_d", "answer": 84.0, "num_list": [0.25, 24, 8, 2]}
+{"id": "4961", "text": "某地 出租车 收费 标准 为 ： 起步价 为 n 元 ， n 千米 后 每 千米 加收 n 元 ， 某人 乘坐 出租车 n 千米 ， 则 应付款 多少 元 ．", "expr": "+ temp_a * - temp_d temp_b temp_c", "answer": 8.4, "num_list": [6, 3, 1.2, 5]}
+{"id": "4963", "text": "一 种 服装 现在 售价 n 元 ， 比 原来 便宜 了 n ， 便宜 了 多少 元 ？", "expr": "- / temp_a - 1 temp_b temp_a", "answer": 108.0, "num_list": [180, 0.375]}
+{"id": "4999", "text": "n + n + n + n + n + n = ．", "expr": "+ + + + + temp_a temp_b temp_c temp_d temp_e temp_f", "answer": 330.0, "num_list": [11, 88, 66, 33, 77, 55]}
+{"id": "5006", "text": "龟 兔 赛跑 ， 全程 n 米 ， 龟 每分钟 爬 n 米 ， 兔 每分钟 跑 n 米 ． 兔 自 以为 速度 快 ， 在 途中 睡 了 一 觉 ， 结果 龟 到 终点 时 ， 兔 离 终点 还有 n 米 ， 兔 在 途中 睡 了 几分钟 ？", "expr": "- / temp_a temp_b / - temp_a temp_d temp_c", "answer": 75.0, "num_list": [2000, 25, 320, 400]}
+{"id": "5009", "text": "长方体 的 体积 是 n m ^ n ， 长 是 n 米 ， 宽 是 n 米 ， 高 = ．", "expr": "/ / temp_a temp_c temp_d", "answer": 6.0, "num_list": [120, 3, 5, 4]}
+{"id": "5036", "text": "一 堆 垃圾 共 n 吨 ， 环卫工人 第一天 运走 全部 垃圾 的 n ， 第 二 天 运走 全部 垃圾 的 n ， 还有 多少 垃圾 没 运走 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 98.00000000000001, "num_list": [280, 0.2, 0.45]}
+{"id": "5063", "text": "果园 里 有 苹果树 n 棵 ， 梨树 的 棵 数 是 苹果树 的 n ， 果园 里 有 梨树 多少 棵 ？", "expr": "* temp_a temp_b", "answer": 80.0, "num_list": [120, 0.6666666666666666]}
+{"id": "5069", "text": "李 叔叔 在 一栋 大楼 里 乘 电梯 从 地上 n 层 到 地上 n 层 要 n 分钟 ， 他 乘 电梯 从 地上 n 层 到 地下 n 层 车库 ， 要 用 多少 分钟 ？", "expr": "* / temp_c - temp_a temp_b + - temp_d temp_e temp_e", "answer": 1.2, "num_list": [10, 9, 0.15, 8, 1]}
+{"id": "5089", "text": "妈妈 今年 n 岁 ， 是 小 芳 的 n 倍 ， 小 芳 今年 多少岁 ．", "expr": "/ temp_a temp_b", "answer": 10.0, "num_list": [40, 4]}
+{"id": "5111", "text": "强强 读 一本 故事书 ， 第一天 读 了 n ， 第 二 天 读 了 n 页 ， 这时 一共 读 了 全书 的 n ． 这本 故事书 一共 有 多少 页 ？", "expr": "/ temp_b - temp_c temp_a", "answer": 160.00000000000003, "num_list": [0.375, 36, 0.6]}
+{"id": "5126", "text": "n 里面 有 多少 个 n ．", "expr": "/ temp_a temp_b", "answer": 20.0, "num_list": [5, 0.25]}
+{"id": "5135", "text": "一 件 运动服 原价 n 元 ， 现在 打 n 出售 ， 这件 运动服 现价 多少 元 ．", "expr": "* temp_a temp_b", "answer": 96.0, "num_list": [120, 0.8]}
+{"id": "5137", "text": "粮食 仓库 存有 大米 n 袋 ， 正好 是 存有 的 面粉袋 数 的 n 倍 ． 粮库 中 存有 的 面粉 比 大米 少 多少 袋 ？", "expr": "- temp_a / temp_a temp_b", "answer": 1375.0, "num_list": [1650, 6]}
+{"id": "5144", "text": "一 盒 糖 ， 连 盒 共 重 n 克 ， 如果 吃 去 n ， 剩下 的 糖 连 盒 重 还有 n 克 ， 求 原来 盒 中 糖 的 重量 ．", "expr": "/ - temp_a temp_c temp_b", "answer": 400.0, "num_list": [500, 0.4, 340]}
+{"id": "5205", "text": "小 芳 平均 每 分 打字 n 个 ． 一份 稿子 有 n 个 字 ， 小 芳 打 了 n 分 后 ， 还 剩下 多少 个 字 没 打 ？", "expr": "- temp_b * temp_a temp_c", "answer": 290.0, "num_list": [32, 1250, 30]}
+{"id": "5214", "text": "一 箱 苹果 重 n 千克 ， 吃 了 n ． 还 剩 多少 千克 ？", "expr": "* temp_a - 1 temp_b", "answer": 6.0, "num_list": [8, 0.25]}
+{"id": "5221", "text": "水果店 星期天 卖出 香蕉 、 桔子 和 菠萝 n 种 水果 一共 n 千克 ， 其中 香蕉 n 千克 ， 卖出 的 桔子 的 数量 是 香蕉 的 n 倍 ． 水果店 星期天 卖出 菠萝 多少 千克 ？", "expr": "- - temp_b * temp_c temp_d temp_c", "answer": 23.5, "num_list": [3, 150, 27.5, 3.6]}
+{"id": "5231", "text": "某 玻璃厂 要 为 商场 运送 n 个 玻璃杯 ， 双方 商定 每个 运费 为 n 元 ． 如果 打碎 一个 ， 这个 不但 不 给 运费 ， 而且 要 赔偿 n 元 ， 结果 运到 目的地 后 结算 时 ， 玻璃杯 厂 共 得 运费 n 元 ， 求 打碎 了 几个 玻璃杯 ？", "expr": "/ - * temp_a temp_b temp_d + temp_b temp_c", "answer": 20.0, "num_list": [1000, 1, 3, 920]}
+{"id": "5237", "text": "张师傅 与 李师傅 共同 加工 n 个 零件 ． 张师傅 先 做 了 n 天 ， 一共 做 了 n 个 ， 剩下 的 由 李师傅 n 天 做 完 ， 李师傅 每天 做 多少 个 ？", "expr": "/ - temp_a temp_c temp_d", "answer": 52.0, "num_list": [1000, 4, 220, 15]}
+{"id": "5250", "text": "光明 小学 有 毕业生 n 人 ， 考入 重点中学 的 占 n ， 其余 升入 普通中学 ， 升入 普通中学 的 有 多少 人 ？", "expr": "* temp_a - 1 temp_b", "answer": 196.0, "num_list": [210, 0.06666666666666667]}
+{"id": "5266", "text": "用 面积 为 n 平方分米 的 方砖 ， n 块 正好 铺满 ， 如果 用 边长 为 n 分 米 的 方砖 ， 需要 多少 块 ？", "expr": "/ * temp_b temp_a * temp_c temp_c", "answer": 270.0, "num_list": [9, 480, 4]}
+{"id": "5273", "text": "小麦 上学 要 走 n 分钟 ， 她 的 速度 是 n 米 / 分 ． 她家 到 学校 有 多少 米 ？", "expr": "* temp_b temp_a", "answer": 2340.0, "num_list": [18, 130]}
+{"id": "5364", "text": "挖 一个 长 和 宽 都 是 n 米 的 长方体 菜窖 ， 要 使 菜窖 的 容积 是 n 立方米 ， 应该 挖 多少 米 深 ．", "expr": "/ temp_b * temp_a temp_a", "answer": 2.0, "num_list": [5, 50]}
+{"id": "5404", "text": "男 比 女 多 n 人 ， 女 比 男 少 n ， 女生 = 多少 人 ？", "expr": "- / temp_a temp_b temp_a", "answer": 90.0, "num_list": [10, 0.1]}
+{"id": "5413", "text": "李强 n 月份 的 生活费 为 n 元 ， 比 计划 节省 了 n ， 节省 了 多少 元 ．", "expr": "* / temp_b - 1 temp_c temp_c", "answer": 45.0, "num_list": [6, 255, 0.15]}
+{"id": "5419", "text": "东郊 果园 收获 苹果 n 千克 ， 装 了 n 筐 ， 还 剩 n 千克 ， 每 筐 苹果 多少 千克 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 25.0, "num_list": [2475, 39, 1500]}
+{"id": "5449", "text": "客 、 货 两车 分别 从 相距 n 千米 的 甲乙 两城 同时 出发 ， 相向 而 行 ． 已知 客车 从 甲 城 到 乙 城 需要 n 小时 ， 货车 从 乙 城 到 甲 城 需要 n 小时 ． 两车 出发 后 多少 小时 相遇 ．", "expr": "/ temp_a + / temp_a temp_b / temp_a temp_c", "answer": 6.0, "num_list": [900, 10, 15]}
+{"id": "5483", "text": "我国 岛屿 海岸线 长 约 n km ， 是 大陆 海岸线 长 的 n ； 大陆 海岸线 长 是 陆地 边界线 长 的 n ． 我国 陆地 边界线 长 多少 km ？", "expr": "/ / temp_a temp_b temp_c", "answer": 22000.0, "num_list": [14000, 0.7777777777777778, 0.8181818181818182]}
+{"id": "5633", "text": "一 个 棱 长 为 n cm 的 正方体 容器 里 装 了 一半 的 水 ， 现 将 一块 铁块 投入 容器 中 ， 铁块 完全 沉没 在 水底 ， 水面 上升 了 n cm ， 这块 铁块 的 体积 = 多少 立方厘米 ？", "expr": "* * temp_a temp_a temp_b", "answer": 800.0, "num_list": [20, 2]}
+{"id": "5687", "text": "有 n 吨 煤 ， 已经 运 了 n 次 ， 每次 运 n 吨 ， 还 剩 多少 吨 没 运 ？", "expr": "- temp_a * temp_c temp_b", "answer": 46.0, "num_list": [78, 2, 16]}
+{"id": "5701", "text": "n / n 与 n 的 和 ， 商 = ？", "expr": "/ + temp_b temp_c temp_a", "answer": 10.0, "num_list": [95, 135, 815]}
+{"id": "5726", "text": "服装厂 原来 做一套 学生 服用 n 米 布料 ， 采用 新 裁剪 法 后 ， 每套 节约 用布 n 米 ． 原来 做 n 套 学生服 的 布 ， 现在 可以 做 多少 套 ？", "expr": "/ * temp_a temp_c - temp_a temp_b", "answer": 519.9999999999999, "num_list": [2.6, 0.3, 460]}
+{"id": "5754", "text": "乐乐 从 甲地 步行 去 乙地 ， 第一 小时 行 了 全程 的 n ， 第 二 小时 行 了 全程 的 n ， 这时 离 乙地 还有 n 千米 ． 甲 、 乙 两地 相距 多少 千米 ？", "expr": "/ temp_c - - 1 temp_a temp_b", "answer": 40.0, "num_list": [0.25, 0.2, 22]}
+{"id": "5756", "text": "一 个数 的 n 是 n ， 这个 数 的 n = ．", "expr": "* / temp_b temp_a temp_c", "answer": 25.0, "num_list": [0.8, 80, 0.25]}
+{"id": "5846", "text": "一 段 公路 ， 汽车 n 分行 了 n 千米 ， 相当于 这 段 路 全长 的 n ， 这 段 路 全长 多少 千米 ？", "expr": "/ temp_b temp_c", "answer": 150.0, "num_list": [45, 60, 0.4]}
+{"id": "5853", "text": "一 箱 矿泉水 n 瓶 ， 每瓶 n 元 ． 买 一箱 一共 需要 多少 元 ？", "expr": "* temp_b temp_a", "answer": 43.2, "num_list": [24, 1.8]}
+{"id": "5859", "text": "丽丽 看 一 本书 共 n 页 ， 她 已经 看 了 这 本书 的 n ， 还 剩 多少 页 ．", "expr": "* temp_a - 1 temp_b", "answer": 144.0, "num_list": [240, 0.4]}
+{"id": "5868", "text": "红星 小学 买 了 一些 体育用品 ． 买 足球 用 去 了 n 元 ， 买 篮球 比 足球 多 花 了 n 元 ． 红星 小学 买 足球 和 篮球 共 花 了 多少 元 钱 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 283.4, "num_list": [135.6, 12.2]}
+{"id": "5899", "text": "某 服装厂 计划 每天 加工 服装 n 件 ， 实际 n 天 加工 了 n 件 ， 实际 每天 比 计划 多 加工 服装 多少 件 ？", "expr": "- / temp_c temp_b temp_a", "answer": 25.0, "num_list": [125, 20, 3000]}
+{"id": "5902", "text": "四年级 一班 有 n 人 ， 共 借书 n 本 ， 四年级 一班 平均 每人 借书 多少 本 ．", "expr": "/ temp_b temp_a", "answer": 16.0, "num_list": [34, 544]}
+{"id": "5906", "text": "妈妈 买 了 n 米 布 ， 给 小 明 做 了 n 套 同样 的 衣服 ， 还 剩下 n 米 ， 小 明 的 每套 服装 用 不 多少 米 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 1.8, "num_list": [5, 2, 1.4]}
+{"id": "5918", "text": "某校 有 女生 n 人 ， 女生 人数 是 男生 的 n ． 男生 有 多少 人 ？", "expr": "/ temp_a temp_b", "answer": 350.0, "num_list": [280, 0.8]}
+{"id": "5985", "text": "小 红 有 n 件 背心 ， n 条 短裤 ， 她 穿衣 时 有 多少 种 搭配 方法 ．", "expr": "* temp_a temp_b", "answer": 6.0, "num_list": [2, 3]}
+{"id": "6022", "text": "一 辆 货车 从 A 地 把 苹果 运到 B 地 ， 去 的 时候 每 小时 行 n 千米 ， 用 了 n 小时 到达 ， 回来 的 时候 每 小时 行 n 千米 ， 需要 几小时 才能 回到 A 地 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 4.0, "num_list": [40, 6, 60]}
+{"id": "6051", "text": "小 芳 在 计算 除法 时 ， 把 除数 n 错 写成 n ， 结果 得到 商 是 n ． 正确 的 商 应该 = ．", "expr": "/ * temp_c temp_b temp_a", "answer": 480.0, "num_list": [32, 320, 48]}
+{"id": "6057", "text": "从 n 里面 减去 n 个 n 的 和 ， 再 乘 n ， 积 = ？", "expr": "* - temp_a * temp_c temp_b temp_d", "answer": 1.0, "num_list": [30, 40, 0.25, 0.05]}
+{"id": "6061", "text": "六年级 （ n ） 班 参加 义务劳动 ， 计划 派 n 名 同学 去 植树 ， 平均 每人 要 植 n 棵 ， 后来 增加 了 一些 同学 ， 这时 平均 每人 只 需 植树 n 棵 ． 问 增加 了 多少 名 同学 ？", "expr": "- / * temp_b temp_c temp_d temp_b", "answer": 8.0, "num_list": [1, 16, 3, 2]}
+{"id": "6088", "text": "n （ n ） 班 n 人 中 有 n 人 喜欢 吃 香蕉 ， n 人 喜欢 吃 苹果 ， n 人 两种 水果 都 喜欢 吃 ． 请问 有 多少 人 喜欢 的 不是 这 两种 水果 ？", "expr": "- temp_c - + temp_e temp_d temp_f", "answer": 9.0, "num_list": [4, 1, 50, 28, 27, 14]}
+{"id": "6096", "text": "用 废纸 生产 再生纸 的 再生 率 为 n ， 利民 造纸厂 用 回收 的 废纸 生产 了 n 吨 再生纸 ． 这些 再生纸 需要 回收 多少 吨 废纸 才能 生产 出来 ？", "expr": "/ temp_b temp_a", "answer": 150.0, "num_list": [0.8, 120]}
+{"id": "6130", "text": "奥林匹克 火炬 在 中国 某省 n 天 传递 了 n 千米 ， 平均 每天 传递 了 多少 千米 ？", "expr": "/ temp_b temp_a", "answer": 205.0, "num_list": [4, 820]}
+{"id": "6137", "text": "育才 学校 有 男生 n 人 ， 女生 n 人 ， 育才 学校 一共 有 学生 多少 人 ？", "expr": "+ temp_a temp_b", "answer": 1361.0, "num_list": [785, 576]}
+{"id": "6152", "text": "n 的 n 倍 大约 = ？", "expr": "* temp_a temp_b", "answer": 1428.0, "num_list": [51, 28]}
+{"id": "6155", "text": "拖拉机 耕 一块 地 ， 每 时 耕 这块 地 的 n ， 一天 工作 n 时 ， 耕 了 这块 地 的 多少 ．", "expr": "* temp_a temp_b", "answer": 0.8888888888888888, "num_list": [0.1111111111111111, 8]}
+{"id": "6181", "text": "全班 女生 和 男生 的 人数 比 是 n ： n ． 一次 考试 ， 男生 平均分 是 n ， 全班 的 平均分 是 n ， 女生 平均分 = 多少 分 ．", "expr": "/ - * temp_d + temp_a temp_b * temp_c temp_b temp_a", "answer": 88.0, "num_list": [1, 3, 80, 82]}
+{"id": "6187", "text": "修 一段 长 n 千米 的 公路 ， 已经 修 了 n 千米 ， 剩下 的 比 已修 的 少 多少 千米 ？", "expr": "- temp_b - temp_a temp_b", "answer": 0.32499999999999996, "num_list": [0.875, 0.6]}
+{"id": "6254", "text": "一 本书 有 n 页 ， 小 红 已经 看 了 n 页 ， 余下 的 准备 n 天 看 完 ， 平均 每天 要 看 多少 个 好 页 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 15.0, "num_list": [400, 265, 9]}
+{"id": "6282", "text": "纸箱 里 放 有 大小 、 质量 完全相同 的 塑料 球 ， 其中 n 个 绿 的 、 n 个 黄 的 、 n 个 红 的 ． 从中 任意 摸 一个 ， 摸 出 红球 的 可能性 = ．", "expr": "/ temp_c + + temp_a temp_b temp_c", "answer": 0.5, "num_list": [2, 3, 5]}
+{"id": "6340", "text": "今年 比 去年 减产 n ， 今年 产量 是 去年 的 多少 ．", "expr": "- 1 temp_a", "answer": 0.8, "num_list": [0.2]}
+{"id": "6360", "text": "某人 在 一次 选举 中 ， 需 全部 选票 的 n 才能 当选 ， 计算 全部 选票 的 n 后 ， 他 得到 的 选票 已 达到 当选 选票 数 的 n ， 他 还 需要 得到 剩下 选票 的 多少 才能 当选 ．", "expr": "/ - temp_a * temp_a temp_c - 1 temp_b", "answer": 0.4444444444444442, "num_list": [0.6666666666666666, 0.75, 0.8333333333333334]}
+{"id": "6427", "text": "小 明 骑 自行车 从 家 到 学校 ， 已知 他 每分钟 走 n 米 ， 走 n 分钟 ， 距 学校 还有 n 米 ， 他家 距 学校 多 远 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 3930.0, "num_list": [310, 12, 210]}
+{"id": "6439", "text": "商场 开展 店 庆 活动 ， 一台 冰箱 打 n 后 是 n 元 ， 这 台 冰箱 原价 多少 元 ？", "expr": "/ temp_b temp_a", "answer": 3000.0, "num_list": [0.8, 2400]}
+{"id": "6470", "text": "果园 里 苹果树 比 梨树 多 n 棵 ， 梨树 的 棵 树 是 苹果树 的 n ， 苹果树 有 多少 棵 ？", "expr": "/ temp_a - 1 temp_b", "answer": 1050.0, "num_list": [420, 0.6]}
+{"id": "6575", "text": "一 种 电脑 现价 每 台 n 元 ， 比 原来 降低 了 n 元 ， 降低 了 百分之几 ？", "expr": "/ temp_b + temp_a temp_b", "answer": 0.05, "num_list": [3800, 200]}
+{"id": "6581", "text": "汽车 的 现价 比 原价 降低 了 n ， 现价 是 原价 的 ( ( ( ) ) / ( ( ) ) ) ．", "expr": "/ - 1 temp_a 1", "answer": 0.8571428571428572, "num_list": [0.14285714285714285]}
+{"id": "6648", "text": "果园 去年 收 苹果 n 千克 ， 比 前年 增 n ， 前年 收 苹果 多少 千克 ？", "expr": "/ temp_a + 1 temp_b", "answer": 3600.0, "num_list": [4500, 0.25]}
+{"id": "6679", "text": "水果店 运 来 n 筐 桃子 ， 桃子 的 筐 数 是 苹果 的 n ， 运 来 桃子 和 苹果 一共 多少 筐 ？", "expr": "+ / temp_a temp_b temp_a", "answer": 55.0, "num_list": [25, 0.8333333333333334]}
+{"id": "6682", "text": "机械 加工厂 加工 一台 机器 原来 需要 n 吨 钢材 ． 后来 采用 了 新 科技 ， 每 台 只 需要 n 吨 钢材 ． 现在 加工 n 台 机器 的 钢材 ， 原来 做 多少 台 ？", "expr": "/ * temp_c temp_b temp_a", "answer": 200.0, "num_list": [1.2, 0.8, 300]}
+{"id": "6725", "text": "少年宫 乐队 有 女生 n 人 ， 男生 n 人 ． 合唱队 的 人数 是 乐队 的 n 倍 ， 合唱队 有 多少 人 ？", "expr": "* + temp_a temp_b temp_c", "answer": 140.0, "num_list": [18, 17, 4]}
+{"id": "6744", "text": "商店 以 每枝 n 元 的 价格 购进 一批 钢笔 ， 加上 n 的 利润 以后 定价 出售 ， 当 卖出 这 批 钢笔 的 n 时 就 已经 获利 n 元 ． 这 批 钢笔 共有 多少 枝 ？", "expr": "/ / temp_d temp_c temp_b", "answer": 800.0, "num_list": [10, 0.4, 0.75, 240]}
+{"id": "6776", "text": "鸡 的 孵化期 是 n 天 ， 鸭 的 孵化期 比 鸡 长 n ， 鸭 的 孵化期 = 多少 天 ？", "expr": "* temp_a + 1 temp_b", "answer": 28.0, "num_list": [21, 0.3333333333333333]}
+{"id": "6780", "text": "五年级 有 学生 n 人 ， 五年级 比 六年级 的 n 还 多 n 人 ， 六年级 有 多少 人 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 297.0, "num_list": [180, 0.5555555555555556, 15]}
+{"id": "6827", "text": "一 辆 汽车 从 甲地 出发 ， n 小时 行 了 n 千米 ， 照 这样 的 速度 ， 再行 n 小时 就 可 到达 乙地 ． 甲 、 乙 两地 相距 多少 千米 ？", "expr": "* / temp_b temp_a + temp_a temp_c", "answer": 455.0, "num_list": [3, 195, 4]}
+{"id": "6832", "text": "小 明 有 课外书 n 本 ， 是 小 兰 的 n ， 是 小 红 的 n ， 小 红 比 小 兰 多 多少 本书 ？", "expr": "- / temp_a temp_b / temp_a temp_c", "answer": 8.0, "num_list": [48, 0.75, 0.8571428571428571]}
+{"id": "6892", "text": "刘校长 带 n 元 去 买 篮球 ， 买 了 n 个 后 还 剩 n 元 ， 平均 每个 篮球 多少 元 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 80.0, "num_list": [1300, 16, 20]}
+{"id": "6900", "text": "甲 、 乙 、 丙 n 袋 粮食 重量 比 是 n ： n ： n ， 已知 甲 、 乙 共 重 n 克 ， 求 丙 袋 的 重量 = ？", "expr": "* / temp_e + temp_a temp_c temp_d", "answer": 500.0, "num_list": [3, 3, 4, 5, 700]}
+{"id": "6910", "text": "超市 运 来 n 辆 红色 自行车 ， n 辆 黄色 自行车 ． 已经 售出 全部 自行车 的 n ， 售出 了 多少 辆 ？", "expr": "* + temp_a temp_b temp_c", "answer": 40.0, "num_list": [45, 15, 0.6666666666666666]}
+{"id": "6922", "text": "一 袋 年 奶 n 元 钱 ， n 元 钱 可以 买 到 多少 袋 牛奶 ．", "expr": "/ temp_b temp_a", "answer": 12.0, "num_list": [3, 36]}
+{"id": "6931", "text": "服装厂 要 生产 n 套 服装 ， 前 n 天 已经 生产 了 这 批 服装 的 n ， 余下 的 服装 要 在 n 天 内 完成 ， 平均 每天 要 生产 多少 套 服装 ？", "expr": "/ - temp_a * temp_a temp_c temp_d", "answer": 600.0, "num_list": [6000, 5, 0.4, 6]}
+{"id": "6951", "text": "□ / n = n … n ， □ 里 的 数 = ．", "expr": "+ * temp_b temp_a temp_c", "answer": 188.0, "num_list": [7, 26, 6]}
+{"id": "6953", "text": "一 个 西瓜 被 爸爸 平均 切成 数块 ． 爸爸 和 妈妈 吃 了 这个 西瓜 的 n ， 小强 吃 了 n 块 ， n 人 正好 把 这个 西瓜 吃 完 ． 这个 西瓜 被 平均 切成 了 多少 块 ？", "expr": "/ temp_b - 1 temp_a", "answer": 8.0, "num_list": [0.75, 2, 3]}
+{"id": "6992", "text": "n * n - n * n = ．", "expr": "- * temp_a temp_b * temp_c temp_d", "answer": 0.0, "num_list": [2005, 20062006, 2006, 20052005]}
+{"id": "6997", "text": "已知 两个 数 的 商 是 n ， 而 这 两个 数 的 差 是 n ， 那么 这 两个 数 中 较 小 的 数 = ．", "expr": "/ temp_b - temp_a 1", "answer": 13.0, "num_list": [4, 39]}
+{"id": "7005", "text": "水果店 运 来 n 千克 水果 ， 上午 卖出 n 千克 ， 下午 卖出 n 千克 ， 还 剩 多少 千克 ？", "expr": "- - temp_a temp_b temp_c", "answer": 88.0, "num_list": [410, 139, 183]}
+{"id": "7012", "text": "一 桶 油 用 去 n ， 还 剩 n 千克 ， 这 桶 油 原来 有 多少 千克 ？", "expr": "/ temp_b - 1 temp_a", "answer": 140.0, "num_list": [0.4, 84]}
+{"id": "7028", "text": "n 年 奥运会 各项 比赛 门票 销售 正在 火热 进行 中 ， 一场 手球 比赛 的 最低 票价 为 n 元 ， 一场 游泳 比赛 的 最低 票价 比 手球 比赛 的 n 倍 少 n 元 ， 一场 游泳 比赛 的 最低 票价 比 手球 比赛 贵 多少 元 ？", "expr": "- - * temp_b temp_c temp_d temp_b", "answer": 70.0, "num_list": [2008, 30, 4, 20]}
+{"id": "7066", "text": "小 明 与 爸爸 到 电脑城 去 买 电脑 ， 他们 看到 了 一台 标价 n 元 的 电脑 ． 小 明 爸爸 对 经理 说 ： “ 打 n 可以 ？ ” ， 经理 想 了 想 ， 说 ： “ 你 说 的 价格 ， 再 加 n ， ” 就 成交 了 ． 请问 小 明 家 买 这 台 电脑 花 了 多少 钱 ？", "expr": "* * temp_a temp_b + 1 temp_c", "answer": 6720.0, "num_list": [8000, 0.8, 0.05]}
+{"id": "7086", "text": "学校 去年 种树 n 棵 ， 今年 比 去年 增加 n ， 今年 种树 多少 棵 ？", "expr": "* temp_a + 1 temp_b", "answer": 243.00000000000003, "num_list": [225, 0.08]}
+{"id": "7098", "text": "n * n = ．", "expr": "* temp_a temp_b", "answer": 2.0, "num_list": [0.2, 10]}
+{"id": "7118", "text": "从 n 里面 每次 减去 n ， 减去 多少 次 得 n ．", "expr": "/ temp_a temp_b", "answer": 10.0, "num_list": [1, 0.1, 0]}
+{"id": "7123", "text": "张 新 看 一本 n 页 的 科普 书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 全书 的 n ， 还 剩下 多少 页 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 35.99999999999999, "num_list": [120, 0.3, 0.4]}
+{"id": "7150", "text": "春节 过后 ， 小 明 把 n 元 压岁钱 存入 银行 ， 年利率 n ， 存期 一年 ． 到期 时 ， 小 明 可以 拿到 利息 多少 元 ． （ 利息税 忽略不计 ）", "expr": "* * temp_a temp_b 1", "answer": 9.0, "num_list": [400, 0.0225]}
+{"id": "7154", "text": "一 箱 肥皂 分 发给 某 车间 工人 ， 平均 每人 可 分 到 n 块 ． 若 只 分给 女工 ， 平均 每人 可 分 到 n 块 ； 若 只 分给 男工 ， 平均 每人 可 分 到 多少 块 ？", "expr": "/ 1 - / 1 temp_a / 1 temp_b", "answer": 30.000000000000007, "num_list": [12, 20]}
+{"id": "7183", "text": "农机厂 计划 生产 n 台 ， 平均 每天 生产 n 台 ， 生产 了 n 天 ， 余下 的 任务 要求 n 天 完成 ， 平均 每天 要 生产 多少 台 ？", "expr": "/ - temp_a * temp_b temp_c temp_d", "answer": 45.0, "num_list": [800, 44, 10, 8]}
+{"id": "7185", "text": "n 名 工人 n 小时 加工 零件 n 个 ， 要 在 n 小时 完成 n 个 零件 的 加工 ， 需要 工人 多少 名 ．", "expr": "/ / temp_e temp_d / / temp_c temp_b temp_a", "answer": 12.0, "num_list": [3, 2, 90, 10, 1800]}
+{"id": "7198", "text": "某 厂 n 月份 实际 生产 洗衣机 n 台 ， 超产 n 台 ． 超产 百分之几 ？", "expr": "/ temp_c - temp_b temp_c", "answer": 0.25, "num_list": [4, 5000, 1000]}
+{"id": "7202", "text": "一 辆 汽车 n 小时 行 了 n 公里 ， 这辆 汽车 从 甲 城 出发 到 乙 城 总共 用 了 n 小时 ． 甲 、 乙 两城 之间 距离 多少 千米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 560.0, "num_list": [4, 320, 7]}
+{"id": "7207", "text": "将 小数 化为 假分数 ： n = ．", "expr": "temp_a", "answer": 5.25, "num_list": [5.25]}
+{"id": "7211", "text": "货场 有 一批 货物 要 运走 ， 第一天 运走 总数 的 n ， 第 二 天 运走 总数 的 n ， 还有 n 吨 没有 运走 ， 这 批 货物 有 多少 吨 ？", "expr": "/ temp_c - - 1 temp_a temp_b", "answer": 720.0, "num_list": [0.375, 0.25, 270]}
+{"id": "7212", "text": "大西洋 平均 深度 约 为 n 千米 ， 印度洋 平均 深度 比 大西洋 深 n 千米 ， 印度洋 比 北冰洋 深 n 千米 ． 北冰洋 的 平均 深度 约 = 多少 千米 ？", "expr": "- + temp_a temp_b temp_c", "answer": 1.3000000000000003, "num_list": [3.62, 0.27, 2.59]}
+{"id": "7221", "text": "一 瓶 果汁 有 n 升 ， 如果 把 它 分别 倒入 n 升 的 玻璃杯 中 ， 可以 倒 几杯 ？", "expr": "/ temp_a temp_b", "answer": 8.0, "num_list": [2, 0.25]}
+{"id": "7240", "text": "小 李 翻过 一座 山 ， 山路 长 n 千米 ， 上山 时 每 小时 行 n 千米 ， 下山 时 沿 原 路 返回 ， 每 小时 行 n 千米 ， 求 小 李 上 下山 的 平均速度 ．", "expr": "/ * temp_a temp_b + / temp_a temp_b / temp_a temp_c", "answer": 2.4, "num_list": [6, 2, 3]}
+{"id": "7257", "text": "小 军 要 游 n 米 ， 已 游 了 n ， 还 剩 多少 米 没 游 ？", "expr": "* temp_a - 1 temp_b", "answer": 80.0, "num_list": [200, 0.6]}
+{"id": "7258", "text": "贺兰 一小 六年级 一班 原来 有 学生 n 人 ， 其中 男生 占 全班 的 n ， 后来 男生 转 走 了 几 人 ， 现在 男生 占 全班 的 n ， 转 走 了 几名 男生 ？", "expr": "- temp_a / - temp_a * temp_a temp_b - 1 temp_c", "answer": 4.0, "num_list": [54, 0.5555555555555556, 0.52]}
+{"id": "7269", "text": "甲乙 两地 相距 n 千米 ， 一列 动力火车 从 甲 站 出发 行驶 了 全程 的 n ， 行驶 了 多少 千米 ？", "expr": "* temp_a temp_b", "answer": 100.0, "num_list": [380, 0.2631578947368421]}
+{"id": "7293", "text": "一 辆 汽车 从 总站 开出 ， 全 车 座位 上 有 n 坐 了 乘客 ， 到达 中点站 时 ， 有 n 人 下车 ， n 人 上车 ， 这时 车 内 座位 恰好 坐满 ． 这辆 车 有 多少 个 座位 ？", "expr": "/ - temp_c temp_b - 1 temp_a", "answer": 48.000000000000014, "num_list": [0.8333333333333334, 12, 20]}
+{"id": "7295", "text": "一 种 盐水 重 n 克 ， 盐 的 重量 占 盐水 的 n ， 加 了 一些 水 后 ， 盐 的 重量 占 盐水 重量 的 n ． 加 了 多少 克 水 ？", "expr": "- / * temp_a temp_b temp_c temp_a", "answer": 120.0, "num_list": [200, 0.2, 0.125]}
+{"id": "7312", "text": "小 红 看 一 本书 ， 已 看 的 页数 与 剩下 的 页数 的 比 是 n ： n ， 如果 再 看 n 页 ， 正好 看 完全 书 的 n ． 这 本书 一共 有 多少 页 ？", "expr": "/ temp_c - temp_d / temp_a + temp_a temp_b", "answer": 160.0, "num_list": [2, 3, 56, 0.75]}
+{"id": "7326", "text": "服装厂 做 一件 男 上衣 需用 n 米 布料 ， 一条 男 裤子 需用 n 米 布料 ， 现有 n 米 布料 ， 可以 做 多少 件 男 上衣 ？", "expr": "/ temp_c temp_a", "answer": 240.0, "num_list": [2.5, 1.8, 600]}
+{"id": "7364", "text": "n / n / n = ．", "expr": "/ / temp_a temp_b temp_c", "answer": 6.999999999999999, "num_list": [2.8, 0.8, 0.5]}
+{"id": "7395", "text": "看 一 本书 ， 第一天 看 了 全书 的 n ， 第 二 天 比 第一天 少 看 n 页 ， 还 剩 n 页 没 看 ， 这 本书 共有 多少 页 ？", "expr": "/ - temp_c temp_b - - 1 temp_a temp_a", "answer": 133.0, "num_list": [0.2857142857142857, 5, 62]}
+{"id": "7408", "text": "工厂 生产 了 n 筒 毛 球 ， 每 筒 n 个 ． 一共 生产 了 多少 个 羽毛球 ？", "expr": "* temp_a temp_b", "answer": 6090.0, "num_list": [1015, 6]}
+{"id": "7417", "text": "n （ n ） 班 有 n 人 ， 某 天 该班 出勤率 为 n ， 这天 缺席 多少 人 ．", "expr": "* temp_c - temp_b temp_d", "answer": 2.0000000000000018, "num_list": [6, 1, 50, 0.96]}
+{"id": "7418", "text": "比 n 千克 多 n 千克 = 多少 千克 ？", "expr": "+ temp_a temp_b", "answer": 40.2, "num_list": [40, 0.2]}
+{"id": "7459", "text": "通过 特快专递 寄 邮件 每份 需要 n 元 ． 李 阿姨 寄 邮件 时 付出 n 元 ， 找回 n 元 ． 她 共 寄 了 几份 邮件 ？", "expr": "/ - temp_b temp_c temp_a", "answer": 6.0, "num_list": [22, 200, 68]}
+{"id": "7487", "text": "美术 兴趣小组 有 n 人 ， 比 音乐 兴趣小组 少 n ． 美术 兴趣小组 和 音乐 兴趣小组 相差 多少 人 ？", "expr": "- / temp_a - 1 temp_b temp_a", "answer": 9.0, "num_list": [36, 0.2]}
+{"id": "7490", "text": "来 电话 时 每次 响铃 时间 为 n 秒 ， 两次 之间 间隔 n 秒 ， 这个 电话响 了 n 次 ， 从 响铃 到 结束 共 持续 了 几秒 ？", "expr": "+ * temp_a temp_c * - temp_c 1 temp_b", "answer": 46.0, "num_list": [4, 2, 8]}
+{"id": "7496", "text": "果园 里 有 桃树 n 棵 ， 相当于 苹果树 的 n ， 苹果树 有 多少 ？", "expr": "/ temp_a temp_b", "answer": 64.0, "num_list": [48, 0.75]}
+{"id": "7534", "text": "甲 、 乙 两 人 从 一楼 开始 比赛 爬楼梯 ， 甲 爬楼梯 的 速度 是 乙 的 n 倍 ． 他们 同时 出发 ， 当 甲 爬 到 n 楼 时 ， 乙 在 多少 楼 ．", "expr": "+ / - temp_b 1 temp_a 1", "answer": 11.0, "num_list": [1.5, 16]}
+{"id": "7536", "text": "一 个 电影院 共有 n 个 座位 ， 票价 n 元 ， 这场 的 票 都 卖完 了 ， 这场 电影 的 收入 = 多少 元 ？", "expr": "* temp_a temp_b", "answer": 12180.0, "num_list": [812, 15]}
+{"id": "7553", "text": "一 根 绳子 长 n 米 ， 剪 去 全长 的 n ， 剩下 的 比 全长 短 了 多少 米 ？", "expr": "* temp_a temp_b", "answer": 4.0, "num_list": [24, 0.16666666666666666]}
+{"id": "7555", "text": "推销员 每 工作 n 小时 可以 挣 n 元 ， 另外 ， 每 做成 一次 交易 他 可以 得 n 元 的 奖金 ． 某个 星期 他 共 收入 n 元 ， 其中 做成 了 n 次 交易 ， 他 这个 星期 工作 了 多少 小时 ？", "expr": "/ - temp_d * temp_c temp_e temp_b", "answer": 30.0, "num_list": [1, 6.5, 2.5, 212.5, 7]}
+{"id": "7598", "text": "果品 公司 运 来 苹果 n 吨 ， 运 来 的 梨 是 苹果 的 n ， 运 来 的 桃 比 梨 少 n ， 运 来 的 桃 比 梨 少 多少 吨 ？", "expr": "* * temp_a temp_b temp_c", "answer": 0.125, "num_list": [0.75, 0.8333333333333334, 0.2]}
+{"id": "7607", "text": "小 兰 看 一 本书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 全书 的 n ， 正好 是 n 页 ． 第一天 看 了 多少 页 ？", "expr": "* / temp_c + temp_a temp_b temp_a", "answer": 29.999999999999993, "num_list": [0.16666666666666666, 0.2, 66]}
+{"id": "7652", "text": "幼儿园 王 阿姨 买 了 n 个 小点心 ， 给 大 班 的 小朋友 每人 发 了 n 个 ， 正好 把 点心 发 完 ． 这个 幼儿园 大 班 有 小朋友 多少 个 ？", "expr": "/ temp_a temp_b", "answer": 115.0, "num_list": [345, 3]}
+{"id": "7654", "text": "求 是 小学 组织 少先队员 去 采集 动物 标本 ． 男生 采集 了 n 件 标本 ， 占 所 采集 标本 总数 的 n ． 问 ： 女生 采集 了 多少 件 标本 ？", "expr": "- / temp_a temp_b temp_a", "answer": 57.0, "num_list": [95, 0.625]}
+{"id": "7657", "text": "猎豹 的 速度 是 马 的 n 倍 ． 如果 马 每 时 跑 n 千米 ， 猎豹 每 时 比 马 多 跑 多少 千米 ？", "expr": "- * temp_b temp_a temp_b", "answer": 80.5, "num_list": [2.25, 64.4]}
+{"id": "7661", "text": "某 工程 由 甲 单独 做 n 天 后 ， 再 由 乙 单独 做 n 天 即可 完成 ． 如果 甲 、 乙 两 人 合作 ， 需 n 天 完成 ， 现在 甲 先 单独 做 n 天 ， 然后 再 由 乙 来 单独 完成 ， 还 需要 做 多少 天 ．", "expr": "+ / - temp_c temp_d / - temp_c temp_a - temp_b temp_c temp_c", "answer": 48.0, "num_list": [25, 60, 40, 34]}
+{"id": "7686", "text": "某 个体 服装商 清仓 甩卖 ， 将 一件 衣服 的 原 标价 连续 两次 降 n ， 这时 的 标价 为 n 元 ， 已知 这件 衣服 进价 是 原 标价 的 n ， 这件 衣服 进价 多少 元 ？", "expr": "* / temp_b * - 1 temp_a - 1 temp_a temp_c", "answer": 280.0, "num_list": [0.15, 289, 0.7]}
+{"id": "7721", "text": "小林 阅读 一 本书 ， 前 n 天 他 共 看 了 n 页 ， 后 n 天 他 平均 每天 看 n 页 ， 这些 天 中 小林 平均 每天 看书 多少 页 ？", "expr": "/ + temp_b * temp_d temp_c + temp_a temp_c", "answer": 37.0, "num_list": [3, 156, 9, 32]}
+{"id": "7722", "text": "从 动物园 到 火车站 n 千米 ， 张师傅 每天 开车 行驶 n 个 来回 ， 张师傅 每天 行驶 多少 千米 ？", "expr": "* + temp_a temp_a temp_b", "answer": 200.0, "num_list": [20, 5]}
+{"id": "7729", "text": "苹果 的 产量 是 梨 的 n 倍 ， 已知 苹果 和 梨 共有 n 吨 ， 梨 有 多少 吨 ？", "expr": "/ temp_b + temp_a 1", "answer": 40.0, "num_list": [2, 120]}
+{"id": "7781", "text": "李 大爷 家 有 黑 兔 n 只 ， 黑 兔 的 只 数 比 白兔 多 n 只 ， 李 大爷 家 有 白兔 多少 只 ？", "expr": "- temp_a temp_b", "answer": 97.0, "num_list": [172, 75]}
+{"id": "7828", "text": "某 工程队 修 一条 长 n 千米 的 公路 ， 已经 修 了 n ， 还 剩 多少 千米 没有 修 ？", "expr": "* temp_a - 1 temp_b", "answer": 16.0, "num_list": [20, 0.2]}
+{"id": "7844", "text": "某 学校 开展 环保 活动 ， 有 n 个 小组 收集 了 n 节电池 ． 每个 小组 有 n 人 ， 他们 平均 每人 收集 废电池 多少 节 ？", "expr": "/ / temp_b temp_a temp_c", "answer": 24.0, "num_list": [4, 768, 8]}
+{"id": "7862", "text": "一 件 工作 ， 甲 先 单独 完成 n 用 了 n 小时 ， 如果 全 完成 ， 要 用 多少 小时 ．", "expr": "/ temp_b temp_a", "answer": 0.30000000000000004, "num_list": [0.6666666666666666, 0.2]}
+{"id": "7911", "text": "一 批 钢材 第一次 用 去 n ， 第 二 次 用 去 n 吨 ， 还 剩下 n 吨 ， 这 批 钢材 有 多少 吨 ？", "expr": "/ + temp_c temp_b - 1 temp_a", "answer": 4.375, "num_list": [0.2, 0.5, 3]}
+{"id": "7931", "text": "大 妙 乡 要 修 一条 新 公路 ， 第一个 周 修 了 全长 的 n ， 第 二 个 周 修 了 n 米 ， 这时 两个 周 刚好 修 了 全长 的 n ． 这 条 公路 全长 多少 米 ？", "expr": "/ temp_b - temp_c temp_a", "answer": 1500.0000000000002, "num_list": [0.2, 600, 0.6]}
+{"id": "7942", "text": "商店 所有 货物 打 n 出售 ， 爸爸 买 了 一个 剃须刀 花 了 n 元 ， 这种 剃须刀 原来 卖 多少 元 ？", "expr": "/ temp_b temp_a", "answer": 150.0, "num_list": [0.8, 120]}
+{"id": "8030", "text": "小 刚 看 一本 故事书 ， 第一天 看 了 全书 的 n ， 第 二 天 又 看 了 n 页 ， 这时 已 看 的 页数 与 未 看 的 页数 的 比 是 n ： n ， 这 本书 有 多少 页 ？", "expr": "/ temp_b - / temp_c + temp_c temp_d temp_a", "answer": 119.99999999999993, "num_list": [0.3333333333333333, 8, 2, 3]}
+{"id": "8033", "text": "燃烧 的 蜡烛 ． 桌子 上 原来 有 n 根 点燃 的 蜡烛 ， 先 被 风 吹灭 了 n 根 ， 不久 又 一阵风 吹灭 了 n 根 ， 最后 桌子 上 还 剩 几根 蜡烛 ？", "expr": "+ temp_b temp_c", "answer": 5.0, "num_list": [12, 3, 2]}
+{"id": "8040", "text": "n 个 学生 回答 两个 问题 时 ， 答对 第一 题 的 有 n 人 ， 答对 第 二 题 的 有 n 人 ， 两 题 都 答对 的 有 n 人 ， 两 题 都 没 答对 的 有 多少 人 ．", "expr": "- temp_a - + temp_c temp_b temp_d", "answer": 2.0, "num_list": [36, 23, 25, 14]}
+{"id": "8047", "text": "食堂 运 来 n 千克 大米 ， 已经 吃 了 n 天 ， 每天 吃 n 千克 ． 剩下 的 n 天 吃 完 ， 平均 每天 吃 多少 千克 ？", "expr": "/ - temp_a * temp_c temp_b temp_d", "answer": 80.0, "num_list": [600, 4, 50, 5]}
+{"id": "8067", "text": "n / n 与 n 的 和 ， 商 = ．", "expr": "/ temp_a + temp_b temp_c", "answer": 1.25, "num_list": [5, 2.7, 1.3]}
+{"id": "8085", "text": "师傅 计划 生产 n 个 零件 ， 实际 比 计划 多 生产 n ， 实际 生产 多少 个 ？", "expr": "* temp_a + 1 temp_b", "answer": 50.0, "num_list": [40, 0.25]}
+{"id": "8089", "text": "一 件 皮毛 大衣 的 单价 是 n 元 ， 一件 T恤衫 的 单价 是 n 元 ， 皮毛 大衣 的 单价 是 T恤衫 的 多少倍 ？", "expr": "/ temp_a temp_b", "answer": 106.0, "num_list": [954, 9]}
+{"id": "8101", "text": "用 n * n 的 积 减去 n 后 去除 n ， 商 = ？", "expr": "/ temp_d - * temp_a temp_b temp_c", "answer": 0.19999999999999996, "num_list": [1.5, 1.6, 0.6, 0.36]}
+{"id": "8137", "text": "一 根 长 n 米 的 绳子 ， 剪 去 n 米 后 ， 剩下 的 做 短绳 ． 每 根 短绳 长 n 米 ， 剩下 的 绳子 可以 做 几根 短绳 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 6.0, "num_list": [32, 8, 4]}
+{"id": "8199", "text": "一 个数 的 n 倍 是 n ， 这个 数 = ．", "expr": "/ temp_b temp_a", "answer": 60.0, "num_list": [3, 180]}
+{"id": "8241", "text": "麦当劳 叔叔 准备 送 出 玩具 猫 手镯 n 个 、 玩具 小车 n 个 给 学习 好 的 同学 ， 平均 在 n 天 内 送 完 ， 每天 送 出 多少 个 玩具 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 25.0, "num_list": [58, 67, 5]}
+{"id": "8248", "text": "王老师 买 了 n 元 的 国家 建设 债券 ， 定期 n 年 ， 年利率 是 n ， 到期 时 他 获得 的 本息 一共 多少 元 ．", "expr": "+ * * temp_a temp_c temp_b temp_a", "answer": 2426.6, "num_list": [2000, 3, 0.0711]}
+{"id": "8269", "text": "某个 旅游景点 ， 游客 每 n 人 乘坐 一辆 游览车 ， 一共 有 n 辆 游览车 ， 可以 同时 供 多少 人 参观 ？", "expr": "* temp_a temp_b", "answer": 2448.0, "num_list": [6, 408]}
+{"id": "8287", "text": "一 列 火车 从 长沙 开往 广州 ， 每 小时 行 n 千米 ， 这 列 货车 开出 n 小时 后 ， 一列 客车 从 广州 出发 开往 长沙 ， 每 小时 行 n 千米 ， 客车 经 n 小时 后 ， 与 货车 相遇 ． 长沙 到 广州 的 铁路 长 多少 千米 ？", "expr": "+ temp_a * + temp_c temp_a temp_d", "answer": 655.0, "num_list": [70, 1, 60, 4.5]}
+{"id": "8289", "text": "某 汽车 制造厂 n 月 制造 汽车 n 台 ， 比 计划 多 生产 n 台 ， 实际 比 计划 增产 了 百分之几 ？", "expr": "/ temp_c - temp_b temp_c", "answer": 0.125, "num_list": [11, 5400, 600]}
+{"id": "8319", "text": "王师傅 加工 一批 零件 ， 第一天 加工 了 n ， 第 二 天 又 加工 了 n 个 ， 这时 已 加工 的 与 未加工 的 个数 比 是 n ： n ， 这 批 零件 一共 多少 个 ？", "expr": "/ temp_b - / temp_c + temp_c temp_d temp_a", "answer": 150.0, "num_list": [0.2, 30, 2, 3]}
+{"id": "8321", "text": "已知 n （ n ） 班 男 、 女生 人数 比 为 n ： n ， 男生 比 女生 多 n 人 ， 男生 有 多少 人 ．", "expr": "* / temp_e - temp_c temp_d temp_c", "answer": 20.0, "num_list": [6, 1, 5, 3, 8]}
+{"id": "8379", "text": "两地 间 的 路程 是 n 千米 ． 甲乙 两辆 汽车 同时 从 两地 开出 ， 相向 而 行 ， n 小时 相遇 ． 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 多少 千米 ？", "expr": "- / temp_a temp_b temp_c", "answer": 32.5, "num_list": [280, 3.5, 47.5]}
+{"id": "8438", "text": "一 段 绳子 长 n 米 ， 第一次 剪 了 n 米 ， 第 二 次 剪 了 n 米 ， 这时 绳子 比 原来 短 了 多少 米 ．", "expr": "+ temp_b temp_c", "answer": 90.0, "num_list": [176, 46, 44]}
+{"id": "8444", "text": "客 、 货 两车 分别 从 甲 、 乙 两地 同时 出发 ， 相向 而 行 ， n 小时 后 相遇 ． 客车 每 小时 行 n 千米 ， 货车 每 小时 行 n 千米 ． 甲 、 乙 两地 相距 多少 千米 ？", "expr": "* + temp_b temp_c temp_a", "answer": 522.0, "num_list": [4.5, 56, 60]}
+{"id": "8452", "text": "梨 的 筐 数 是 苹果 的 n ， 苹果 的 筐 数 是 橘子 的 n ， 梨 有 n 筐 ， 橘子 多少 筐 ？", "expr": "/ / temp_c temp_a temp_b", "answer": 250.0, "num_list": [0.75, 0.8, 150]}
+{"id": "8453", "text": "一 个 盛 水 的 正方体 容器 ， 棱 长 n 厘米 ， 现 放入 n 个 鸡蛋 （ 浸没 ） ， 水面 升高 了 n 厘米 ， 求 一个 鸡蛋 的 体积 = ？", "expr": "/ * * temp_a temp_a temp_c temp_b", "answer": 40.0, "num_list": [20, 10, 1]}
+{"id": "8463", "text": "水果 批发市场 运 来 一批 菠萝 ， 第一周 卖出 n 吨 ， 第 二 周 卖出 的 比 第一周 少 n 吨 ， 两周 一共 卖出 菠萝 多少 吨 ？", "expr": "+ - temp_a temp_b temp_a", "answer": 1.5, "num_list": [0.85, 0.2]}
+{"id": "8509", "text": "六年级 共有 学生 n 名 ， 其中 女同学 n 名 ， 女同学 占 全年 级 人数 的 多少 （ 用 分数 表示 ） ．", "expr": "/ temp_b temp_a", "answer": 0.6296296296296297, "num_list": [108, 68]}
+{"id": "8535", "text": "n （ n ） 班 有 学生 n 人 ， 男生 人数 是 全班 的 n ， 又 转 来 几名 女生 后 ， 这时 男生 人数 是 全班 的 n ． 又 转 来 几名 女生 ？", "expr": "- / * temp_c temp_d temp_e temp_c", "answer": 3.0, "num_list": [6, 1, 60, 0.5833333333333334, 0.5555555555555556]}
+{"id": "8558", "text": "n 毫米 比 n 毫米 少 多少 毫米 ．", "expr": "- temp_b temp_a", "answer": 56.0, "num_list": [34, 90]}
+{"id": "8561", "text": "慢车 身长 n 米 ， 车速 每秒 n 米 ， 快车 身长 n 米 ， 车速 每秒 n 米 ， 慢车 在 前面 行驶 ， 快车 在 后面 追 上 完全 超过 需要 多少 秒 ．", "expr": "/ + temp_a temp_c - temp_d temp_b", "answer": 53.0, "num_list": [125, 22, 140, 27]}
+{"id": "8565", "text": "用 n 吨 小麦 磨 面粉 ， 出粉率 n ． 可以 磨 面粉 多少 吨 ？", "expr": "* temp_a temp_b", "answer": 340.0, "num_list": [400, 0.85]}
+{"id": "8590", "text": "修路 队 修 一段 公路 ， 第一天 修 了 全长 的 n ， 第 二 天 修 了 全长 的 n ． 第一天 修 了 n 米 ， 还 剩 多少 米 没有 修 ？", "expr": "* / temp_c temp_a - - 1 temp_a temp_b", "answer": 110.00000000000001, "num_list": [0.25, 0.2, 50]}
+{"id": "8614", "text": "圆珠笔 和 铅笔 的 单价 比 为 n ： n ， 学校 买 了 n 支 圆珠笔 和 n 支 铅笔 一 共用 去 了 n 元 ， 那么 圆珠笔 的 单价 = 多少 元 ．", "expr": "/ temp_e + temp_c * / temp_d temp_a temp_b", "answer": 2.0, "num_list": [4, 3, 15, 16, 54]}
+{"id": "8726", "text": "n 个 同学 跳绳 ， 小 明 跳 了 n 下 ， 小强 跳 的 是 小 明 跳 的 n ， 小 亮 跳 的 是 小强 跳 的 n ． 小 亮 跳 了 多少 下 ？", "expr": "* * temp_b temp_c temp_d", "answer": 100.0, "num_list": [3, 240, 0.625, 0.6666666666666666]}
+{"id": "8777", "text": "李 华 买 一顶 草帽 用 n 元 ， 买 一把 茶壶 用 n 元 ， 又 买 了 一个 热水瓶 ， n 样 东西 正好 用 了 n 元 ． 买 热水瓶 用 多少 元 ？", "expr": "- - temp_d temp_a temp_b", "answer": 4.7, "num_list": [1.8, 2.5, 3, 9]}
+{"id": "8793", "text": "花果 林场 有 桃园 n 公顷 ， 占 果园 的 总面积 的 n ． 果园 的 总面积 有 多少 公顷 ？", "expr": "/ temp_a temp_b", "answer": 1.5, "num_list": [0.375, 0.25]}
+{"id": "8819", "text": "两个 因数 都 是 n ， 积 = ．", "expr": "* temp_a temp_a", "answer": 36.0, "num_list": [6]}
+{"id": "8839", "text": "有 n 个 小朋友 ， 每次 选 n 个人 排成 一排 拍照片 ， 一共 有 多少 种 拍法 ．", "expr": "* temp_a temp_b", "answer": 6.0, "num_list": [3, 2]}
+{"id": "8945", "text": "一 个 西瓜 ， 妈妈 吃 了 它 的 n ， 丁丁 吃 了 它 的 n ， 他们 一共 吃 了 这个 西瓜 的 几分 之 几 ？ （ ）", "expr": "+ temp_a temp_b", "answer": 0.375, "num_list": [0.125, 0.25]}
+{"id": "9078", "text": "重阳节 市 体委 组织 登山 比赛 ． 在 长 达 n 米 的 山路 中 ． 每隔 n 米 设 一个 服务站 （ 起点 和 终点 不 设 ） ． 共 设 多少 个 服务站 ？", "expr": "- / temp_a temp_b 1", "answer": 12.0, "num_list": [845, 65]}
+{"id": "9080", "text": "水果店 运 来 一批 水果 ， 第一天 卖出 全部 的 n ， 第 二 天 卖出 全部 的 n ， 两天 一共 卖出 全部 水果 的 几分 之 几 ？", "expr": "+ temp_a temp_b", "answer": 0.625, "num_list": [0.25, 0.375]}
+{"id": "9111", "text": "每千克 苹果 n 元 ， 爸爸 买 了 n 千克 苹果 ， 付出 了 n 元 ， 应 找回 多少 钱 ？", "expr": "- temp_c * temp_a temp_b", "answer": 4.5, "num_list": [3.25, 14, 50]}
+{"id": "9130", "text": "学校 体育 训练队 n 天 喝 了 n 瓶 矿泉水 ， 照 这样 计算 ， 还有 n 瓶 矿泉水 ， 还 能 喝 几天 ？", "expr": "/ temp_c / temp_b temp_a", "answer": 6.0, "num_list": [3, 90, 180]}
+{"id": "9143", "text": "小 明 骑 自行车 到 姥姥家 ， 他 的 自行车 的 轮子 的 直径 是 n 米 ， 若 姥姥家 离 小 明 家 n 米 ． 则 到达 姥姥家 时 小 明 的 自行车 至少 要 转 多少 圈 ． （ 假设 小 明 的 自行车 走 直线 ）", "expr": "/ temp_b * 3.14 temp_a", "answer": 200.0, "num_list": [1, 628]}
+{"id": "9165", "text": "一 件 羽绒服 打 n 出售 ， 现在 每件 n 元 ， 现价 比 原价 便宜 多少 元 ．", "expr": "- / temp_b temp_a temp_b", "answer": 120.0, "num_list": [0.7, 280]}
+{"id": "9208", "text": "林场 去年 种植 了 n 棵 树苗 ， 死亡率 是 n ， 林场 种植 的 这 批 树苗 的 成活率 = ．", "expr": "- 1 temp_b", "answer": 0.98, "num_list": [1000, 0.02]}
+{"id": "9245", "text": "n （ n ） 班 有 n 人 ， 有 n 的 同学 订 了 《 小学生 数学 报 》 ， 有 n 的 同学 订 了 《 小学生 语文 学习 》 ， 两种 都 订 的 至少 有 多少 人 ？", "expr": "* temp_c - + temp_d temp_e temp_b", "answer": 22.0, "num_list": [6, 1, 40, 0.75, 0.8]}
+{"id": "9251", "text": "有 一堆 螺丝 和 螺母 ， 若 一个 螺丝 配 n 个 螺母 ， 则 多 n 个 螺母 ； 若 n 个 螺丝 配 n 个 螺母 ， 则 少 n 个 螺母 ． 共有 多少 个 螺丝 ？", "expr": "/ + temp_b temp_e - temp_d temp_a", "answer": 16.0, "num_list": [2, 10, 1, 3, 6]}
+{"id": "9252", "text": "一 个数 的 n 比 它 的 n 多 n ， 求 这个 数 ．", "expr": "/ temp_c - temp_a temp_b", "answer": 359.99999999999994, "num_list": [0.4, 0.2222222222222222, 64]}
+{"id": "9289", "text": "有 n 只 甲 A 足球队 ， 进行 双循环 比赛 （ 每 两 支队 赛 两场 ） ， 共 要 举行 多少 场 比赛 ？", "expr": "* - temp_a 1 temp_a", "answer": 210.0, "num_list": [15]}
+{"id": "9322", "text": "假期 时间 ， 王 叔叔 要 去 青岛 旅游 ． 王 叔叔 家 到 青岛 n 千米 ， 他 坐火车 n 小时 行 了 n 千米 ． 王 叔叔 还 需 几小时 到达 青岛 ？", "expr": "/ - temp_a temp_c / temp_c temp_b", "answer": 2.0, "num_list": [825, 3, 495]}
+{"id": "9334", "text": "环保 小队 要 栽种 n 棵 树苗 ， n 天 后 还有 n 棵 没 栽 ， 环保 小队 平均 每天 栽种 多少 棵 树苗 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 64.0, "num_list": [500, 5, 180]}
+{"id": "9342", "text": "花园里 有 n 盆 菊花 ， 月季花 比 菊花 的 n 倍 多 n 盆 ， 花园里 有 多少 盆 月季花 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 915.0, "num_list": [75, 12, 15]}
+{"id": "9448", "text": "两个 加数 的 和 比 第一个 加数 大 n ， 比 第 二 个 加数 大 n ， 这 两个 加数 的 和 = ．", "expr": "+ temp_a temp_b", "answer": 14.4, "num_list": [4.75, 9.65]}
+{"id": "9488", "text": "李老师 看 一 本书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 全书 的 n ， 还 剩下 n 页 没有 看 ， 这 本书 共有 多少 页 ？", "expr": "/ temp_c - - 1 temp_a temp_b", "answer": 160.0, "num_list": [0.2, 0.25, 88]}
+{"id": "9511", "text": "镇海 雅乐 学校 的 运动会 入场 时 ， 全班 正好 排成 相等 的 n 行 ． 小林 排 在 第 二 行 ， 从前 数 ， 她 是 第 n 个 ， 从 后 数 她 是 第 n 个 ， 这个 班 共有 多少 人 ．", "expr": "* - + temp_b temp_c 1 temp_a", "answer": 42.0, "num_list": [6, 5, 3]}
+{"id": "9566", "text": "李 华 读 一本 故事书 ， 第一天 读 了 全书 的 n ， 第 二 天 读 了 全书 的 n ， 两天 一共 读 了 全书 的 多少 ．", "expr": "+ temp_a temp_b", "answer": 0.6000000000000001, "num_list": [0.2, 0.4]}
+{"id": "9592", "text": "六年级 有 n 名 学生 订杂志 ， 其中 有 n 的 学生 订 《 科学 画报 》 ， 有 n 的 学生 订 《 智力 大王 》 ． 两种 读物 都 订 的 有 多少 名 学生 ？", "expr": "* temp_a - + temp_b temp_c 1", "answer": 69.0, "num_list": [138, 0.8333333333333334, 0.6666666666666666]}
+{"id": "9597", "text": "一 个数 的 n 是 n ， 这个 数 的 n = ．", "expr": "* / temp_b temp_a temp_c", "answer": 75.0, "num_list": [0.8, 80, 0.75]}
+{"id": "9650", "text": "商店 原有 面粉 n 吨 ， 又 运 来 n 吨 ， 如果 这些 面粉 n 天 卖完 ， 平均 每天 卖 面粉 多少 吨 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 60.0, "num_list": [300, 240, 9]}
+{"id": "9658", "text": "某校 初 n 英语 口试 达到 优秀 标准 的 有 n 人 占 总 人数 的 n ， 在 扇形 统计图 中 ， 表示 良好 等级 的 占 n ， 良好 等级 的 有 多少 人 ．", "expr": "* / temp_b temp_c temp_d", "answer": 100.0, "num_list": [3, 60, 0.3, 0.5]}
+{"id": "9672", "text": "一 种 电视机 ， 原来 售价 n 元 ， 现在 的 售价 是 n 元 ． 降价 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.1, "num_list": [1200, 1080]}
+{"id": "9681", "text": "一 种 洗衣机 现在 每 台 售价 n 元 ， 比 原来 降低 了 n 元 ， 现在 每 台 的 售价 是 原价 的 百分之几 ？", "expr": "/ temp_a + temp_a temp_b", "answer": 0.8, "num_list": [3000, 750]}
+{"id": "9682", "text": "神机妙算 ： n / n / n / n / n = ．", "expr": "/ / / / temp_a temp_b temp_c temp_d temp_e", "answer": 65.0, "num_list": [650000, 125, 2, 5, 8]}
+{"id": "9749", "text": "小小 超市 新 进 n 瓶 苹果酱 ， 草莓酱 比 苹果酱 的 n 倍 多 n 瓶 ． 草莓酱 有 多少 瓶 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 55.0, "num_list": [25, 2, 5]}
+{"id": "9820", "text": "有 n 件 上衣 、 n 条 裤子 、 n 条 裙子 ， 要 配成 一套 衣服 有 多少 种 不同 的 配法 ．", "expr": "+ * temp_a temp_c * temp_a temp_b", "answer": 9.0, "num_list": [3, 2, 1]}
+{"id": "9828", "text": "一 本 童话 书 有 n 页 ， 每页 n 行 ， 每行 n 个 字 ， 这本 故事书 共 多少 个 字 ？", "expr": "* * temp_c temp_b temp_a", "answer": 24000.0, "num_list": [48, 25, 20]}
+{"id": "9849", "text": "食品 商店 运 来 鸡蛋 和 鸭蛋 共 n 筐 准备 节日 供应 ， 其中 鸭蛋 占 总 筐 数 的 n ， 因 供应 需要 ， 又 运 来 几 筐 鸭蛋 ， 这时 鸭蛋 占 总 筐 数 的 n ． 后来 又 运 来 多少 筐 鸭蛋 ？", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 2.0, "num_list": [14, 0.42857142857142855, 0.5]}
+{"id": "9856", "text": "祝 飞 办 了 一张 手抄报 ． “ 趣味 数学 ” 栏目 大约 占 了 手抄报 的 n ， “ 学海 拾贝 ” 栏目 大约 占 了 手抄报 的 n ， “ 古今中外 ” 栏目 比 “ 趣味 数学 ” 和 “ 学海 拾贝 ” 两个 栏目 的 版面 少 占 手抄报 的 n ， “ 古今中外 ” 栏目 占 了 手抄报 的 几分 之 几 ？", "expr": "- + temp_a temp_b temp_c", "answer": 0.3125, "num_list": [0.125, 0.25, 0.0625]}
+{"id": "9874", "text": "修路 队 原 计划 n 天 修 一条 路 ， 每天 修 n 米 ， 结果 比 原 计划 提前 n 天 完成 任务 ， 实际 每天 修 多少 米 ？", "expr": "/ * temp_b temp_a - temp_a temp_c", "answer": 500.0, "num_list": [25, 480, 1]}
+{"id": "9883", "text": "图书室 有 故事书 n 本 ， 比 科技 书 少 n 本 ， 两种 书 共有 多少 本 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 759.0, "num_list": [315, 129]}
+{"id": "9962", "text": "一 根 绳子 ， 截去 n 以后 ， 再 接上 n m ， 结果 比 原来 的 绳子 长 n m ， 这根 绳子 原来 长 多少 米 ？", "expr": "/ - temp_b temp_c temp_a", "answer": 22.5, "num_list": [0.2, 6, 1.5]}
+{"id": "10001", "text": "妈妈 在 超市 买 n 袋 大米 和 n 千克 白糖 一 共用 去 n 元 ． 已知 这 袋 大米 的 价钱 是 n 元 ， 每千克 白糖 多少 元 ？", "expr": "/ - temp_c temp_d temp_b", "answer": 5.0, "num_list": [1, 3, 42, 27]}
+{"id": "10002", "text": "汽车 从 武平 到 龙岩 ， 去 时 用 了 n 小时 ， 返回 用 了 n 小时 ， 往返 平均速度 = ．", "expr": "/ * 1 temp_b + temp_a temp_b", "answer": 0.4, "num_list": [3, 2]}
+{"id": "10045", "text": "清明 前 ， 四年级 （ n ） 班 的 同学 决定 自己 做 小白花 去 祭扫 烈士墓 ， 他们 分成 n 个 小组 ， 每 小组 n 人 ， 共 做 了 n 朵 小白花 ， 平均 每位 同学 做 了 多少 朵 小白花 ？", "expr": "/ / temp_d temp_b temp_c", "answer": 16.0, "num_list": [1, 6, 9, 864]}
+{"id": "10050", "text": "把 n 瓶 可乐 平均 装 在 n 个 盒子 中 ， 每盒 售价 是 n 元 ， 平均 每瓶 售价 多少 元 ？", "expr": "/ temp_c / temp_a temp_b", "answer": 2.0, "num_list": [576, 24, 48]}
+{"id": "10051", "text": "甲 数 比 乙 数 的 n 多 n ． 甲乙 两 数 的 和 是 n ， 乙 数 = ？", "expr": "/ - temp_c temp_b + 1 temp_a", "answer": 30.0, "num_list": [0.85, 0.8, 56.3]}
+{"id": "10077", "text": "一 辆 汽车 n 小时 行 n 千米 ， 照 这样 的 速度 ， n 小时 行驶 多少 千米 ．", "expr": "* / temp_b temp_a temp_c", "answer": 350.0, "num_list": [4, 280, 5]}
+{"id": "10265", "text": "一 批 货物 ， 第一次 运走 它 的 n ， 第 二 次 运走 它 的 n ， 这时 还 剩 n 吨 ， 这 批 货物 原来 有 多少 吨 ？", "expr": "/ temp_c - - 1 temp_a temp_b", "answer": 161.99999999999991, "num_list": [0.3333333333333333, 0.4444444444444444, 36]}
+{"id": "10287", "text": "n 与 n 的 和 被 n 与 n 的 差 除 ， 商 = ？", "expr": "/ + temp_a temp_b - temp_c temp_d", "answer": 4.0, "num_list": [125, 43, 239, 197]}
+{"id": "10298", "text": "一 辆 客车 从 A 地 开往 B 地 ， 行 了 全程 的 n ， 这时 距 B 地 n 千米 ． A 、 B 两地 相距 多少 千米 ？", "expr": "/ temp_b - 1 temp_a", "answer": 260.00000000000006, "num_list": [0.8, 52]}
+{"id": "10299", "text": "公共汽车 上 原有 一些 人 ， 又 上来 n 人 ， 然后 再 下去 了 n 人 ， 这时 还 剩 n 人 ． 公共汽车 上 原来 有 多少 人 ？", "expr": "- + temp_c temp_b temp_a", "answer": 17.0, "num_list": [25, 8, 34]}
+{"id": "10328", "text": "猴子 和 大象 的 年龄 加 起来 一共 n 岁 ， 再 过 n 年 ， 猴子 和 大象 的 年龄 加 起来 共 多少岁 ．", "expr": "+ + temp_a temp_b temp_b", "answer": 34.0, "num_list": [22, 6]}
+{"id": "10333", "text": "一 条 路 长 n 米 ， 在 路 的 一旁 从头至尾 每隔 n 米 植 一棵树 ， 一共 要 植 多少 棵 ？", "expr": "+ / temp_a temp_b 1", "answer": 41.0, "num_list": [200, 5]}
+{"id": "10394", "text": "一 种 服装 降价 n 后 售价 为 n 元 ， 原来 的 售价 = 多少 元 ？", "expr": "/ temp_b - 1 temp_a", "answer": 105.0, "num_list": [0.2, 84]}
+{"id": "10398", "text": "有 - 根 木头 ， 要 锯 成 n 段 ． 每 锯开 一处 需要 n 分 （ 钟 ） ， 全部 锯 完 一共 要 多少 分 ？", "expr": "* temp_b - temp_a 1", "answer": 60.0, "num_list": [13, 5]}
+{"id": "10407", "text": "从 n 中 连续 减去 多少 次 n ， 结果 得 n ．", "expr": "/ temp_a temp_b", "answer": 90.0, "num_list": [540, 6, 0]}
+{"id": "10437", "text": "刘 叔叔 带 n 元 钱 买 化肥 ， 买 了 n 袋 化肥 ， 剩 n 元 ， 每 袋 化肥 的 价钱 = ？", "expr": "/ - temp_a temp_c temp_b", "answer": 40.0, "num_list": [700, 16, 60]}
+{"id": "10464", "text": "光明 小学 五年级 有 n 名 学生 ， 六年级 学生 人数 是 五年级 的 n ， 又 是 全校 人数 的 n ， 光明 小学 全校 有 多少 人 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 825.0, "num_list": [180, 0.8333333333333334, 0.18181818181818182]}
+{"id": "10474", "text": "一 个 球拍 的 价格 是 n 元 ， 足球 的 价格 是 球拍 的 n 倍 多 n 元 ， 一个 足球 多少 元 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 67.34, "num_list": [43.56, 1.5, 2]}
+{"id": "10505", "text": "王师傅 n 月份 的 工资 是 n 元 ， 按照 个人所得税法 规定 ， 个人 的 月 收入 超过 n 元 的 部分 ， 应 按照 n 的 税率 征收 个人所得税 ． 王师傅 这个 月 应 缴纳 个人所得税 多少 元 ？", "expr": "* - temp_b temp_c temp_d", "answer": 10.0, "num_list": [9, 3200, 3000, 0.05]}
+{"id": "10529", "text": "甲 、 乙 两队 一起 检修 一条 公路 ， 共用 n 天 检修 完 ． 甲队 检修 了 n 米 ， 乙 队 检修 了 n 米 ， 甲队 比 乙 队 平均 每天 少 检修 多少 米 ？", "expr": "- / temp_c temp_a / temp_b temp_a", "answer": 30.0, "num_list": [7, 840, 1050]}
+{"id": "10565", "text": "计算 ： n / n * n = ．", "expr": "* / temp_a temp_b temp_c", "answer": 250.0, "num_list": [32, 0.64, 5]}
+{"id": "10589", "text": "春 松 果园 有 梨树 n 棵 ， 苹果树 比 梨树 多 n ， 果园 里 有 苹果树 多少 棵 ？", "expr": "* temp_a + 1 temp_b", "answer": 575.0, "num_list": [460, 0.25]}
+{"id": "10590", "text": "学校 李老师 带 n 元 去 购买 体育用品 ， 其中 买 篮球 用 去 n ， 买 排球 用 去 n ， 其余 的 买 足球 ． 买 足球 用 了 多少 元 钱 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 1500.0, "num_list": [8750, 0.4, 0.42857142857142855]}
+{"id": "10632", "text": "一 个 街心花园 占地 n 公顷 ， 其中 草坪 占 n ， 花圃 占地 n 公顷 ， 其余 的 是 人行道 ． 人行道 的 面积 = 多少 公顷 ？", "expr": "- - temp_a * temp_a temp_b temp_c", "answer": 0.25, "num_list": [0.625, 0.4, 0.125]}
+{"id": "10640", "text": "一 辆 公共汽车 出发 时 ， 车上 有 n 个 乘客 ， 到 了 第一站 ， 下去 了 n 个 乘客 ， 上来 了 n 个 乘客 ； 到 了 第 二 站 ， 下去 了 n 个 乘客 ， 上来 了 n 个 乘客 ， 这时 车上 共有 多少 个 乘客 ？", "expr": "+ - + - temp_a temp_b temp_c temp_d temp_e", "answer": 17.0, "num_list": [12, 2, 6, 3, 4]}
+{"id": "10654", "text": "张 叔叔 在 书店 买 了 两本书 ． 一本 n 元 ， 另 一本 n 元 ． 他 付出 n 元 ， 应 找回 多少 元 ？", "expr": "- temp_c + temp_a temp_b", "answer": 7.100000000000001, "num_list": [28.5, 14.4, 50]}
+{"id": "10667", "text": "一 批 煤 用 去 n ， 还 剩 n 吨 ， 这 批 煤 共有 多少 吨 ？", "expr": "/ temp_b - 1 temp_a", "answer": 64.0, "num_list": [0.25, 48]}
+{"id": "10684", "text": "有 一列 火车 以 每 小时 n 千米 的 速度 离开 洛杉矶 直奔 纽约 ， 同时 ， 另 一辆 火车 以 每 小时 n 千米 的 速度 从 纽约 开往 洛杉矶 ． 如果 有 一只 鸟 以 每 小时 n 千米 的 速度 和 两列 火车 同时 启动 ， 从 洛杉矶 出发 ， 碰到 另 一列 火车 后 返回 ， 往返 在 两列 火车 之间 ， 直到 两列 火车 相遇 为止 ． 已知 洛杉矶 到 纽约 的 铁路 长 n 千米 ， 请问 ： 这 只 小鸟 飞行 了 多少 千米 ？", "expr": "* / temp_d + temp_a temp_b temp_c", "answer": 450.0, "num_list": [140, 160, 30, 4500]}
+{"id": "10707", "text": "学校 在 小 红 和 小 明 两家 之间 的 一段 公路 边 ． 放学 后 ， 两 人 同时 向 各自 家里 走 去 ． 小 明 每 小时 走 n 千米 ， 小 红 每 小时 走 n 千米 ， n 小时 后 两 人 同时 到 家 ． 两家 相距 多少 千米 ？", "expr": "+ * temp_a temp_c * temp_b temp_c", "answer": 2.75, "num_list": [3.6, 3, 0.4166666666666667]}
+{"id": "10725", "text": "某市 n 名 外语 教师 ， 懂 英语 或 德语 ， 其中 懂 英语 的 有 n 人 ， 既 懂 英语 又 懂 德语 的 有 n 人 ， 那么 懂 德语 的 教师 有 多少 人 ．", "expr": "- temp_a - temp_b temp_c", "answer": 225.0, "num_list": [500, 375, 100]}
+{"id": "10750", "text": "一 个数 除以 n 商 n 余 n ， 这个 数 = ．", "expr": "+ * temp_a temp_b temp_c", "answer": 366.0, "num_list": [23, 15, 21]}
+{"id": "10758", "text": "在 一块 长 n 米 ， 宽 n 米 的 长方形 果园 里 种 果树 ， 平均 每棵 占地 n 平方米 ， 这块 果园 能 种 果树 多少 棵 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 108.0, "num_list": [18, 12, 2]}
+{"id": "10772", "text": "在 道路 的 一侧 植树 ， 每隔 n 米 植 一棵 ， 从 起点 到 终点 共 植 n 棵 ， 这 条 路 有 多少 米 ．", "expr": "* - temp_b 1 temp_a", "answer": 45.0, "num_list": [5, 10]}
+{"id": "10799", "text": "现在 每件 衣服 的 成本 比 过去 降低 了 n ， 是 把 多少 看作 单位 “ n ” ， 现在 每件 衣服 的 成本 是 过去 的 多少 % ．", "expr": "/ - temp_b temp_a temp_b", "answer": 0.8, "num_list": [0.2, 1]}
+{"id": "10838", "text": "同学 们 参加 植树 活动 ． 男生 植 了 n 棵 ， 女生 植 了 n 棵 ． 男生 比 女生 少 植 百分之几 ？", "expr": "/ - temp_b temp_a temp_b", "answer": 0.2, "num_list": [40, 50]}
+{"id": "10865", "text": "甲 数 的 n 是 n ， 乙 数 是 n 的 n ， 乙 数 是 甲 数 的 百分之几 ？", "expr": "/ * temp_c temp_d / temp_b temp_a", "answer": 2.4, "num_list": [0.25, 1.25, 60, 0.2]}
+{"id": "10867", "text": "新建 一条 高速公路 ， 已 建成 n 千米 ， 剩下 的 比 已 建成 的 n 倍 还 多 n 千米 ， 这 条 新建 的 高速公路 全长 多少 千米 ？", "expr": "+ + temp_a * temp_a temp_b temp_c", "answer": 728.0, "num_list": [240, 2, 8]}
+{"id": "10869", "text": "一 堆 煤 平均 每天 烧 n 吨 可以 烧 n 天 ， 如果 平均 每天 烧 n 吨 ， 可以 烧 多少 天 ？", "expr": "/ * temp_b temp_a temp_c", "answer": 15.0, "num_list": [10, 18, 12]}
+{"id": "10874", "text": "去年 某校 参加 数学 奥林匹克 竞赛 的 学生 中 ， 女生 占 总数 的 n ， 今年 全校 参赛 的 学生 增加 了 n ， 女生 占 总数 的 n ， 与 去年 相比 ， 今年 参赛 的 女生 人数 增加 了 多少 % ．", "expr": "/ - * + 1 temp_b temp_c * 1 temp_a temp_a", "answer": 0.5999999999999999, "num_list": [0.25, 0.2, 0.3333333333333333]}
+{"id": "10910", "text": "特快 列车 n 小时 大约 行 n 千米 ， n 小时 大约 行 多少 千米 ．", "expr": "* temp_b temp_c", "answer": 1920.0, "num_list": [1, 160, 12]}
+{"id": "10930", "text": "洛阳 市民 在 隋唐 城 遗址 公园 举行 民间艺术 展 ， 其中 展出 剪纸作品 n 件 ， 比 书法作品 的 n 少 n 件 ， 这次 共 展出 书法作品 多少 件 ？", "expr": "/ + temp_a temp_c temp_b", "answer": 176.0, "num_list": [128, 0.8181818181818182, 16]}
+{"id": "10977", "text": "计算 ： n - n + n = ．", "expr": "+ - temp_a temp_b temp_c", "answer": 0.4166666666666667, "num_list": [0.5, 0.3333333333333333, 0.25]}
+{"id": "10980", "text": "一 个 书架 有 上 、 下 两层 ， 共 放 着 n 本 图书 ． 上 、 下 两层 图书 本 数 的 比 是 n ： n ， 上层 比 下层 多 多少 本 图书 ？", "expr": "* temp_a - / temp_b + temp_b temp_c / temp_c + temp_b temp_c", "answer": 32.0, "num_list": [128, 5, 3]}
+{"id": "11029", "text": "甲乙 两地 相距 n 米 ， 小 红 与 小 明 从 两地 同时 相向 而 行 ， n 分钟 后 相遇 ． 小 红 每分钟 走 n 米 ， 小 明 每分钟 走 多少 米 ？", "expr": "- / temp_a temp_b temp_c", "answer": 80.0, "num_list": [1500, 10, 70]}
+{"id": "11060", "text": "一 本 n 页 的 故事书 ， 小 红 第一天 看 了 n ， 第 二 天 看 了 n ， 还 剩 多少 页 没 看 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 140.0, "num_list": [280, 0.2, 0.3]}
+{"id": "11061", "text": "n 吨 化肥 平均 分成 n 份 ， 每份 应该 = 多少 吨 ．", "expr": "/ temp_a temp_b", "answer": 0.39999999999999997, "num_list": [1.2, 3]}
+{"id": "11062", "text": "甲乙 两辆 汽车 同时 从 车站 向 相反 方向 开出 ， n 小时 后 ， 甲 车 与 乙 车 相距 n 千米 ， 已知 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 多少 千米 ？", "expr": "- / temp_b temp_a temp_c", "answer": 60.0, "num_list": [8, 920, 55]}
+{"id": "11078", "text": "学校 六年级 栽 n 棵 树 ， 其中 n 棵 是 杨树 ， 其余 是 柳树 ， 栽 的 柳树 是 杨树 的 几倍 ？", "expr": "/ - temp_a temp_b temp_b", "answer": 8.0, "num_list": [432, 48]}
+{"id": "11081", "text": "平行四边形 面积 是 n 平方米 ， 高 n 米 ， 它 的 底边 长 = ．", "expr": "/ temp_a temp_b", "answer": 12.0, "num_list": [72, 6]}
+{"id": "11132", "text": "一 个 加数 是 n ， 和 是 n ， 另 一个 加数 = ？", "expr": "- temp_b temp_a", "answer": 1.3199999999999998, "num_list": [3.89, 5.21]}
+{"id": "11135", "text": "小 华 有 的 钱 可以 买 n 个 蓝球 、 n 个 足球 ， 或 买 n 个 蓝球 ． 现在 小 华 把 这些 钱 全部 买 了 足球 ， 送给 贫困山区 小朋友 ． 小 华 共 买 了 足球 多少 个 ．", "expr": "* temp_b / temp_c - temp_c temp_a", "answer": 48.0, "num_list": [6, 16, 9]}
+{"id": "11165", "text": "甲 、 乙 两桶 水 同样 重 ， 如果 从 乙 桶 中 倒 n 千克 水 到 甲 桶 中 ， 则 甲 桶 的 水 的 千克 数 是 乙 桶 的 n 倍 ， 甲 桶 原来 有 多少 千克 水 ．", "expr": "+ / + temp_a temp_a - temp_b 1 temp_a", "answer": 35.0, "num_list": [25, 6]}
+{"id": "11169", "text": "王 村 今年 生产 棉花 n 吨 ， 今年 比 去年 多 生产 n 吨 ， 今年 比 去年 增产 百分之几 ？", "expr": "/ temp_b - temp_a temp_b", "answer": 0.25, "num_list": [250, 50]}
+{"id": "11202", "text": "甲 、 乙 、 丙 n 人行路 ， 甲 每分钟 走 n 米 ， 乙 每分钟 走 n 米 ， 丙 每分钟 走 n 米 ． 甲 从 A 地 ， 乙 和 丙 从 B 地 同时 出发 相向 而 行 ， 甲 和 乙 相遇 后 ， 过 了 n 分钟 又 与 丙 相遇 ， 求 A 、 B 两地 间 的 距离 ．", "expr": "* / * + temp_b temp_d temp_e - temp_c temp_d + temp_b temp_c", "answer": 16500.0, "num_list": [3, 60, 50, 40, 15]}
+{"id": "11204", "text": "多少 米 的 n 是 n 米 ．", "expr": "/ temp_b temp_a", "answer": 40.0, "num_list": [0.4, 16]}
+{"id": "11213", "text": "有 两捆 粗细 相同 的 铁丝 ， 其中 一捆 铁丝 长 n 米 ， 重 n 千克 ， 另 一捆 铁丝 重 n 千克 ， 这 捆 铁丝 长 多少 米 ？", "expr": "/ temp_c / temp_b temp_a", "answer": 4.0, "num_list": [8, 400, 200]}
+{"id": "11214", "text": "“ 全球通 ” 手机 月租费 n 元 ， 通话费 n 元 / 分 ． 如果 某人 每月 的 手机费 不会 超过 n 元 ， 那么 他 每月 最 多 可以 打电话 多少 分钟 ．", "expr": "/ - temp_c temp_a temp_b", "answer": 100.0, "num_list": [30, 0.3, 60]}
+{"id": "11231", "text": "小 王 n 月份 稿费 收入 n 元 ， 按规定 超过 n 元 的 部分 要 缴纳 n 的 个人所得税 ， 小 王 税后 的 收入 = 多少 元 ？", "expr": "- temp_b * - temp_b temp_c temp_d", "answer": 4300.0, "num_list": [6, 5000, 1500, 0.2]}
+{"id": "11242", "text": "某 工厂 准备 买 一套 n 万元 的 设备 ， 实际 节约 了 n ， 节约 了 多少 元 ？", "expr": "* temp_a temp_b", "answer": 3.0, "num_list": [20, 0.15]}
+{"id": "11258", "text": "王 叔叔 的 n 轮 车上 装 了 n 袋 同样 的 大米 ， 连 车 共 重 n 千克 ． 中途 卸下 n 袋 大米 ， 这时 连 车 重 n 千克 ． 每 袋 大米 重 多少 千克 ？", "expr": "/ - temp_c temp_e temp_d", "answer": 30.0, "num_list": [3, 26, 1000, 6, 820]}
+{"id": "11276", "text": "果园 里 桃树 的 棵 树 是 梨树 的 n 倍 ， 苹果树 比 桃树 多 了 n 棵 ． 苹果树 有 n 棵 ， n 种树 共有 多少 棵 ．", "expr": "+ + temp_c - temp_c temp_b / - temp_c temp_b temp_a", "answer": 201.0, "num_list": [2, 111, 147, 3]}
+{"id": "11292", "text": "乐乐 要 打 一篇 n 字 的 文章 ， 乐乐 的 打字速度 是 每分钟 n 个 ， 打 了 n 分钟 后 ， 这 篇文章 还 剩 多少 字 没 打 ？", "expr": "- temp_a * temp_b temp_c", "answer": 95.0, "num_list": [320, 45, 5]}
+{"id": "11294", "text": "一 个数 加上 它 的 n 等于 n ， 这个 数 = ？", "expr": "/ temp_b + 1 temp_a", "answer": 40.0, "num_list": [0.45, 58]}
+{"id": "11334", "text": "班长 把 全班 n 个 学生 的 学习 与 巩固 收集 后 摞 成 了 一个 长 n cm ， 宽 n cm ， 高 n cm 的 长方体 ， 计算 每 本 的 体积 = 多少 立方厘米 ．", "expr": "/ * * temp_b temp_c temp_d temp_a", "answer": 234.0, "num_list": [50, 26, 18, 25]}
+{"id": "11350", "text": "一年级 有 学生 n 人 ， 比 二年级 少 n 人 ． 两个 年级 一共 有 多少 人 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 270.0, "num_list": [125, 20]}
+{"id": "11417", "text": "大西洋 平均 深度 为 n 千米 ， 印度洋 平均 深度 比 它 深 n 千米 ， 太平洋 平均 深度 比 印度洋 深 n 千米 ， 太平洋 平均 深度 是 （ 多少 ） 千米 ．", "expr": "+ + temp_a temp_b temp_c", "answer": 4.0200000000000005, "num_list": [3.62, 0.27, 0.13]}
+{"id": "11429", "text": "n 与 n 的 积 除以 一个 数 ， 商 是 n ， 求 这个 数 ．", "expr": "/ * temp_a temp_b temp_c", "answer": 19.2, "num_list": [0.12, 80, 0.5]}
+{"id": "11446", "text": "一 根 绳子 ， 用 去 n 后 又 接上 n 米 ， 这时 比 原来 长 n ． 这根 绳子 原来 = 多少 米 长 ．", "expr": "/ temp_b + temp_a temp_c", "answer": 30.0, "num_list": [0.3333333333333333, 16, 0.2]}
+{"id": "11450", "text": "某 小学 一 、 二年级 共有 学生 n 人 ， 正好 是 全校 人数 的 n ． 全校 女生 占 总 人数 的 n ， 全校 男生 有 多少 人 ？", "expr": "* / temp_a temp_b - 1 temp_c", "answer": 540.0, "num_list": [150, 0.16666666666666666, 0.4]}
+{"id": "11476", "text": "晶晶 和 玲玲 的 家 分别 在 在 体育场 的 东面 和 西面 ． 星期天 上午 她们 相约 去 锻炼 ． 两 人 同时 出发 ， 晶晶 每 分 走 n 米 ， 玲玲 每 分 走 n 米 ， 经过 n 分 两 人 在 体育场 门口 会面 了 ． 她们 两家 之间 相距 多少 米 ？", "expr": "* + temp_a temp_b temp_c", "answer": 620.0, "num_list": [80, 75, 4]}
+{"id": "11509", "text": "张老师 编写 的 《 童话故事 》 在 出版社 出版 后 ， 得到 稿费 n 元 ． 按照 个人所得税 计算 办法 ， 稿费 扣除 n 元 后 按 n 缴税 ． 张老师 实 得 稿费 多少 元 ？", "expr": "- temp_a * - temp_a temp_b temp_c", "answer": 1660.0, "num_list": [1800, 800, 0.14]}
+{"id": "11528", "text": "一 艘 轮船 从 重庆 开往 上海 有 n 位 客人 ， 到 武汉 港 有 n 人 下船 ， 又 有 n 人 上船 ， 这时 轮船 上 还有 多少 客人 ？", "expr": "+ - temp_a temp_b temp_c", "answer": 994.0, "num_list": [960, 179, 213]}
+{"id": "11538", "text": "学校 买来 n 米 塑料绳 ， 每 n 米 做 n 根 跳绳 ， 照 这样 计算 ， 能 做 多少 根 跳绳 ？", "expr": "/ temp_a / temp_b temp_c", "answer": 70.0, "num_list": [126, 18, 10]}
+{"id": "11541", "text": "一 个 圆柱 的 侧 面积 是 n 平方米 ， 底面 半径 是 n 分 米 ， 它 的 高 = 多少 分 米 ？", "expr": "/ temp_a * * 3.14 temp_b temp_b", "answer": 1.0, "num_list": [12.56, 2]}
+{"id": "11573", "text": "广源 畜牧 公司 饲养 的 奶牛 是 奶羊 的 n 倍 ． 奶牛 和 奶羊 一共 有 n 只 ， 广源 公司 养 了 多少 只 奶羊 ？", "expr": "/ temp_b + 1 temp_a", "answer": 6.0, "num_list": [7, 48]}
+{"id": "11602", "text": "学校 规定 每个 学生 至少 参加 语文 兴趣小组 和 数学 兴趣小组 中 的 一个 ， n 班 有 n 人 ， 参加 语文 兴趣小组 的 有 n 人 ， 参加 数学 兴趣小组 的 有 n 人 ， 语文 和 数学 兴趣小组 都 参加 的 有 多少 人 ．", "expr": "- + temp_c temp_d temp_b", "answer": 7.0, "num_list": [204, 45, 30, 22]}
+{"id": "11644", "text": "比 n 的 n 倍 多 n 的 数 = ？", "expr": "+ * temp_a temp_b temp_c", "answer": 941.0, "num_list": [37, 25, 16]}
+{"id": "11657", "text": "益民 小学 植树 n 棵 ． 其中 n 是 五年级 种 的 ， n 是 四年级 种 的 ， 四年级 比 五年级 多 植 了 多少 棵 树 ？", "expr": "* temp_a - temp_c temp_b", "answer": 8.999999999999998, "num_list": [180, 0.2, 0.25]}
+{"id": "11659", "text": "n 、 五年级 要 栽 n 棵 树 ． 四年级 有 n 个 班 ， 每班 栽 n 棵 ， 剩下 的 分给 五年级 n 个 班 栽 ， 平均 每班 栽 多少 棵 ？", "expr": "/ - temp_b * temp_d temp_c temp_a", "answer": 34.0, "num_list": [4, 220, 3, 28, 4]}
+{"id": "11665", "text": "商店 进 了 n 套 童装 ， 第一周 卖 了 n 套 ， 第 二 周 卖 了 n 套 ， 现在 比 原来 少 了 多少 套 ？", "expr": "+ temp_b temp_c", "answer": 203.0, "num_list": [360, 95, 108]}
+{"id": "11683", "text": "一 个数 的 n 是 n ， 这个 数 = ？", "expr": "/ temp_b temp_a", "answer": 0.7619047619047619, "num_list": [0.75, 0.5714285714285714]}
+{"id": "11718", "text": "n / n 的 商 加上 n * n 的 积 ， 和 = ？", "expr": "+ / temp_a temp_b * temp_c temp_d", "answer": 20.3, "num_list": [9.1, 7, 3.8, 5]}
+{"id": "11727", "text": "多少 除以 n 得 n 余 n ．", "expr": "+ * temp_a temp_b temp_c", "answer": 32.0, "num_list": [3, 10, 2]}
+{"id": "11767", "text": "某 工地 上午 运走 水泥 n ， 下午 比 上午 多 运走 n 吨 ， 这 批 水泥 还 剩下 n 吨 ， 那么 这 批 水泥 共有 多少 吨 ？", "expr": "/ + temp_b temp_c - - 1 temp_a temp_a", "answer": 70.0, "num_list": [0.25, 10.5, 24.5]}
+{"id": "11790", "text": "小 王 重 n 千克 ， 小 李 重 n 千克 ， 一个 相扑 运动员 的 体重 是 n 千克 ， 这个 运动员 的 体重 比 小 王 ， 小 李 两 人 的 体重 和 还要 重 多少 千克 ？", "expr": "- temp_c + temp_a temp_b", "answer": 47.89999999999999, "num_list": [36.5, 41.4, 125.8]}
+{"id": "11792", "text": "在 学校 运动会 开幕式 上 进行 大型 团体操 表演 ， 开始 有 n 行 ， 每行 n 人 ， 变阵 后 每行 有 n 行 ， 这时 每行 有 多少 人 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 20.0, "num_list": [15, 12, 9]}
+{"id": "11849", "text": "在 铁路 的 旁边 ， 每隔 n 米 安装 电杆 一根 ， 一位 旅客 在 行进 中 的 火车 内 ， n 分钟 经过 电杆 n 根 ． 求 此 火车 每分钟 的 速度 = ？", "expr": "/ * temp_a - temp_c 1 temp_b", "answer": 888.0, "num_list": [60, 5, 75]}
+{"id": "11873", "text": "甲 、 乙 两列 火车 分别 从 相距 n 千米 的 两地 同时 相向 而 行 ， 甲 每 小时 行 n 千米 ， 乙 每 小时 行 n 千米 ， 几小时 后 两车 相遇 ？", "expr": "/ temp_a + temp_b temp_c", "answer": 6.0, "num_list": [822, 65, 72]}
+{"id": "11879", "text": "为了 学生 的 卫生 安全 ， 学校 给 每个 学生 配 一个 水杯 ， 每 只 水杯 n 元 ， 正好 超市 打 n ， 学校 想 买 n 只 水杯 ， 请 你 算 一下 一共 需要 多少 钱 ？", "expr": "* * temp_a temp_b temp_c", "answer": 486.00000000000006, "num_list": [3, 0.9, 180]}
+{"id": "11894", "text": "甲 、 乙 两队 去 修路 ， 甲队 完成 总 工程 的 n ， 乙 队 比 甲队 多 完成 这项 工程 的 n ， 两队 一共 完成 了 总 工程 的 几分 之 几 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 0.6666666666666667, "num_list": [0.26666666666666666, 0.13333333333333333]}
+{"id": "11925", "text": "n （ n ） 班 学生 去 老区 参观 ， 共用 去 n 小时 ， 其中 路上 用 去 的 时间 占 n ， 吃 午餐 与 休息时间 共 占 n ， 剩下 是 浏览 的 时间 ， 浏览 的 时间 占 几分 之 几 ？", "expr": "- temp_b + temp_d temp_e", "answer": 0.42500000000000004, "num_list": [5, 1, 10, 0.2, 0.375]}
+{"id": "11936", "text": "一 电影院 n 月份 的 收入 是 n 万元 ， 缴税 后 剩余 n 万元 ． 请问 税率 = ？", "expr": "/ - temp_b temp_c temp_b", "answer": 0.05, "num_list": [11, 20, 19]}
+{"id": "11942", "text": "两个 加数 的 和 是 n ， 其中 一个 加数 是 n ， 另 一个 加数 = ？", "expr": "- temp_a temp_b", "answer": 258.0, "num_list": [420, 162]}
+{"id": "11945", "text": "多少 千米 是 n 千米 的 n ．", "expr": "* temp_a temp_b", "answer": 280.0, "num_list": [630, 0.4444444444444444]}
+{"id": "11954", "text": "王师傅 n 分钟 做 n 个 零件 ， 平均 每分钟 做 多少 个 零件 ？", "expr": "/ temp_b temp_a", "answer": 0.125, "num_list": [8, 1]}
+{"id": "11957", "text": "食堂 买来 面粉 n 千克 ， 吃 了 n 天 ， 每天 吃 n 千克 ， 还 剩 多少 千克 ？", "expr": "- temp_a * temp_b temp_c", "answer": 25.0, "num_list": [200, 5, 35]}
+{"id": "11959", "text": "学校 合唱组 人数 是 美术组 的 n ， 书法 组 人数 是 合唱组 的 n ， 已知 美术组 有 n 人 ， 书法 组 有 多少 人 ？", "expr": "* temp_c * temp_a temp_b", "answer": 21.0, "num_list": [0.875, 0.75, 32]}
+{"id": "11982", "text": "一 种 书 如果 每 本 按 n 元 出售 ， 可 盈利 n ； 若想 盈利 n ， 那么 每 本 应 按 多少 元 出售 ．", "expr": "* / temp_a + 1 temp_b + 1 temp_c", "answer": 56.0, "num_list": [50, 0.25, 0.4]}
+{"id": "11985", "text": "元旦节 ， 刘老师 为 本班 学生 购买 演出 用 的 服装 ， 买 n 件 女生 装 和 n 件 男生 装 的 钱 同样 多 ． 每件 男生 装 n 元 ， 每件 女生 装 多少 元 ？", "expr": "/ * temp_c temp_b temp_a", "answer": 62.4, "num_list": [5, 8, 39]}
+{"id": "12008", "text": "小 杰 每分钟 打 n 个 字 ， 他 打 一篇 文章 用 了 n 分钟 ， 还有 n 个 字 没有 打 完 ， 这 篇文章 有 多少 个 字 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 4430.0, "num_list": [135, 28, 650]}
+{"id": "12013", "text": "找 规律 ： n 、 n 、 n 、 n 、 n 、 多少 ．", "expr": "+ temp_d temp_e", "answer": 18.0, "num_list": [1, 3, 4, 7, 11]}
+{"id": "12042", "text": "筑路 队 铺 一条 公路 ， 第一周 铺 了 全长 的 n ， 第 二 周 铺 了 n 米 ， 还 剩 n 米 没有 铺 ． 这 条 公路 全长 多少 米 ？", "expr": "/ + temp_b temp_c - 1 temp_a", "answer": 6400.0, "num_list": [0.125, 900, 4700]}
+{"id": "12053", "text": "两个 工程队 合作 完成 一项 工程 ， 甲队 每天 完成 全 工程 的 n ， 乙 队 每天 完成 全 工程 的 n ． 两队 合作 一天 ， 还 剩 全 工程 的 几分 之 几 没有 完成 ？", "expr": "- 1 * + temp_a temp_b 1", "answer": 0.15000000000000002, "num_list": [0.6, 0.25]}
+{"id": "12069", "text": "某校 六年级 学生 人数 为 n 人 ， 占 全校学生 总数 的 n ， 五年级 学生 人数 占 全校学生 总数 的 n ， 五年级 有 学生 多少 人 ？", "expr": "* / temp_a temp_b temp_c", "answer": 75.0, "num_list": [150, 0.2, 0.1]}
+{"id": "12072", "text": "在 一次 义卖 活动 中 ， 王 刚 卖 柠檬水 和 热 巧克力 共 n 杯 ， 得 款 n 元 ． 如果 柠檬水 n 元 / 杯 ， 热 巧克力 n 元 / 杯 ， 那么 王 刚 在 这次 义卖 活动 中 卖出 了 多少 杯 柠檬水 ．", "expr": "/ - * temp_a temp_d temp_b - temp_d temp_c", "answer": 254.0, "num_list": [400, 546, 1, 2]}
+{"id": "12075", "text": "有 一桶 油 ， 第一次 取出 n ， 第 二 次 取出 的 比 第一次 多 n 千克 ， 桶 里 还 剩 n 千克 ， 这 桶 油 重 多少 千克 ？", "expr": "/ + temp_c temp_b - - 1 temp_a temp_a", "answer": 10.0, "num_list": [0.3, 0.2, 3.8]}
+{"id": "12115", "text": "水果店 运 来 水果 n 箱 ， 每箱 重 n 千克 ． 卖出 n 千克 后 ， 还 剩 多少 千克 ？", "expr": "- * temp_a temp_b temp_c", "answer": 255.0, "num_list": [36, 15, 285]}
+{"id": "12119", "text": "老人院 的 李 玉 老人 过生日 ， 义工 邀请 院里 的 老人 和 职工 一共 n 人为 老人 庆生 ， 义工 要 给 每人 准备 一瓶 矿泉水 和 一个 苹果 ． 已知 矿泉水 每瓶 n 元 ， 苹果 每个 n 元 ， 义工 至少 要 带 多少 钱 才 够 用于 采购 ？", "expr": "+ * + temp_a 1 temp_b * + temp_a 1 temp_c", "answer": 220.5, "num_list": [48, 2, 2.5]}
+{"id": "12148", "text": "学校 组织 献爱心 活动 ． 五年级 捐款 n 元 ， 六年级 比 五年级 多 捐 n ， 六年级 捐款 多少 元 ？", "expr": "* temp_a + 1 temp_b", "answer": 351.0, "num_list": [312, 0.125]}
+{"id": "12149", "text": "n 的 n 倍 + n ， 和 = ？", "expr": "+ * temp_a temp_b temp_c", "answer": 0.9999999999999999, "num_list": [0.625, 1.3333333333333333, 0.16666666666666666]}
+{"id": "12186", "text": "甲 、 乙 两 数 的 最大 公因数 是 n ， 最小 公倍数 是 n ， 若 甲 是 n ， 乙 = ．", "expr": "/ * temp_a temp_b temp_c", "answer": 50.0, "num_list": [25, 150, 75]}
+{"id": "12203", "text": "某 商店 按 定价 出售 ， 每个 可 获利 n 元 ． 如果 按 定价 的 n 出售 n 件 ， 则 与 按 定价 每个 减价 n 元 出售 n 件 所 获 利润 一样 多 ． 这种 商品 每件 定价 多少 元 ．", "expr": "/ - temp_a / * temp_e - temp_a temp_d temp_c - 1 temp_b", "answer": 52.0, "num_list": [50, 0.5, 10, 30, 12]}
+{"id": "12215", "text": "一 块 三角形 的 广告牌 ， 底 长 n m ， 高 是 n m ， 它 的 面积 = 多少 m ^ n ．", "expr": "/ * temp_a temp_b temp_c", "answer": 1.44, "num_list": [2.4, 1.2, 2]}
+{"id": "12256", "text": "一 件 衣服 降价 n 后 是 n 元 ， 原价 = 多少 元 ？", "expr": "/ temp_b - 1 temp_a", "answer": 150.0, "num_list": [0.2, 120]}
+{"id": "12285", "text": "小 明 和 小 刚 家 相距 n 米 ． 一天 ， 两 人 约定 在 两家 之间 的 路上 会合 ． 小 明 每分钟 走 n 米 ， 比 小 刚 的 速度慢 n ． 两 人 同时 从 家 出发 ， 多长时间 后 能 相遇 ？", "expr": "/ temp_a + temp_b / temp_b - 1 temp_c", "answer": 8.0, "num_list": [1240, 75, 0.0625]}
+{"id": "12323", "text": "一 根 绳子 长 n 米 ， 剪 去 全长 的 n ， 还 剩下 全长 的 多少 ．", "expr": "- 1 temp_b", "answer": 0.25, "num_list": [0.8, 0.75]}
+{"id": "12335", "text": "某 电视机厂 计划 n 月份 生产 n 台 电视机 ， 实际上 半月 完成 计划 的 n ， 下半月 完成 计划 的 n ， 这个 月 超产 完成 多少 台 电视机 ？", "expr": "- + * temp_b temp_c * temp_b temp_d temp_b", "answer": 1500.0, "num_list": [5, 5000, 0.6, 0.7]}
+{"id": "12348", "text": "某 牧民 养羊 n 只 ， 其中 n 是 山羊 ． 现在 又 买 回 n 只 山羊 ， 现在 山羊 占 几分 之 几 ？", "expr": "/ + * temp_a temp_b temp_c + temp_a temp_c", "answer": 0.6086956521739131, "num_list": [450, 0.6, 10]}
+{"id": "12349", "text": "李经理 一个月 的 工资 是 n 元 ， 按规定 ， 减去 n 元 后 的 部分 按 n 的 税率 缴纳 个人所得税 ， 他 每月 应 缴纳 的 个人所得税 = 多少 元 ？", "expr": "* - temp_a temp_b temp_c", "answer": 80.0, "num_list": [3600, 2000, 0.05]}
+{"id": "12372", "text": "一 辆 货车 和 一辆 客车 从 相距 n 千米 的 甲乙 两地 相对 而 行 ． 客车 先 行驶 n 小时 后 货车 才 出发 ， 再 过 n 小时 两车 相遇 ． 已知 货车 每 小时 行 n 千米 ， 客车 每 小时 行 多少 千米 ？", "expr": "/ - temp_a * temp_d temp_c + temp_b temp_c", "answer": 70.0, "num_list": [545, 2, 3, 65]}
+{"id": "12387", "text": "商店 里 有 n 套 儿童服装 ， 原价 每套 n 元 ． 实际 每套 只 卖 n 元 ． 这样 卖完 这些 儿童服装 ， 一共 比 原来 少卖 了 多少 元 ？", "expr": "- * temp_b temp_a * temp_c temp_a", "answer": 600.0, "num_list": [25, 87, 63]}
+{"id": "12421", "text": "某 化肥厂 今年 生产 化肥 n 吨 ， 比 去年 多 生产 n 吨 ， 今年 增产 百分之几 ？", "expr": "/ temp_b - temp_a temp_b", "answer": 0.25, "num_list": [1500, 300]}
+{"id": "12465", "text": "有 n 个 △ ， △ 的 个数 是 ○ 的 n 倍 ， ○ 有 多少 个 ．", "expr": "/ temp_a temp_b", "answer": 6.0, "num_list": [12, 2]}
+{"id": "12472", "text": "n 比 多少 多 n ．", "expr": "/ temp_a + 1 temp_b", "answer": 18.0, "num_list": [24, 0.3333333333333333]}
+{"id": "12474", "text": "水果店 原有 橘子 的 重量 比 苹果 多 n 千克 ． 橘子 卖出 n 后 ， 苹果 的 重量 比 橘子 多 n 千克 ． 水果店 有 橘子 多少 千克 ？", "expr": "/ + temp_a temp_c temp_b", "answer": 375.0, "num_list": [100, 0.3333333333333333, 25]}
+{"id": "12505", "text": "一 个 正方体 木块 ， 它 的 棱 长 是 n 分 米 ， 已知 每 立方分米 重 n 千克 ， 这个 木块 重 多少 千克 ？", "expr": "* temp_b * * temp_a temp_a temp_a", "answer": 50.0, "num_list": [5, 0.4]}
+{"id": "12514", "text": "n 、 六年级 同学 参加 植树 活动 ， 六年级 植树 n 棵 ， 五年级 植树 的 棵 数 是 六年级 的 n ， 五年级 同学 植树 多少 棵 ？", "expr": "* temp_b temp_c", "answer": 120.0, "num_list": [5, 150, 0.8]}
+{"id": "12537", "text": "一 块 地 用 拖拉机 来 耕 ， n 分钟 耕 了 n 公顷 ， 相当于 这块 地 总面积 的 n ， 这块 地 有 多少 公顷 ？", "expr": "/ temp_b temp_c", "answer": 3.4999999999999996, "num_list": [45, 1.8333333333333333, 0.5238095238095238]}
+{"id": "12567", "text": "一 个 修路 队 ， 第一天 修 了 全长 的 n ， 第 二 天 修 了 第一天 的 n ， 这时 还有 n 米 就 到 这 条 路 的 中 点 处 ， 求 这 条 路 有 多长 ？", "expr": "/ temp_c - - temp_b temp_a * temp_a temp_b", "answer": 5999.999999999999, "num_list": [0.13333333333333333, 0.5, 1800]}
+{"id": "12577", "text": "学校 买 了 n 盒 羽毛球 ， 每盒 有 n 袋 ， 每 袋 有 n 个 羽毛球 民 ． 一共 买 了 多少 个 羽毛球 ？", "expr": "* * temp_a temp_b temp_c", "answer": 384.0, "num_list": [8, 4, 12]}
+{"id": "12587", "text": "n 克 浓度 为 n 的 盐水 中 ， 放进 n 克 盐 ， 若 要 使 其 浓度 变成 n ， 还要 再 加多少 克 水 ．", "expr": "- / + * temp_a temp_b temp_c temp_d + temp_a temp_c", "answer": 7.0, "num_list": [100, 0.15, 8, 0.2]}
+{"id": "12602", "text": "制 伞 厂 要 生产 n 把 雨伞 ， 已经 生产 了 n 天 ， 还 剩 n 把 没 完成 ， 平均 每天 生产 多少 把 雨伞 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 240.0, "num_list": [5000, 12, 2120]}
+{"id": "12643", "text": "n （ n ） 班 的 图书 角 共 放 有 图书 n 本 ， 第一天 借出 了 总数 的 n ， 第 二 天 借出 了 总数 的 n ． 两天 一共 借出 了 多少 本 图书 ？", "expr": "* temp_c + temp_d temp_e", "answer": 50.0, "num_list": [4, 3, 210, 0.14285714285714285, 0.09523809523809523]}
+{"id": "12677", "text": "某 电视机厂 上半年 生产 电视机 n 万台 ， 下半年 生产 比 上半年 多 n ， 下半年 生产 电视机 多少 台 ？", "expr": "* temp_a + 1 temp_b", "answer": 45.0, "num_list": [40, 0.125]}
+{"id": "12691", "text": "某校 已 招收 一年 级新生 n 人 ， 其中 女生 占 n ， 计划 再 招 一批 女生 ， 使 女生 占 全体 新生 的 n ， 计划 再 招 女生 多少 人 ？", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 45.0, "num_list": [315, 0.2, 0.3]}
+{"id": "12775", "text": "学校 运 来 白色 粉笔 n 箱 ， 彩色 粉笔 n 箱 ， 如果 每箱 粉笔 都 装 n 盒 ， 运 来 的 白色 粉笔 和 彩色 粉笔 一共 有 多少 盒 ？", "expr": "* + temp_a temp_b temp_c", "answer": 11745.0, "num_list": [225, 36, 45]}
+{"id": "12797", "text": "妈妈 今年 n 岁 ， 小 明 今年 n 岁 ， n 年 以后 ， 妈妈 比 小 明 大 多少岁 ．", "expr": "- temp_a temp_b", "answer": 27.0, "num_list": [35, 8, 5]}
+{"id": "12802", "text": "一 个 卷烟厂 上个月 香烟 销售额 为 n 万元 ． 如果 按 销售额 的 n 缴纳 消费税 ， 上 月 应 缴纳 消费 税款 多少 万元 ．", "expr": "* temp_a temp_b", "answer": 130.0, "num_list": [2600, 0.05]}
+{"id": "12813", "text": "果园 里 有 n 棵 苹果树 ， n 棵 梨树 ． 每棵 苹果树 大约 摘 n 千克 苹果 ， 这个 果园 大约 摘 多少 千克 苹果 ？", "expr": "* temp_c temp_a", "answer": 1440.0, "num_list": [9, 7, 160]}
+{"id": "12826", "text": "一 辆 汽车 从 甲地 到 乙地 ， 行 了 全程 的 n ， 在 剩下 的 路程 中 ， n 是 上坡路 ， 其余 是 下坡路 ． 已知 下坡路 长 n 千米 ， 甲 、 乙 两地 相距 多 远 ？", "expr": "/ temp_c * - 1 temp_a - 1 temp_b", "answer": 50.0, "num_list": [0.8, 0.7, 3]}
+{"id": "12831", "text": "一 批 零件 ， 已 生产 n 再生产 n 个 就 超额完成 n ， 这 批 零件 有 多少 个 ？", "expr": "/ temp_b - + 1 temp_c temp_a", "answer": 150.0, "num_list": [0.6666666666666666, 80, 0.2]}
+{"id": "12837", "text": "把 一个 棱 长 为 n 分 米 的 正方体 钢材 锻造 成 一个 宽 n 分 米 ， 高 n 分 米 的 长方体 钢 块 ， 能 锻造 多长 ？", "expr": "/ * * temp_a temp_a temp_a * temp_b temp_c", "answer": 25.0, "num_list": [5, 2.5, 2]}
+{"id": "12855", "text": "妈妈 用 n 的 钱 买 了 一件 n 元 的 衣服 ， 妈妈 原来 有 多少 元 ．", "expr": "/ temp_b temp_a", "answer": 900.0, "num_list": [0.2, 180]}
+{"id": "12868", "text": "某班 有 学生 n 人 ， 女生 占 全班 的 n ， 后来 又 转 来 女生 若干 人 ， 这时 人数 恰好 是 占 全班 人数 的 n ， 问 转 来 几名 女生 ？", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 2.0, "num_list": [48, 0.375, 0.4]}
+{"id": "12878", "text": "一 个 合数 的 质因数 是 n 和 n ， 这个 合数 = ．", "expr": "* temp_a temp_b", "answer": 6.0, "num_list": [2, 3]}
+{"id": "12894", "text": "一 个数 除以 n ， 商 是 n ， 余数 是 n ， 这个 数 = ．", "expr": "+ * temp_a temp_b temp_c", "answer": 434.0, "num_list": [23, 18, 20]}
+{"id": "12899", "text": "李 阿姨 准备 购买 一套 住房 ， 如果 分期付款 要 多付 n ， 如果 用 现金 付款 可以 优惠 n ， 李 阿姨 计算 了 一下 ， 两种 付款 方式 的 差价 是 n 元 ． 这 套 住房 原价 = 多少 元 ？", "expr": "/ temp_c + temp_a temp_b", "answer": 99999.99999999999, "num_list": [0.1, 0.05, 15000]}
+{"id": "12906", "text": "阳光 小学 去年 有 小学生 n 人 ， 今年 比 去年 减少 了 n ， 今年 有 小学生 多少 人 ？", "expr": "* temp_a - 1 temp_b", "answer": 1656.0, "num_list": [1800, 0.08]}
+{"id": "12922", "text": "配置 一种 盐水 ， 盐 和 水 的 质量 比 是 n ﹕ n ， 盐 占 盐水 质量 的 多少 ．", "expr": "/ temp_a + temp_a temp_b", "answer": 0.0625, "num_list": [1, 15]}
+{"id": "12936", "text": "一 个 圆柱体 ， 底面 周长 是 n 厘米 ， 高 是 n 厘米 ， 它 的 侧 面积 = 多少 平方厘米 ．", "expr": "* temp_a temp_b", "answer": 2355.0, "num_list": [94.2, 25]}
+{"id": "12969", "text": "一 个数 的 n 是 n ， 这个 数 的 n = ．", "expr": "* / temp_b temp_a temp_c", "answer": 8.0, "num_list": [0.75, 30, 0.2]}
+{"id": "12988", "text": "电视机厂 今年 生产 电视机 n 台 ， 比 去年 多 生产 n ， 去年 生产 多少 台 ？", "expr": "/ temp_a + 1 temp_b", "answer": 28800.0, "num_list": [36000, 0.25]}
+{"id": "12994", "text": "一 种 服装 原价 n 元 ， 现在 降价 n ， 现在 的 售价 = 多少 元 ？", "expr": "- temp_a * temp_a temp_b", "answer": 60.0, "num_list": [96, 0.375]}
+{"id": "13009", "text": "印刷 车间 要 装订 n 套书 ， 已经 订 了 n 天 ， 还 剩 n 套 没 完成 ， 平均 每天 订 多少 套 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 68.0, "num_list": [1314, 14, 362]}
+{"id": "13141", "text": "某 商店 n 月份 的 营业额 是 n 元 ， 按规定 营业额 的 n 纳税 ， 应 纳税 多少 元 ．", "expr": "* temp_b temp_c", "answer": 400.0, "num_list": [2, 8000, 0.05]}
+{"id": "13162", "text": "育英 中学 n 个 年级 共 n 个 班 ， 全校师生 n 人 ， 教师 n 人 ， 平均 每班 多少 人 ？", "expr": "/ - temp_c temp_d temp_b", "answer": 56.0, "num_list": [3, 18, 1100, 92]}
+{"id": "13163", "text": "南京 地铁 一期 工程 分 高架 线 和 地下 线 两 部分 ， 其中 高架 线 长 约 n 千米 ， 地下 线 是 高架 线 的 n 倍 ， 第一期 工程 全线 长 多少 千米 ？", "expr": "+ * temp_a temp_b temp_a", "answer": 16.9, "num_list": [6.5, 1.6]}
+{"id": "13206", "text": "师徒 加工 一批 零件 ， 徒弟 已经 加工 了 总数 的 n ， 师傅 加工 了 总数 的 n ． 这时 师傅 比 徒弟 多 加工 n 个 ， 这 批 零件 一共 有 多少 个 ？", "expr": "/ temp_c - temp_b temp_a", "answer": 600.0000000000001, "num_list": [0.2, 0.3333333333333333, 80]}
+{"id": "13213", "text": "停车场 有 面包车 n 辆 ， 小轿车 的 辆数 比 面包车 的 n 倍 少 n 辆 ． 小轿车 有 多少 辆 ？", "expr": "- * temp_a temp_b temp_c", "answer": 109.0, "num_list": [32, 4, 19]}
+{"id": "13217", "text": "某 饭店 十 月份 的 营业额 为 n 元 ， 税率 是 n ， 营业税 应 缴 多少 元 ．", "expr": "* temp_a temp_b", "answer": 12500.0, "num_list": [250000, 0.05]}
+{"id": "13229", "text": "一 座 桥 长 n 米 ， 一列 火车 以 每秒 n 米 的 速度 通过 这 座 桥 ， 火车 车身 长 n 米 ， 则 火车 从 上 桥 到 车 尾巴 离开 桥 需要 多少 秒 ．", "expr": "/ + temp_c temp_a temp_b", "answer": 130.0, "num_list": [2400, 20, 200]}
+{"id": "13275", "text": "一 个 装订 小组 要 装订 n 本书 ， n 小时 装订 了 n 本 ． 照 这样 计算 ， 剩下 的 书 还 需要 多少 小时 才能 装订 完 ？", "expr": "/ - temp_a temp_c / temp_c temp_b", "answer": 21.5, "num_list": [1820, 4.5, 315]}
+{"id": "13295", "text": "一 个数 的 n 倍 是 n ， 这个 数 = ．", "expr": "/ temp_b temp_a", "answer": 3.6999999999999997, "num_list": [2.1, 7.77]}
+{"id": "13309", "text": "n 班 有 学生 n 人 ， 其中 男生 有 n 人 ， 女生 人数 是 全班 的 几分 之 几 ？", "expr": "/ - temp_b temp_c temp_b", "answer": 0.40476190476190477, "num_list": [501, 42, 25]}
+{"id": "13367", "text": "一 台 彩电 现在 的 售价 是 n 元 ， 比 原来 降低 了 n 元 ， 现在 的 售价 是 原价 的 百分之几 ？", "expr": "/ temp_a + temp_a temp_b", "answer": 0.925, "num_list": [1480, 120]}
+{"id": "13376", "text": "一 本 故事书 有 n 页 ， 比 一本 科技 书 少 n ， 这本 科技 书 = 多少 页 ．", "expr": "/ temp_a - 1 temp_b", "answer": 320.0, "num_list": [240, 0.25]}
+{"id": "13381", "text": "李 大爷 把 一根 n 米 长 的 竹竿 垂直 插入 鱼塘 中 ， 竹竿 的 入 泥 部分 是 n 米 ， 露出 水面 的 部分 是 n 米 ， 这个 鱼塘 水深 多少 米 ？", "expr": "- - temp_a temp_b temp_c", "answer": 3.26, "num_list": [6, 1.5, 1.24]}
+{"id": "13439", "text": "山羊 有 n 只 ， 绵羊 比 山羊 多 n ， 绵羊 有 多少 只 ．", "expr": "* temp_a + 1 temp_b", "answer": 108.0, "num_list": [60, 0.8]}
+{"id": "13450", "text": "一 列 火车 从 泰山 到 青岛 以 平均 每 小时 n 千米 的 速度 行驶 ， 需 n 小时 到达 ． 提速 后 ， 只 需 n 小时 就 能 到达 ． 提速 后 的 速度 = ？", "expr": "/ * temp_a temp_b temp_c", "answer": 140.0, "num_list": [85, 5.6, 3.4]}
+{"id": "13466", "text": "某 商场 元旦 大 酬宾 ， 标价 n 元 童装 ， 按 标价 的 n 出售 ， 售价 = 多少 元 ？", "expr": "* temp_a temp_b", "answer": 32.0, "num_list": [40, 0.8]}
+{"id": "13490", "text": "有 一摞 纸 ， 共有 n 张 ． 第一次 用 了 它 的 n ， 第 二 次 用 了 它 的 n ， 两次 一 共用 了 多少 张 纸 ？", "expr": "* temp_a + temp_b temp_c", "answer": 92.0, "num_list": [120, 0.6, 0.16666666666666666]}
+{"id": "13501", "text": "n 与 n 的 和 ， 乘 n 与 n 的 差 ， 积 = ？", "expr": "* + temp_a temp_b - temp_c temp_d", "answer": 48.000000000000014, "num_list": [37, 23, 3.6, 2.8]}
+{"id": "13544", "text": "用 边长 n 米 的 方砖 铺 n 平方米 的 地面 ， 需要 多少 块 这样 的 方砖 ？", "expr": "/ temp_b * temp_a temp_a", "answer": 150.0, "num_list": [0.6, 54]}
+{"id": "13552", "text": "王 康 同学 买 n 本 日记本 用 了 n 元 ， 他 还 想 买 n 本 送给 他 的 好 朋友 们 ， 需要 准备 多少 钱 ？", "expr": "* / temp_b temp_a + temp_a temp_c", "answer": 144.0, "num_list": [4, 48, 8]}
+{"id": "13573", "text": "甲 数 是 n ， 乙 数 比 甲 数 的 n 倍 少 n ， 乙 数 比 甲 数多 多少 ？", "expr": "- - * temp_a temp_b temp_c temp_a", "answer": 20.999999999999993, "num_list": [14.6, 3, 8.2]}
+{"id": "13635", "text": "我们 学校 美术 小组 有 n 人 ， 摄影 小组 人数 是 美术 小组 的 n ， 航模 小组 的 人数 是 摄影 小组 的 n ， 航模 小组 有 多少 人 ？", "expr": "* * temp_a temp_b temp_c", "answer": 10.0, "num_list": [24, 0.5, 0.8333333333333334]}
+{"id": "13680", "text": "某 小学 三年级 有 学生 n 人 ， 四年级 有 学生 n 人 ， 学校 要 为 这 两个 年级 的 学生 每人 发 n 个 桃子 ． 一共 要 发 多少 个 桃子 ？", "expr": "* + temp_a temp_b temp_c", "answer": 1200.0, "num_list": [145, 155, 4]}
+{"id": "13691", "text": "一 个 图书馆 有 n 个 同样 的 书架 ， 每个 书架 有 n 层 ， 每层 放 n 本书 ． 这些 书架 一共 能 放 多少 本书 ？", "expr": "* * temp_c temp_b temp_a", "answer": 23040.0, "num_list": [24, 4, 240]}
+{"id": "13693", "text": "学校 田径队 有 男队员 n 人 ， 女队员 n 人 ． 如果 把 它们 平均 分成 n 个 小组 进行 训练 ， 每个 小组 有 多少 队员 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 14.0, "num_list": [35, 21, 4]}
+{"id": "13741", "text": "甲 、 乙 两车 从 相距 n 千米 的 两地 相向 开出 ， n 小时 相遇 ． 已知 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 多少 千米 ？", "expr": "- / temp_a temp_b temp_c", "answer": 46.0, "num_list": [450, 4.5, 54]}
+{"id": "13746", "text": "甲乙 两地 相距 n 公里 ， 一辆 汽车 从 甲地 开往 乙地 ， n 小时 行驶 了 n 公里 ． 照 这样 的 速度 再 行驶 多少 小时 这辆 汽车 就 可以 到达 乙地 ？", "expr": "/ - temp_a temp_c / temp_c temp_b", "answer": 5.022222222222222, "num_list": [406, 4, 180]}
+{"id": "13792", "text": "n （ n ） 班 图书 角 有 故事书 n 本 ， 漫画书 比 故事书 多 n ， 漫画书 有 多少 本 ．", "expr": "* temp_c + 1 temp_d", "answer": 48.0, "num_list": [6, 2, 36, 0.3333333333333333]}
+{"id": "13807", "text": "农资 公司 要 运 n 吨 化肥 到 农村 ， 其中 n 用 船运 ， 其余 的 用 卡车 运 ． 用 船运 的 比 用 卡车 运 的 多 多少 吨 ？", "expr": "* temp_a - temp_b - 1 temp_b", "answer": 49.999999999999986, "num_list": [250, 0.6]}
+{"id": "13810", "text": "红旗 小学 今年 招收新生 n 人 ， 比 原 计划 多 招收 n ， 原 计划 招生 多少 人 ？", "expr": "/ temp_a + 1 temp_b", "answer": 200.0, "num_list": [240, 0.2]}
+{"id": "13814", "text": "从 n / n 的 商 里面 减去 n * n 的 积 ， 差 = ？", "expr": "- / temp_a temp_b * temp_c temp_d", "answer": 68.0, "num_list": [9500, 19, 36, 12]}
+{"id": "13861", "text": "胜利 小学 有 学生 n 人 ， 某 一天 的 出勤率 是 n ． 这天 有 多少 人 没有 到校 读书 ？", "expr": "* temp_a - 1 temp_b", "answer": 6.000000000000005, "num_list": [1200, 0.995]}
+{"id": "13907", "text": "一 本书 售价 n 元 ， 利润 是 成本 的 n ， 成本 = 多少 元 ？", "expr": "/ temp_a + 1 temp_b", "answer": 30.0, "num_list": [36, 0.2]}
+{"id": "13945", "text": "商店 共运 来 n 个 玩具 熊 ， 已经 卖出 n 个 ， 每个 n 元 ， 剩下 的 每个 卖 n 元 ， 一共 可以 收入 多少 元 ？", "expr": "+ * temp_b temp_c * - temp_a temp_b temp_d", "answer": 10078.0, "num_list": [470, 348, 23, 17]}
+{"id": "13947", "text": "挖 一条 长 n 米 的 水渠 ， 已经 挖 了 全长 的 n ， 还 剩 多少 米 没 挖 ？", "expr": "* temp_a - 1 temp_b", "answer": 160.0, "num_list": [400, 0.6]}
+{"id": "13982", "text": "放假 乘火车 去 奶奶家 要 用 n 小时 ． 现在 火车 提速 了 ， n 小时 就 能 到 ． 现在 乘火车 去 奶奶家 的 时间 比 原来 节省 了 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.125, "num_list": [16, 14]}
+{"id": "13992", "text": "小 明 的 爸爸 发表 了 一篇 文章 ， 获得 稿酬 n 元 ． 按规定 ， 稿酬 收入 超过 n 元 的 部分 按 n 的 税率 缴纳 个人所得税 ． 小 明 的 爸爸 应 缴纳 个人所得税 多少 元 ？", "expr": "* - temp_a temp_b temp_c", "answer": 56.00000000000001, "num_list": [1200, 800, 0.14]}
+{"id": "14014", "text": "学学 看到 太上老君 正在 用 一根 绳子 拴 宝 葫芦 ， 第一次 用 去 全长 的 一半 还 多 n 米 ， 第 二 次 用 去 余下 的 一半 少 n 米 ， 第 n 次 用 去 n 米 ， 最后 还 剩 n 米 ， 那么 这根 绳子 原来 有 多少 米 ．", "expr": "* + * - + temp_e temp_d temp_b temp_a temp_a temp_a", "answer": 60.0, "num_list": [2, 10, 3, 15, 9]}
+{"id": "14058", "text": "学校 买 回 n 箱 墨水 ， 每箱 n 瓶 ， 每瓶 n 元 ． 一共 需要 多少 钱 ？", "expr": "* * temp_a temp_b temp_c", "answer": 4320.0, "num_list": [25, 36, 4.8]}
+{"id": "14069", "text": "小 军 读 一本 故事书 ， 第一天 共 读 n 页 ， 第 二 天 共 读 了 n 页 ， 还 余下 全书 的 n 没有 读 ， 这本 故事书 共有 多少 页 ？", "expr": "/ + temp_a temp_b - 1 temp_c", "answer": 499.9999999999999, "num_list": [42, 43, 0.83]}
+{"id": "14076", "text": "胜利 小学 为 贫困地区 捐款 n 元 ， 比 红旗 小学 少 n 元 ， 两所 学校 共 捐款 多少 元 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 7553.8, "num_list": [3750.8, 52.2]}
+{"id": "14100", "text": "甲 数 比 乙 数 的 n 还 少 n ， 已知 甲 数 是 n ， 乙 数 = ？", "expr": "/ + temp_c temp_b temp_a", "answer": 75.0, "num_list": [0.8, 20, 40]}
+{"id": "14117", "text": "某 化肥厂 去年 生产 化肥 n 吨 ， 今年 比 去年 增产 n ， 今年 增产 多少 吨 ？", "expr": "* temp_a temp_b", "answer": 1200.0, "num_list": [6000, 0.2]}
+{"id": "14126", "text": "同学 们 参加 爬山 比赛 ， 女同学 分成 了 n 组 ， 每组 有 n 人 ． 参赛 的 男同学 有 n 名 ， 一共 有 多少 名 同学 参加 爬山 比赛 ？", "expr": "+ * temp_b temp_a temp_c", "answer": 136.0, "num_list": [4, 15, 76]}
+{"id": "14142", "text": "一 根 绳子 长 n 米 ， 剪 去 多少 米 后 ， 剩下 的 占 全长 的 n ．", "expr": "* temp_a - 1 temp_b", "answer": 12.0, "num_list": [20, 0.4]}
+{"id": "14143", "text": "一 台 洗衣机 的 原价 是 n 元 ， 实际 售价 为 n 元 ， 实际 售价 比 原价 降低 了 百分之几 ？", "expr": "/ - temp_a temp_b temp_a", "answer": 0.04, "num_list": [1250, 1200]}
+{"id": "14179", "text": "把 一根 n 米 长 的 水管 锯 成 n 段 ， 每 锯 一次 用 n 分钟 ， 一共 需要 多少 分钟 ．", "expr": "* - temp_b 1 temp_c", "answer": 32.0, "num_list": [25, 5, 8]}
+{"id": "14217", "text": "一 个数 是 n ， 另 一个 数 是 n ， 积 = ？", "expr": "* temp_a temp_b", "answer": 6720.0, "num_list": [8, 840]}
+{"id": "14235", "text": "淘气 生日 时 ， 妈妈 送给 他 一个 圆锥形 的 陀螺 ， 陀螺 的 底面 直径 是 n 厘米 ， 高 n 厘米 ， 如果 妈妈 要 把 它 装 在 一个 长方体 盒子 中 ， 这个 盒子 的 容积 至少 = 多少 立方厘米 ．", "expr": "* * temp_a temp_a temp_b", "answer": 180.0, "num_list": [6, 5]}
+{"id": "14281", "text": "多少 - n = n ．", "expr": "+ temp_b temp_a", "answer": 470.0, "num_list": [278, 192]}
+{"id": "14314", "text": "一 辆 客车 从 甲地 到 乙地 ， 计划 要 n 小时 ， 实际 时间 比 计划 少 用 n ， 实际 用 了 多少 小时 ？", "expr": "* temp_a - 1 temp_b", "answer": 7.5, "num_list": [8, 0.0625]}
+{"id": "14332", "text": "一 件 原价 n 元 的 商品 打 n 出售 ， 便宜 了 多少 元 ．", "expr": "* temp_a - 1 temp_b", "answer": 8.999999999999998, "num_list": [90, 0.9]}
+{"id": "14335", "text": "要 挖 一条 全长 n 米 的 水渠 ， 前 n 天 平均 每天 挖 n 米 ， 剩下 的 每天 挖 n 米 ， 还 需 几天 挖 完 ？", "expr": "/ - temp_a * temp_c temp_b temp_d", "answer": 3.0, "num_list": [120, 8, 10.5, 12]}
+{"id": "14341", "text": "一 个 因数 是 n ， 另 一个 因数 是 n ， 他们 的 积 = ．", "expr": "* temp_a temp_b", "answer": 5280.0, "num_list": [60, 88]}
+{"id": "14343", "text": "一 项 工程 n 人 n 天 可以 完成 ， 如果 每人 的 工作效率 不变 ， 工作人员 减少 n 人 ， 需要 多少 天 可以 完成 ？", "expr": "/ 1 * / / 1 temp_b temp_a - temp_a temp_c", "answer": 18.75, "num_list": [25, 15, 5]}
+{"id": "14372", "text": "商场 运 来 一批 衣服 ， 一共 n 件 ， 进价 每件 n 元 ， 零售价 每件 n 元 ， 如果 这 一批 衣服 全部 卖完 ， 这家 商场 可以 赚 多少 元 钱 ？", "expr": "* - temp_c temp_b temp_a", "answer": 9660.0, "num_list": [460, 75, 96]}
+{"id": "14404", "text": "甲 、 乙 两站 相距 n 千米 ， A 、 B 两辆 汽车 分别 从 甲 站 、 乙 站 同时 相向 开出 n 小时 后 相遇 ． A 汽车 的 速度 是 n 千米 / 小时 ， B 汽车 的 速度 = ．", "expr": "- / temp_a temp_b temp_c", "answer": 75.0, "num_list": [246, 1.5, 89]}
+{"id": "14444", "text": "同学 们 要 折 n 只 纸鹤 ， 每人 折 n 只 ， 每个 小组 有 n 人 ， 需要 几个 小组 才能 完成 ？", "expr": "/ / temp_a temp_b temp_c", "answer": 2.0, "num_list": [120, 5, 12]}
+{"id": "14461", "text": "某 工人 要 加工 一批 零件 ， 已 加工 了 这 批 零件 的 n ， 还 剩下 n 个 没 加工 ， 这 批 零件 共 几个 ？", "expr": "/ temp_b - 1 temp_a", "answer": 300.0, "num_list": [0.6, 120]}
+{"id": "14524", "text": "映山红 剧院 分 n 个 区 ， 每个 区 有 n 排座位 ， 每排 有 n 个 座位 ． 剧院 里 一共 能 坐 多少 人 ？", "expr": "* * temp_a temp_b temp_c", "answer": 2000.0, "num_list": [4, 20, 25]}
+{"id": "14531", "text": "王老师 以 每股 n 元 的 价格 购进 某种 股票 n 股 ， 过 了 一段时间 后 以 每股 n 元 卖出 ， 按规定 买卖 股票 都 要 按 买卖 金额 的 n 缴纳 手续费 ， 王老师 这次 买卖 股票 实际 赚 多少 元 ．", "expr": "- * * temp_c temp_b - 1 temp_d * * temp_a temp_b + 1 temp_d", "answer": 9395.0, "num_list": [10, 5000, 12, 0.0055000000000000005]}
+{"id": "14552", "text": "红 石 村 小学 分成 n 个 小组 去 浇 树 ， 每组 有 n 人 ， 一共 浇 树 n 棵 ， 平均 每人 浇 树 多少 棵 ？", "expr": "/ temp_c * temp_b temp_a", "answer": 15.0, "num_list": [6, 4, 360]}
+{"id": "14575", "text": "小 明 到 商店 去 买 了 一个 n 元 钱 的 文具盒 ， 给 营业员 阿姨 n 元 钱 ， 应 找回 多少 钱 ？", "expr": "- temp_b temp_a", "answer": 4.0, "num_list": [9, 13]}
+{"id": "14580", "text": "小 华 骑车 每分钟 行 n 米 ， 他 从 家 到 学校 共用 n 分钟 ， 小 华 家 离 学校 多少 米 ？", "expr": "* temp_a temp_b", "answer": 4640.0, "num_list": [290, 16]}
+{"id": "14601", "text": "生产 一批 件 ， 原 计划 n 天 完成 ， 实际 每天 生产 n 个 ， 这样 时间 缩短 了 n 天 ． 原 计划 每天 生产 多少 个 零件 ？", "expr": "/ * temp_b - temp_a temp_c temp_a", "answer": 400.0, "num_list": [18, 600, 6]}
+{"id": "14609", "text": "一 个 养鸡 专业户 ， 今年 养鸡 n 只 ， 比 去年 增加 了 n ． 去年 养鸡 多少 只 ？ 多少 ．", "expr": "/ temp_a + 1 temp_b", "answer": 1000.0, "num_list": [1250, 0.25]}
+{"id": "14706", "text": "n + n + n + n + n + n + n + n + n + n = ．", "expr": "+ + + + + + + + + temp_a temp_b temp_c temp_d temp_e temp_f temp_g temp_h temp_i temp_j", "answer": 150.0, "num_list": [6, 8, 10, 12, 14, 16, 18, 20, 22, 24]}
+{"id": "14731", "text": "爷爷 去 医院 看病 ． 医生 处方 ： 每日 n 次 ， 每次 n 片 ， 一瓶 药 有 n 片 ， 可以 吃 多少 天 ？", "expr": "/ temp_c * temp_b temp_a", "answer": 15.0, "num_list": [3, 2, 90]}
+{"id": "14732", "text": "电动车 厂 前年 生产 n 万辆 电动车 ， 去年 比 前年 增产 n ． 去年 生产 了 多少 辆 ？", "expr": "* temp_a + 1 temp_b", "answer": 100.0, "num_list": [80, 0.25]}
+{"id": "14752", "text": "某班 今天 的 出勤率 为 n ， 请 病假 n 人 ， 事假 n 人 ， 今天 出勤 多少 人 ．", "expr": "- / + temp_b temp_c - temp_c temp_a + temp_b temp_c", "answer": 37.00000000000002, "num_list": [0.925, 2, 1]}
+{"id": "14754", "text": "王大妈 卖 鸡蛋 ， 上午 卖 了 n 千克 ， 下午 卖 了 n 千克 ， 下午 比 上午 多 卖 了 n 元 ． 平均 每千克 鸡蛋 卖 多少 元 ？", "expr": "/ temp_c - temp_b temp_a", "answer": 9.200000000000001, "num_list": [12, 18, 55.2]}
+{"id": "14762", "text": "树上 一共 有 n 只 小鸟 ， 第一次 飞 走 了 n 只 ， 第 二 次 又 飞 走 了 n 只 ， 一共 飞 走 了 多少 只 ．", "expr": "+ temp_b temp_c", "answer": 3.0, "num_list": [8, 1, 2]}
+{"id": "14773", "text": "修 一段路 ， 已经 修好 了 n 千米 ， 没 修 的 比 修好 的 n 倍 多 n 千米 ， 这 段 路 多少 千米 ？", "expr": "+ + * temp_a temp_b temp_c temp_a", "answer": 240.0, "num_list": [75, 2, 15]}
+{"id": "14777", "text": "某 修路 队 修 一条 公路 ， 原 计划 每天 修 n 米 ， 实际 每天 比 原 计划 多 修 n ， 实际 每天 修 多少 米 ？", "expr": "* temp_a + 1 temp_b", "answer": 336.00000000000006, "num_list": [300, 0.12]}
+{"id": "14847", "text": "有 n 个 同学 投 沙包 ， 老师 如果 发给 每人 n 个 沙包 就 差 n 个 ， 老师 共有 多少 个 沙包 ？", "expr": "- * temp_a temp_b temp_c", "answer": 9.0, "num_list": [5, 2, 1]}
+{"id": "14855", "text": "妈妈 带 n 元 钱 去 超市 ， 买 了 一袋 n 元 的 奶粉 ， 还 买 了 n 元 的 猪肉 ， 最后 还 剩 多少 元 钱 ？", "expr": "- - temp_a temp_b temp_c", "answer": 70.0, "num_list": [100, 14.8, 15.2]}
+{"id": "14858", "text": "我国 的 淡水鱼 类 大约 有 n 种 ， 比 海洋 鱼类 少 n ． 我国 的 海洋 鱼类 大约 有 多少 种 ？", "expr": "/ temp_a - 1 temp_b", "answer": 2000.0000000000002, "num_list": [700, 0.65]}
+{"id": "14874", "text": "学校 购进 面包 n 箱 ， 购进 的 牛奶 是 面包 的 n 倍 ， 学校 购进 的 面包 和 牛奶 一共 有 多少 箱 ？", "expr": "* temp_a + temp_b 1", "answer": 760.0, "num_list": [76, 9]}
+{"id": "14903", "text": "小 李 从 家 到 学校 ， 每分钟 走 n 米 ， n 分钟 走 了 一半 路程 ， 剩下 的 一半 路程 要 n 分钟 走 完 ， 平均 每分钟 要 走 多少 米 ．", "expr": "/ * temp_a temp_b temp_c", "answer": 70.0, "num_list": [50, 7, 5]}
+{"id": "14906", "text": "菜 场上 有 n 千克 大白菜 ， 比 胡萝卜 多 n 千克 ， 大白菜 和 胡萝卜 一共 有 多少 千克 ？", "expr": "+ temp_a - temp_a temp_b", "answer": 668.0, "num_list": [342, 16]}
+{"id": "14915", "text": "李 芳 用 彩纸 制作 了 一条 花边 ， 一共 排列 了 n 朵花 ． 每 朵花 的 宽 是 n 厘米 ， 每 两朵花 之间 的 距离 是 n 厘米 ． 请 算 出 这 条 花边 一共 长 多少 厘米 ？", "expr": "+ * temp_a temp_b * - temp_a 1 temp_c", "answer": 568.8, "num_list": [100, 4.5, 1.2]}
+{"id": "14955", "text": "永 红 小学 六年级 学生 参加 课外活动 生物 组 的 有 n 人 ， 参加 微 机组 的 人数 是 生物 组 的 n ， 又 是 美术组 的 n ． 美术组 有 多少 人 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 32.0, "num_list": [35, 0.8, 0.875]}
+{"id": "14965", "text": "水果 批发部 要 运进 一批 水果 ， 第一次 运进 总量 的 n ， 第 二 次 运进 n 吨 ， 两次 共 运进 这 批 水果 的 n ， 这 批 水果 一共 有 多少 吨 ．", "expr": "/ temp_b - temp_c temp_a", "answer": 3.75, "num_list": [0.22, 1.5, 0.62]}
+{"id": "14974", "text": "某 图书馆 的 童话 书 占 图书 总数 的 n ， 科技 书 占 图书 总数 的 n ， 童话 书 和 科技 书 共有 n 本 ． 这个 图书馆 共有 图书 多少 本 ？", "expr": "/ temp_c + temp_a temp_b", "answer": 575.0, "num_list": [0.25, 0.15, 230]}
+{"id": "14980", "text": "一 辆 旅游车 n 小时 行驶 了 n 千米 ， 照 这样 的 速度 这辆 旅游车 行驶 了 n 小时 到达 目的地 ， 这辆 旅游车 行驶 了 多少 千米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 650.0, "num_list": [3, 150, 13]}
+{"id": "15036", "text": "李 明 有 存款 n 元 ， 王 芳 有 存款 n 元 ， 王 芳 想 赶上 李 明 ， 李 明 每月 存 n 元 ， 王 芳 每次 存 n 元 ， 多少 个 月 后 ， 王 芳 才能 赶上 李 明 ．", "expr": "/ - temp_a temp_b - temp_d temp_c", "answer": 12.0, "num_list": [130, 70, 10, 15]}
+{"id": "15083", "text": "花生仁 的 出油率 为 n ， 要 榨 n 千克 花生油 大约 需要 多少 千克 花生仁 ？", "expr": "/ temp_b temp_a", "answer": 1000.0, "num_list": [0.38, 380]}
+{"id": "15090", "text": "甲 乙丙 n 人 共同 加工 一批 零件 ， 甲 加工 了 总数 的 n ， 乙 加工 了 总数 的 n 还 多 n 个 ， 丙 加工 了 剩下 的 n 个 ． 这 批 零件 一共 有 多少 个 ？", "expr": "/ + temp_e temp_d - - 1 temp_b temp_c", "answer": 400.00000000000006, "num_list": [3, 0.4, 0.375, 26, 64]}
+{"id": "15092", "text": "商店 运 来 n 只 塑料盒 ， 上午 买 出 n ， 下午 卖出 n ． 一天 共 卖出 多少 只 ？", "expr": "* temp_a + temp_b temp_c", "answer": 520.0, "num_list": [800, 0.25, 0.4]}
+{"id": "15100", "text": "一 头 大象 n 天 吃 n 千克 食物 ， 一只 熊猫 每天 吃 n 千克 食物 ． 大象 每天 吃 的 食物 是 熊猫 的 多少倍 ？", "expr": "/ / temp_b temp_a temp_c", "answer": 2.0, "num_list": [4, 320, 40]}
+{"id": "15140", "text": "一 列 火车 长 n 米 ， 每秒 行驶 n 米 ， n 秒 通过 一条 隧道 ， 这 条 隧道 长 多少 米 ？", "expr": "- * temp_b temp_c temp_a", "answer": 645.0, "num_list": [75, 24, 30]}
+{"id": "15141", "text": "小 圆 的 面积 相当于 大圆 的 面积 n ， 这 两个 圆 的 面积 和 是 n 平方厘米 ， 大圆 的 面积 = 多少 平方厘米 ．", "expr": "/ temp_b + 1 temp_a", "answer": 60.00000000000001, "num_list": [0.6666666666666666, 100]}
+{"id": "15150", "text": "修 一条 长 n 米 的 路 ， 已经 修 了 n 天 ， 平均 每天 修 n 米 ． 还 剩下 多少 米 ？", "expr": "- temp_a * temp_b temp_c", "answer": 60.0, "num_list": [4500, 24, 185]}
+{"id": "15159", "text": "服装厂 加工 一批 服装 ， 前 n 天 加工 了 n 套 ， 照 这样 计算 ， 再 用 n 天 就 能 完成 任务 ， 这 批 服装 共有 多少 套 ？", "expr": "+ temp_b * / temp_b temp_a temp_c", "answer": 1080.0, "num_list": [3, 180, 15]}
+{"id": "15177", "text": "一 辆 汽车 从 A 城 开往 B 城 ， 上午 行驶 n 小时 ， 每 小时 行驶 n 千米 ， 中午 休息 了 n 小时 ， 下午 用 同样 的 速度 又 行驶 了 n 小时 到达 B 城 ， A 、 B 两城 相距 多 远 ？", "expr": "+ * temp_a temp_b * temp_d temp_b", "answer": 525.0, "num_list": [3, 75, 1, 4]}
+{"id": "15208", "text": "商店 以 每 双 n 元 购进 一批 凉鞋 ， 售价 为 n 元 ， 卖 到 剩下 n 双 时 ， 除去 购进 这 批 凉鞋 的 全部 开销 外 还 获利 n 元 ， 这 批 凉鞋 共有 多少 双 ．", "expr": "+ / + temp_d * temp_a temp_c - temp_b temp_a temp_c", "answer": 89.99999999999997, "num_list": [13, 14.8, 5, 88]}
+{"id": "15248", "text": "一 辆 汽车 运 一堆 货物 ， 运走 了 总数 的 n ， 这时 剩下 的 比 运走 的 还 多 n 吨 ． 原来 这 堆 货物 有 多少 吨 ？", "expr": "/ temp_b - - 1 temp_a temp_a", "answer": 59.99999999999999, "num_list": [0.35, 18]}
+{"id": "15263", "text": "体育馆 有 n 个 皮球 ， n 个 装 一盒 ， n 盒装 一箱 ， 这些 皮球 能 装 多少 箱 ？", "expr": "/ temp_a * temp_b temp_c", "answer": 20.0, "num_list": [960, 6, 8]}
+{"id": "15318", "text": "爸爸 将 n 元 存入 银行 ， 整存整取 两年 ， 年利率 为 n ， n 年 后 利息 共有 多少 元 ？ 若 利息税 为 n ， 那么 税后 利息 和 本金 一共 多元 ？", "expr": "+ temp_a * * * temp_a temp_b temp_c - 1 temp_d", "answer": 2660.0, "num_list": [2500, 0.04, 2, 0.2]}
+{"id": "15320", "text": "新建 小学 修建 教学楼 用 去 n 万元 ， 比 计划 节约 了 n 万元 ， 节约 了 百分之几 ？", "expr": "/ temp_b + temp_b temp_a", "answer": 0.25, "num_list": [90, 30]}
+{"id": "15323", "text": "张 阿姨 家住 在 郊区 ， 周末 她 从 家 公共汽车 去 华美 电器城 买 电冰箱 ． 去 时 公交车 的 速度 是 n 千米 / 小时 ， 用 了 n 小时 ． 回来 时 用 了 n 小时 ． 她 返回 时 公交车 的 速度 = ？", "expr": "/ * temp_a temp_b temp_c", "answer": 40.0, "num_list": [60, 2, 3]}
+{"id": "15334", "text": "夏日 超市 一天 卖 了 n 箱 杏仁露 和 n 箱 矿泉水 ， 每箱 杏仁露 和 矿泉水 都 是 n 瓶 ． 夏日 超市 一共 卖 了 杏仁露 和 矿泉水 多少 瓶 ？", "expr": "+ * temp_a temp_c * temp_b temp_c", "answer": 2400.0, "num_list": [57, 43, 24]}
+{"id": "15346", "text": "男生 有 n 人 ， 比 女生 少 n ． 女生 有 多少 人 ？", "expr": "/ temp_a - 1 temp_b", "answer": 25.0, "num_list": [24, 0.04]}
+{"id": "15377", "text": "某 工地 需要 沙 n 吨 ， 用 一辆 载重 n 吨 的 汽车 运 了 n 次 ， 余下 的 改用 一辆 重 n 吨 的 汽车 来 运 ， 还要 运 多少 次 ？", "expr": "/ - temp_a * temp_b temp_c temp_d", "answer": 19.0, "num_list": [50, 0.5, 5, 2.5]}
+{"id": "15384", "text": "n * n = ．", "expr": "* temp_a temp_b", "answer": 2.1, "num_list": [0.875, 2.4]}
+{"id": "15409", "text": "一 堆 糖果 共 n 块 ， 其中 奶糖 占 这 堆 糖果 的 n ， 再 加入 多少 块 奶糖 后 ， 奶糖 占 现有 糖果 n ．", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 100.0, "num_list": [200, 0.4, 0.6]}
+{"id": "15434", "text": "小林 家 的 果园 里 种 了 n 行 桃树 ， 每行 n 棵 ， 又 种 了 n 棵 苹果 ， 桃树 比 苹果 多 多少 棵 ？", "expr": "- * temp_b temp_a temp_c", "answer": 209.0, "num_list": [5, 159, 586]}
+{"id": "15436", "text": "商场 运 来 n 箱 毛巾 ， 每箱 n 条 ， 一共 卖 了 n 元 ， 平均 每 条 毛巾 卖 了 多少 元 ？", "expr": "/ temp_c * temp_a temp_b", "answer": 10.0, "num_list": [6, 8, 480]}
+{"id": "15464", "text": "一 列 客车 从 东城 开往 西城 ， 行 了 全程 的 n ， 正好 是 n 千米 ， 东西 两成 之间 的 铁路 长 多少 千米 ？", "expr": "/ temp_b temp_a", "answer": 584.0, "num_list": [0.625, 365]}
+{"id": "15481", "text": "养禽 厂 养 的 鸭 是 鸡 的 n ， 同时 又 是 鹅 的 n ， 养 的 鸡 有 n 只 ， 养 的 鹅 有 多少 只 ？", "expr": "/ * temp_c temp_a temp_b", "answer": 2000.0, "num_list": [0.6666666666666666, 0.8, 2400]}
+{"id": "15534", "text": "计算 ： n * n + n * n = ．", "expr": "+ * temp_a temp_b * temp_c temp_d", "answer": 666000.0, "num_list": [666, 778, 333, 444]}
+{"id": "15553", "text": "n 个 好 朋友 约 好 一起 去 少年宫 玩 ． 他们 各自 从 家 去 到 少年宫 ， 小 明 用 了 n 小时 ， 小 青 比 小 明 少 用 n 小时 ， 小 王 比 小 青 多 花 了 n 小时 ． 小 王 从 家 去 到 少年宫 用 了 多少 时间 ？", "expr": "+ - temp_b temp_c temp_d", "answer": 0.65, "num_list": [3, 0.75, 0.2, 0.1]}
+{"id": "15563", "text": "合唱队 里 有 男生 n 人 ， 比 女生 少 n ， 合唱队 共有 多少 人 ．", "expr": "+ / temp_a - 1 temp_b temp_a", "answer": 49.0, "num_list": [21, 0.25]}
+{"id": "15573", "text": "做 n 节 底面 直径 是 n 分 米 ， 长 n 分 米 的 圆柱形 通风管 ， 至少 需要 多少 铁皮 ？", "expr": "* * * 3.14 temp_b temp_c temp_a", "answer": 251.20000000000002, "num_list": [5, 2, 8]}
+{"id": "15583", "text": "从 n 中 连续 减去 n ， 要 得到 结果 是 n ， 需 减 多少 次 ．", "expr": "/ temp_a temp_b", "answer": 81.0, "num_list": [567, 7, 0]}
+{"id": "15599", "text": "体育老师 用 n 元 钱 买 了 n 个 足球 ， 还 买 了 数量 同样 多 的 篮球 花 了 n 元 ． 每个 篮球 比 每个 足球 贵 多少 元 ？", "expr": "- / temp_c temp_b / temp_a temp_b", "answer": 20.0, "num_list": [720, 18, 1080]}
+{"id": "15632", "text": "小花 妈妈 打算 将 n 元 定期 存入 银行 n 年 ， 如果 按 年利率 n 计算 ， 到期 时 小花 妈妈 实际 的 本息 共有 多少 元 ？ （ 另记 利息税 n ）", "expr": "+ temp_a * * * temp_a temp_c temp_b - 1 temp_d", "answer": 21992.6, "num_list": [20000, 3, 0.0369, 0.1]}
+{"id": "15678", "text": "n 个 小朋友 通电话 ， 每 n 人 通 一次 话 ， 一 共通 多少 次 话 ．", "expr": "/ * temp_a - temp_a 1 temp_b", "answer": 6.0, "num_list": [4, 2]}
+{"id": "15688", "text": "合唱 小组 的 同学 排队 ， 若 每排 站 n 人 ， 可以 站 n 排 ， 如果 每排 站 n 人 ， 能 站 多少 排 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 32.0, "num_list": [24, 8, 6]}
+{"id": "15740", "text": "希望 小学 n （ n ） 班 男生 人数 的 n 等于 全班 人数 的 n ， 该班 有 女生 n 人 ， 男生 有 多少 人 ．", "expr": "- / temp_e - temp_b / temp_d temp_c temp_e", "answer": 24.0, "num_list": [6, 1, 0.6666666666666666, 0.3076923076923077, 28]}
+{"id": "15748", "text": "小 东 计划 到 周口店 参观 猿人 遗址 ． 如果 他 坐 汽车 以 n 千米 / 小时 的 速度 行驶 ， 那么 比 骑车去 早 到 n 小时 ， 如果 他 以 n 千米 / 小时 的 速度 步行 去 ， 那么 比 骑车 晚 到 n 小时 ， 小 东 的 出发点 到 周口店 有 多少 千米 ？", "expr": "* / * temp_c + temp_b temp_d - temp_a temp_c temp_a", "answer": 80.0, "num_list": [40, 3, 8, 5]}
+{"id": "15757", "text": "图书馆 科技 书 占 该馆 藏书 的 n ， 如果 该馆 有 科技 书 n 万册 ， 那么 该馆 藏书 多少 万册 ？", "expr": "/ temp_b temp_a", "answer": 4.8, "num_list": [0.25, 1.2]}
+{"id": "15765", "text": "一 位 老红军 伯伯 准备 用 自己 多年 的 积蓄 n 元 资助 一批 失学 儿童 返 校园 ， 他 先 拿出 n 元 ， 资助 了 n 名 失学 儿童 ． 照 这样 计算 ， 剩下 的 钱 还 可以 资助 多少 名 失学 儿童 ？", "expr": "/ - temp_a temp_b / temp_b temp_c", "answer": 52.0, "num_list": [9900, 540, 3]}
+{"id": "15793", "text": "食堂 运进 一批 大米 ， 吃掉 n 吨 ， 比 剩下 的 多 n 吨 ． 这 批 大米 原有 多少 吨 ？", "expr": "+ temp_a - temp_a temp_b", "answer": 1.35, "num_list": [0.8, 0.25]}
+{"id": "15803", "text": "王 飞 同学 n 年 元旦 把 积攒 的 n 元 零花钱 存入 银行 ， 存 整存整取 一年 ． 准备 到期 后 把 利息 捐赠 给 “ 希望工程 ” ， 支援 贫困地区 的 失学 儿童 ． 如果 年利率 按 n 计算 ， 到期 时 他 可以 捐赠 给 “ 希望工程 ” 多少 元 ．", "expr": "* * temp_b temp_c 1", "answer": 28.000000000000004, "num_list": [2006, 800, 0.035]}
+{"id": "15835", "text": "一 堆 沙子 ， 第一天 运走 总数 的 n ， 第 二 天 运走 总数 的 n 还 多 n 吨 ， 剩下 n 吨 第 n 天 全部 运 完 ， 这 堆 沙子 一共 有 多少 吨 ？", "expr": "/ + temp_c temp_d - - 1 temp_a temp_b", "answer": 29.999999999999996, "num_list": [0.2, 0.25, 4.5, 12, 3]}
+{"id": "15886", "text": "甲 ， 乙 两列 火车 同时 从 A 、 B 两地 相向 而 行 ， 甲 车 平均 每 小时 行驶 n 千米 ， 乙 车 平均 每 小时 行驶 n 千米 ， n 小时 相遇 ． A 、 B 两地 相距 多少 千米 ？", "expr": "* + temp_a temp_b temp_c", "answer": 690.0, "num_list": [120, 110, 3]}
+{"id": "15890", "text": "王老师 乘车 从 绍兴 去 杭州 参加 教学活动 ， 客车 已 行 了 n 千米 ， 还 剩 全程 的 n 没有 行 ． 绍兴 到 杭州 全程 多少 千米 ？", "expr": "/ temp_a - 1 temp_b", "answer": 132.0, "num_list": [33, 0.75]}
+{"id": "15892", "text": "修路 队 每天 修路 n 米 ， 已经 修 了 n 天 ， 还 剩 n 米 没有 修 ． 这 条 路 长 多少 米 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 2840.0, "num_list": [105, 25, 215]}
+{"id": "15897", "text": "被除数 是 n ， 商 和 余数 分别 是 n 、 n ， 求 除数 ．", "expr": "/ - temp_a temp_c temp_b", "answer": 142.0, "num_list": [288, 2, 4]}
+{"id": "15901", "text": "学校 建 综合楼 ， 实际 投资 n 万元 ， 节约 了 n 万元 ， 节约 了 百分之几 ？", "expr": "/ temp_b + temp_a temp_b", "answer": 0.12, "num_list": [220, 30]}
+{"id": "15917", "text": "n 的 n 倍 - n / n 的 商 ， 差 = ？", "expr": "- * temp_a temp_b / temp_c temp_d", "answer": 0.375, "num_list": [0.2, 2.5, 0.08333333333333333, 0.6666666666666666]}
+{"id": "15937", "text": "某 县城 到 省城 的 公路 长 n 千米 ． 一辆 汽车 走 高速公路 的 速度 是 n 千米 / 小时 ， 走 普通 公路 的 速度 是 n 千米 / 小时 ． 从 县城 到 省城 走 高速公路 比 普通 公路 节省 多少 时间 ？", "expr": "- / temp_a temp_c / temp_a temp_b", "answer": 1.0, "num_list": [180, 90, 60]}
+{"id": "15948", "text": "小 红 看 一本 小说 ， 第一天 看 了 总 页数 的 n 少 n 页 ， 第 二 天 看 的 比 总 页数 的 n 还 多 n 页 ， 还 剩下 n 页 没 看 ， 这本 小说 一共 有 多少 页 ？", "expr": "/ + - temp_e temp_b temp_d - - 1 temp_c temp_a", "answer": 96.0, "num_list": [0.25, 17, 0.125, 16, 61]}
+{"id": "15961", "text": "学校食堂 运进 豆角 n 千克 ， 茄子 是 豆角 的 n ， 运进 的 茄子 = 多少 千克 ？", "expr": "* temp_a temp_b", "answer": 90.0, "num_list": [120, 0.75]}
+{"id": "15995", "text": "n + n 与 n 的 积 ， 再 除以 n ， 商 = ？", "expr": "/ + temp_a * temp_b temp_c temp_d", "answer": 28.0, "num_list": [650, 11, 30, 35]}
+{"id": "16001", "text": "一 支 钢笔 n 元 ， 一支 圆珠笔 n 元 ， 小 明 买 一支 钢笔 和 一支 圆珠笔 ， 付给 售货员 阿姨 n 元 钱 ， 应 找回 多少 元 钱 ？", "expr": "- temp_c + temp_a temp_b", "answer": 2.0, "num_list": [4.5, 3.5, 10]}
+{"id": "16019", "text": "把 n 米 长 的 绳子 平均 剪成 n 段 ， 每 段长 多少 米 ．", "expr": "/ temp_a temp_b", "answer": 0.2222222222222222, "num_list": [0.8888888888888888, 4]}
+{"id": "16035", "text": "一 种 生理盐水 重 n 克 ， 含盐 率 是 n ， 现在 使 含盐 率 提高 到 n ， 应 加入 多少 克 盐 ．", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 50.0, "num_list": [250, 0.1, 0.25]}
+{"id": "16156", "text": "丁丁 的 外婆 有 一个 四合院 正在 出租 ， 院子 里 的 大 房 每月 租金 为 n 元 ， 小房 每月 租金 为 n 元 ， 且 大 房 比 小房 多 n 平方米 ． 丁丁 想 知道 外婆 的 出租房 每 平方米 的 租金 ， 你 能 帮 他 算 一 算 ？ 试一试 ． （ 说明 ： 假设 每 平方米 的 租金 一定 ． ）", "expr": "/ - temp_a temp_b temp_c", "answer": 55.0, "num_list": [2310, 1925, 7]}
+{"id": "16206", "text": "五 星 小学 的 同学 去 参观 博物馆 ， 六年级 去 了 n 人 ， 比 五年级 去 的 人数 的 n 倍 少 了 n 人 ， 五年级 去 了 多少 人 ？", "expr": "/ + temp_a temp_c temp_b", "answer": 139.0, "num_list": [354, 3, 63]}
+{"id": "16208", "text": "小 明 读 一 本书 ， 已知 他 已 读 的 页数 比 全书 的 n 多 n 页 ， 没 读 的 页数 比 全书 的 n 多 n 页 ， 这 本书 共有 多少 页 ？", "expr": "/ + temp_b temp_d - - 1 temp_a temp_c", "answer": 239.9999999999998, "num_list": [0.2, 2, 0.75, 10]}
+{"id": "16212", "text": "一 块 花布 ， 用 去 n ， 还 剩 n 米 ． 这块 花布 有 多少 米 ？", "expr": "/ temp_b - 1 temp_a", "answer": 0.3333333333333333, "num_list": [0.625, 0.125]}
+{"id": "16227", "text": "一 根 铁箍 长 n 分 米 ， 正好 做成 一个 木桶 的 一道 箍 ． 已知 铁箍 接头处 是 n 分 米 ． 这个 木桶 的 外 直径 = 多少 分 米 ？", "expr": "/ - temp_a temp_b 3.14", "answer": 3.5, "num_list": [11.49, 0.5]}
+{"id": "16257", "text": "小春 在 计算 减法 时 ， 把 减数 n 写成 n ， 得到 的 差 是 n ， 正确 的 差 应该 = ．", "expr": "- + temp_c temp_b temp_a", "answer": 131.0, "num_list": [72, 27, 176]}
+{"id": "16273", "text": "每 n 支 水彩笔 要 装 一盒 ， 每 n 盒 要 装 一箱 ， 现在 要 装 n 箱 ， 需要 多少 支 水彩笔 ？", "expr": "* * temp_a temp_b temp_c", "answer": 2400.0, "num_list": [12, 40, 5]}
+{"id": "16277", "text": "五年级 学生 在 校园 里 栽树 ， 一共 栽 了 n 棵 ， 成活 了 n 棵 ． 成活 的 棵 树 占 栽树 总 棵 数 的 几分 之 几 ？", "expr": "/ temp_b temp_a", "answer": 0.9375, "num_list": [80, 75]}
+{"id": "16284", "text": "A 、 B 两地 相距 n 千米 ， 甲乙 两辆 汽车 分别 从 两地 相对 开出 ， n 小时 两辆 汽车 在 途中 相遇 ， 已知 乙 车 每 小时 行 n 千米 ， 甲 车 每 小时 行 多少 千米 ？", "expr": "- / temp_a temp_b temp_c", "answer": 47.5, "num_list": [864, 6.4, 87.5]}
+{"id": "16385", "text": "某 件 商品 按 每个 n 元 的 利润 卖出 n 个 钱 数 ， 与 按 每个 n 元 的 利润 卖出 n 个 的 钱 数 一样 多 ， 这种 商品 每个 成本 = 多少 元 ？", "expr": "/ - * temp_c temp_d * temp_a temp_b - temp_b temp_d", "answer": 40.0, "num_list": [5, 4, 20, 3]}
+{"id": "16422", "text": "小 文 今年 n 岁 ， 爷爷 的 年龄 比 他 的 n 倍 多 n 岁 ， 爷爷 明年 多少岁 ？", "expr": "+ + * temp_b temp_a temp_c 1", "answer": 64.0, "num_list": [11, 5, 8]}
+{"id": "16437", "text": "跳绳 比赛 中 ， 刘 红 跳 了 n 下 ， 是 李 明 跳 的 下 数 的 n ， 张 华 跳 的 下 数 是 李 明 的 n ， 张 华 跳 了 多少 下 ？", "expr": "* / temp_a temp_b temp_c", "answer": 150.0, "num_list": [160, 0.8, 0.75]}
+{"id": "16486", "text": "一 头 大象 重 n 吨 ， 一头 鲸鱼 的 重量 是 大象 的 n 倍 ， 鲸鱼 比 大象 重 多少 吨 ？", "expr": "* temp_a - temp_b 1", "answer": 16.32, "num_list": [3.4, 5.8]}
+{"id": "16489", "text": "学校 买来 故事书 、 科技 书 各 n 包 ． 故事书 每包 n 本 ， 科技 书 每包 n 本 ． 一共 买来 书 多少 本 ？", "expr": "* + temp_b temp_c temp_a", "answer": 387.0, "num_list": [9, 25, 18]}
+{"id": "16493", "text": "一 个 县 去年 计划 造林 n 公顷 ， 实际 超过 计划 的 n ， 实际 造林 多少 公顷 ？", "expr": "* temp_a + 1 temp_b", "answer": 1100.0, "num_list": [1000, 0.1]}
+{"id": "16553", "text": "n 吨 煤 ， 用 去 n ， 还 剩下 这 堆 煤 的 几分 之 几 ？ 多少 ．", "expr": "- 1 temp_b", "answer": 0.35, "num_list": [0.8, 0.65]}
+{"id": "16601", "text": "把 一根 钢管 锯 成 一样 长 的 小 段 ， 锯 了 n 次 ， 每 段 占 全长 的 多少 ．", "expr": "/ 1 + temp_a 1", "answer": 0.16666666666666666, "num_list": [5]}
+{"id": "16628", "text": "学校 书法 组 有 n 人 ， 器乐 组 的 人数 是 书法 组 的 n 倍 ． 器乐 组 有 多少 人 ？", "expr": "* temp_a temp_b", "answer": 75.0, "num_list": [25, 3]}
+{"id": "16629", "text": "一 本书 共有 n 页 ． 小 华 已经 读 了 n 天 ， 一共 读 了 n 页 ． 剩下 的 如果 要 n 天 读完 ， 每天 至少 要 读 多少 页 ？", "expr": "/ - temp_a temp_c temp_d", "answer": 40.0, "num_list": [440, 8, 240, 5]}
+{"id": "16638", "text": "姐姐 今年 n 岁 ， 我 今年 n 岁 ． n 年 后 ， 姐姐 比 我 大 多少岁 ．", "expr": "- temp_a temp_b", "answer": 3.0, "num_list": [15, 12, 5]}
+{"id": "16642", "text": "有 一条 宽 n 米 的 人行道 ， 占地面积 n 平方米 ， 为了 方便 ， 道路 的 宽度 要 增加 到 n 米 ， 长 不变 ， 扩宽 后 这 条 人行道 的 面积 = ？", "expr": "* / temp_b temp_a temp_c", "answer": 1440.0, "num_list": [4, 480, 12]}
+{"id": "16702", "text": "东华 小学 中年级 有 学生 n 名 ， 高年级 比 中年级 多 n ， 而 比 低年级 少 n ， 低年级 有 学生 多少 人 ？", "expr": "/ * temp_a + 1 temp_b - 1 temp_c", "answer": 330.0, "num_list": [220, 0.25, 0.16666666666666666]}
+{"id": "16746", "text": "加工 n 个 零件 ， 王师傅 单独 完成 要 n 天 ， 李师傅 单独 完成 要 n 天 ， 李师傅 每天 比 王师傅 少 加工 多少 个 零件 ？", "expr": "- / temp_a temp_b / temp_a temp_c", "answer": 40.0, "num_list": [1920, 12, 16]}
+{"id": "16757", "text": "秦 庄 去年 玉米 每 公顷 产量 达到 n 吨 ， 进行 改良 后 ， 今年 每 公顷 达到 n 吨 ， 比 去年 增产 百分之几 ？", "expr": "/ - temp_b temp_a temp_a", "answer": 0.19999999999999996, "num_list": [8, 9.6]}
+{"id": "16758", "text": "小 红 今年 n 岁 ， 爸爸 的 年龄 比 小 红 年龄 的 n 倍 大 n 岁 ， 爸爸 今年 多少岁 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 38.0, "num_list": [12, 3, 2]}
+{"id": "16895", "text": "学校 组织 n 、 五年级 学生 看望 烈士 家属 ， 四年级 去 了 n 人 ， 五年级 去 的 人数 是 四年级 的 n 倍 ， 他们 一共 去 了 多少 人 ？", "expr": "+ temp_b * temp_b temp_c", "answer": 480.0, "num_list": [4, 80, 5]}
+{"id": "16903", "text": "A 城 到 B 城 的 公路 长 n 千米 ． 一辆 汽车 走 高速路 的 速度 是 n 千米 / 时 ， 走 普通 公路 的 速度 是 n 千米 / 时 ． 从 A 城 去 B 城 走 高速路 比 普通 公路 节省 多少 时间 ？", "expr": "- / temp_a temp_c / temp_a temp_b", "answer": 1.0, "num_list": [150, 75, 50]}
+{"id": "16918", "text": "码头 上 有 n 吨 货物 ， 现 用 n 辆 载重 为 n 吨 的 卡车 运 ， 需要 运 多少 次 才能 运 完 ？", "expr": "/ temp_a * temp_b temp_c", "answer": 5.0, "num_list": [165, 6, 5.5]}
+{"id": "16946", "text": "运动会 上 n 个 同学 参加 体操 表演 ． 他们 平均 分成 n 队 ， 每队 平均 分成 n 组 ． 每组 有 多少 个 同学 ？", "expr": "/ / temp_a temp_b temp_c", "answer": 9.0, "num_list": [315, 5, 7]}
+{"id": "16997", "text": "张 阳 读 一本 科普 书 ， 第一周 读 了 这 本书 的 n ， 第 二 周 读 了 n 页 ， 剩下 这 本书 的 n 没有 读 ， 这本 科普 书 共有 多少 页 ？", "expr": "/ temp_b - - 1 temp_a temp_c", "answer": 599.9999999999999, "num_list": [0.3333333333333333, 160, 0.4]}
+{"id": "17014", "text": "某 工地 需要 运 黄土 n 吨 ， 用 一辆 载重 n 吨 的 汽车 运 了 n 次 ， 余下 改用 一辆 载重 n 吨 的 汽车 运 ， 还要 运 多少 次 ？", "expr": "/ - temp_a * temp_b temp_c temp_d", "answer": 13.0, "num_list": [44.5, 2.5, 10, 1.5]}
+{"id": "17025", "text": "用 n - n 的 差 乘以 n / n 的 商 ， 积 = ？", "expr": "* - temp_a temp_b / temp_d temp_c", "answer": 88.0, "num_list": [49, 38, 8, 64]}
+{"id": "17078", "text": "甲 、 乙 两个 工程队 共同 修 一条 n 米 长 的 公路 ， 甲队 每天 修 n 米 ， 乙 队 每天 比 甲队 多 修 n 米 ， 多少 天 能 修 完 这 条 公路 ？", "expr": "/ temp_a + + temp_b temp_c temp_b", "answer": 5.0, "num_list": [7.15, 0.65, 0.13]}
+{"id": "17108", "text": "一 艘 货轮 从 上海 到 广州 航程 是 n 千米 ． 平均 每天 行 n 千米 ． 几天 可以 到达 ？", "expr": "/ temp_a temp_b", "answer": 6.0, "num_list": [1800, 300]}
+{"id": "17109", "text": "甲 、 乙 、 丙 n 人 共 加工 n 个 零件 ． 甲 、 乙 两 人 完成 数量 的 比 是 n ： n ， 丙 比 甲 少 完成 n 个 零件 ， 乙 完成 了 多少 个 零件 ．", "expr": "* + temp_b temp_e / temp_d + + temp_c temp_d temp_c", "answer": 280.0, "num_list": [3, 1000, 7, 5, 64]}
+{"id": "17134", "text": "李老师 有 n 本 练习本 ， 发给 二年级 同学 n 本 ， 一年级 同学 n 本 ． 李老师 还 剩 多少 本 ？", "expr": "- - temp_a temp_b temp_c", "answer": 11.0, "num_list": [415, 196, 208]}
+{"id": "17140", "text": "爸爸 身高 n 米 ， 妈妈 身高 n 米 ， 小 明 踩 在 一块 石头 上 与 妈妈 一样 高 ， 妈妈 踩 在 这块 石头 上 与 爸爸 一样 高 ． 小 明 身高 = 多少 米 ．", "expr": "- temp_b - temp_a temp_b", "answer": 1.26, "num_list": [1.74, 1.5]}
+{"id": "17147", "text": "一 个 除法 算式 ， 除数 是 n ， 商 是 n ， 余数 是 n ， 那么 被除数 = ．", "expr": "+ * temp_b temp_a temp_c", "answer": 244.0, "num_list": [5, 48, 4]}
+{"id": "17180", "text": "修 一条 路 ， 已修 和 未 修 的 千米 数 比 是 n ： n ． 如果 再 修 n 千米 ， 则 已修 和 未 修 的 千米 数 n ： n ， 这 条 路 共 长 多少 千米 ？", "expr": "/ temp_c - / temp_d + temp_d temp_e / temp_a + temp_a temp_b", "answer": 22.857142857142858, "num_list": [3, 5, 12, 9, 1]}
+{"id": "17256", "text": "工厂 一共 做 了 n 个 玩具 熊 ， 送给 幼儿园 n 个 ， 剩下 的 平均 分给 一年级 n 个 班 ， 每班 可 分 得 几个 ？", "expr": "/ - temp_a temp_b temp_c", "answer": 11.0, "num_list": [48, 15, 3]}
+{"id": "17266", "text": "少先队员 共 采集 标本 n 只 ， 其中 n 是 植物 标本 ， 其余 是 昆虫 标本 ， 昆虫 标本 有 多少 只 ？", "expr": "* temp_a - 1 temp_b", "answer": 45.0, "num_list": [120, 0.625]}
+{"id": "17268", "text": "商场 n - n 月份 共 卖出 彩色 电视机 n 台 ， 平均 每个 月 卖出 多少 台 ？", "expr": "/ temp_c temp_b", "answer": 44.0, "num_list": [1, 6, 264]}
+{"id": "17281", "text": "n - n 的 差 乘 n ， 积 = ？", "expr": "* - temp_a temp_b temp_c", "answer": 0.04761904761904761, "num_list": [0.6666666666666666, 0.6, 0.7142857142857143]}
+{"id": "17285", "text": "一 艘 大 船运 了 n 次货 ， 一艘 小 船运 了 n 次货 ， 大船 每次 运 n 吨 ， 小船 每次 运 n 吨 ， 大船 和 小船 一共 运 了 多少 吨 货 ？", "expr": "+ * temp_c temp_a * temp_d temp_b", "answer": 288.0, "num_list": [6, 9, 30, 12]}
+{"id": "17290", "text": "杭州 到 黄山 相距 n 千米 ． 一列 火车 的 速度 是 n 千米 / 时 ， 一辆 汽车 的 速度 是 n 千米 / 时 ． 如果 火车 和 汽车 同时 从 杭州 出发 ， 那么 火车 比 汽车 到达 黄山 的 时间 早 多少 小时 ．", "expr": "- / temp_a temp_c / temp_a temp_b", "answer": 1.0, "num_list": [240, 120, 80]}
+{"id": "17301", "text": "阳光 小学 三年级 有 学生 n 人 ， 比 四年级 学生 少 n 人 ， 四年级 有 多少 人 ？", "expr": "+ temp_a temp_b", "answer": 311.0, "num_list": [248, 63]}
+{"id": "17369", "text": "滑冰场 上午 有 n 人 ， 中午 有 n 人 离去 ， 又 有 n 人 到来 ． 现在 有 多少 人 滑冰 ？", "expr": "+ - temp_a temp_b temp_c", "answer": 113.0, "num_list": [72, 44, 85]}
+{"id": "17388", "text": "小 红 在 跳绳 比赛 中 ， 前 n 次 每次 平均 跳 n 下 ， 第 n 次 跳 了 n 下 ， 她 平均 每次 跳 多少 下 ？", "expr": "/ + * temp_b temp_a temp_d temp_c", "answer": 98.0, "num_list": [3, 96, 4, 104]}
+{"id": "17403", "text": "某 汽车厂 去 年产 汽车 n 辆 ， 其中 小型车 占 n ， 其余 为 大型 车 ， 今年 计划 大型 车 产量 未 变 ， 增产 小型车 若干辆 使 小型车 产量 占 总产量 的 n ， 求 今年 增产 多少 辆 小型车 （ 列式 解答 ）", "expr": "- / * temp_a - 1 temp_b - 1 temp_c temp_a", "answer": 1875.0, "num_list": [20000, 0.125, 0.2]}
+{"id": "17421", "text": "原来 做 一条 裙子 用布 n 米 ， 现在 只要 n 米 ． 原来 做 n 条 裙子 所用 的 布 ， 现在 可以 做 多少 条 ？", "expr": "/ * temp_a temp_c temp_b", "answer": 1050.0, "num_list": [0.7, 0.6, 900]}
+{"id": "17422", "text": "甲 数 的 n 与 乙 数 的 n 相等 ， 已知 甲 数 的 倒数 是 n + n ， 乙 数 = ．", "expr": "/ * / 1 + temp_c temp_d temp_a temp_b", "answer": 0.8333333333333334, "num_list": [0.8, 0.3, 3, 0.2]}
+{"id": "17470", "text": "一 辆 汽车 从 宝应 去 扬州 ， 已经 行 了 n 千米 ， 占 全程 的 n ， 两地 相距 多少 千米 ？", "expr": "/ temp_a temp_b", "answer": 105.0, "num_list": [42, 0.4]}
+{"id": "17479", "text": "超市 原有 西瓜 n 千克 ， 上午 卖出 n 千克 ， 下午 又 运 来 n 千克 ， 这时 超市 有 西瓜 多少 千克 ？", "expr": "+ - temp_a temp_b temp_c", "answer": 408.0, "num_list": [348, 153, 213]}
+{"id": "17497", "text": "某 织布厂 第一 车间 有 工人 n 人 ， 相当于 第 二 车间 人数 的 n ， 两 车间 人数 的 总数 占 职工 总数 的 n ． 全厂 职工 有 多少 人 ？", "expr": "/ + temp_a / temp_a temp_b temp_c", "answer": 5000.0, "num_list": [250, 0.8333333333333334, 0.11]}
+{"id": "17504", "text": "小 明 看 一本 n 页 的 故事书 ， 前 n 天 看 了 整本书 的 n ． 平均 每天 看 多少 页 ？", "expr": "/ * temp_a temp_c temp_b", "answer": 30.0, "num_list": [150, 3, 0.6]}
+{"id": "17516", "text": "学校 图书室 科技 书 的 本 数 是 故事书 的 n ， 故事书 的 本 数 占 图书 总数 的 n ， 图书室 共有 图书 n ， 科技 书 有 多少 本 ？", "expr": "* * temp_c temp_b temp_a", "answer": 1800.0, "num_list": [0.6666666666666666, 0.6, 4500]}
+{"id": "17526", "text": "喜 羊 羊 和 灰 太 狼 在 体育场 进行 n 米 赛跑 ， 灰 太 狼 的 速度 是 喜 羊 羊 的 n 倍 ， 当 它们 从 起点 一起 出发 后 ， 喜 羊 羊 不停 地 跑 ， 灰 太 狼 跑 到 某处 后 开始 睡觉 ， 等 它 醒来时 喜 羊 羊 已经 领先 它 n 米 ， 灰 太 狼 奋起直追 ， 当 喜 羊 羊 到达 终点 时 ， 灰 太 狼 仍然 落后 n 米 ， 那么 灰 太 狼 睡觉 期间 喜 羊 羊 跑 了 多少 米 ？", "expr": "/ - * temp_a temp_b - temp_a temp_d temp_b", "answer": 16700.0, "num_list": [20000, 6, 10000, 200]}
+{"id": "17535", "text": "学校 组织 同学 们 去 看 电影 ， 三年级 有 n 人 ， 分别 乘坐 n 辆车 ， 平均 每辆车 坐 多少 人 ？", "expr": "/ temp_a temp_b", "answer": 52.0, "num_list": [260, 5]}
+{"id": "17583", "text": "一 根 铁丝 用 去 n 米 ， 是 剩下 铁丝 的 n 倍 ， 剩下 多少 米 ？", "expr": "/ temp_a temp_b", "answer": 2.1, "num_list": [10.5, 5]}
+{"id": "17611", "text": "一 头 猪 重 n 千克 ， 一头 牛 的 重量 是 它 的 n 倍 ， 一头 牛 和 一头 猪 一共 重 多少 千克 ？", "expr": "+ temp_a * temp_a temp_b", "answer": 832.0, "num_list": [208, 3]}
+{"id": "17668", "text": "甜美 水果店 上午 卖 苹果 n 箱 ， 每箱 重 n 千克 ． 如果 平均 每千克 苹果 售价 n 元 ， 这些 苹果 卖 多少 元 ？", "expr": "* temp_c * temp_b temp_a", "answer": 480.0, "num_list": [12, 20, 2]}
+{"id": "17694", "text": "桃林 沟 果园 里 有 苹果树 n 棵 ， 梨树 的 棵 树 比 苹果树 少 n ， 梨树 有 多少 棵 ？", "expr": "* temp_a - 1 temp_b", "answer": 75.0, "num_list": [100, 0.25]}
+{"id": "17773", "text": "甲 、 乙 两 人 同时 骑 自行车 从 A 城 到 B 城 ， 甲 每 小时 行 n 千米 ， 乙 每 小时 行 n 千米 ， 甲 由于 途中 有事 耽误 了 n 小时 ， 结果 甲 和 乙 同时 到达 B 城 ． 求 A 、 B 两城 间 的 距离 ．", "expr": "* / * temp_a temp_c - temp_a temp_b temp_b", "answer": 240.0, "num_list": [15, 12, 4]}
+{"id": "17781", "text": "李 明 家 n 月 共 支出 n 元 ， 其中 购物 支出 占 n ， 伙食费 支出 占 n ． 两项 支出 共 多少 元 ？", "expr": "* temp_b + temp_c temp_d", "answer": 1200.0000000000002, "num_list": [5, 2000, 0.2, 0.4]}
+{"id": "17789", "text": "饲养场 有 公鸡 n 只 ， 母鸡 的 只 数 比 公鸡 的 n 倍 多 n 只 ， 饲养场 一共 有 多少 只 母鸡 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 780.0, "num_list": [245, 3, 45]}
+{"id": "17849", "text": "某 商店 n 月份 的 营业额 是 n 万元 ， 按 n 缴纳 营业税 ， 这个 商店 要 缴纳 营业税 多少 万元 ．", "expr": "* temp_b temp_c", "answer": 2.5, "num_list": [6, 50, 0.05]}
+{"id": "17850", "text": "一 堆 煤 ， 第一周 用 去 这 堆 煤 的 n ， 每 二 周 用 去 这 堆 煤 的 n ， 刚好 用 去 n 吨 ． 这 堆 煤 原有 多少 吨 ？", "expr": "/ temp_c + temp_a temp_b", "answer": 5.454545454545454, "num_list": [0.4, 0.3333333333333333, 4]}
+{"id": "17853", "text": "学校 计划 用 一些 钱 购买 单价 n 元 得 电子琴 ， 正好 可以 买 n 台 ， 实际 买 录音机 用 去 了 n 元 ， 剩下 的 钱 还 够买 几台 ？", "expr": "/ - * temp_a temp_b temp_c temp_a", "answer": 4.0, "num_list": [1050, 7, 3150]}
+{"id": "17880", "text": "一 个数 的 n 是 n ， 这个 数 = ？", "expr": "/ temp_b temp_a", "answer": 159.6, "num_list": [0.7142857142857143, 114]}
+{"id": "17901", "text": "黄河 全长 n 千米 ， 长江 全长 n 千米 ， 长江 比 黄河 长 多少 千米 ？", "expr": "- temp_b temp_a", "answer": 836.0, "num_list": [5464, 6300]}
+{"id": "17902", "text": "n 、 四年级 学生 向 灾区 捐款 ， 三年级 捐 了 n 元 ， 比 四年级 少 n 元 ， 两个 年级 共 捐 了 多少 钱 ？", "expr": "+ temp_b + temp_b temp_c", "answer": 1587.5, "num_list": [3, 769.3, 48.9]}
+{"id": "17983", "text": "王老师 给 营业员 n 元 买 了 n 个 排球 ， 找回 n 元 ， 每个 排球 几元 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 12.0, "num_list": [200, 16, 8]}
+{"id": "18002", "text": "为 支援 汶川 抗震救灾 ， 滨海 市 和平 小学 五年级 一班 n 人 共 捐款 n 元 ， 三年级 一班 n 人 共 捐款 n 元 ， 五年级 平均 每人 比 三年级 多 捐 多少 元 ？", "expr": "- / temp_b temp_a / temp_d temp_c", "answer": 4.0, "num_list": [41, 943, 38, 722]}
+{"id": "18046", "text": "我国 供水 不足 的 城市 个数 占 全国 总 城市 的 n ， 其中 又 有 n 的 城市 严重 缺水 ， 全国 严重 缺水 的 城市 个数 占 总 城市 个数 的 几分 之 几 ？", "expr": "* temp_a temp_b", "answer": 0.16666666666666666, "num_list": [0.6666666666666666, 0.25]}
+{"id": "18054", "text": "从 n 中 连续 减去 n ， 最 多 能 减 多少 次 ．", "expr": "/ temp_a temp_b", "answer": 1010.0, "num_list": [5050, 5]}
+{"id": "18063", "text": "某 商店 今天 卖出 n 台 电视机 ， n 台 洗衣机 ． 卖出 的 电视机 是 洗衣机 的 多少 ．", "expr": "/ temp_a temp_b", "answer": 2.142857142857143, "num_list": [15, 7]}
+{"id": "18088", "text": "n 路 公共汽车 车队 每月 计划 用 汽油 n 升 ， 采取 节油 措施 后 ， 实际 节约 了 n ， 实际 节油 多少 升 ？", "expr": "* temp_b temp_c", "answer": 450.0, "num_list": [12, 5400, 0.08333333333333333]}
+{"id": "18149", "text": "一 辆 汽车 从 甲地 开往 乙地 ， 已经 行驶 了 全程 的 n ， 距离 乙地 还有 n 千米 ， 甲 、 乙 两地 相距 多少 千米 ？", "expr": "/ temp_b - 1 temp_a", "answer": 462.0, "num_list": [0.7142857142857143, 132]}
+{"id": "18153", "text": "小 红 上个月 买 书 花 了 n 元 ， 占 总支出 的 n ， 小 红 上个月 一共 花 了 多少 元 ？", "expr": "/ temp_a temp_b", "answer": 75.0, "num_list": [15, 0.2]}
+{"id": "18156", "text": "买 n 支 钢笔 比 买 n 支 中性笔 贵 n 元 ， 每支 中性笔 的 价钱 是 n 元 ， 每支 钢笔 多少 元 ？", "expr": "/ + * temp_d temp_b temp_c temp_a", "answer": 2.7, "num_list": [4, 5, 4.8, 1.2]}
+{"id": "18166", "text": "一 件 衬衫 原价 n 元 ， 现在 打 n 出售 ， 这件 衬衫 现价 多少 元 ？", "expr": "* temp_a temp_b", "answer": 126.0, "num_list": [140, 0.9]}
+{"id": "18168", "text": "n * n 与 n 的 和 ， 积 = ？", "expr": "* temp_a + temp_b temp_c", "answer": 4125.0, "num_list": [75, 32, 23]}
+{"id": "18174", "text": "小 明 有 一本 故事书 ， 第一天 看 了 n 页 ， 第 二 天 看 了 n ， 还 剩下 n 页 ， 这 本书 共有 多少 页 ？", "expr": "/ + temp_a temp_c - 1 temp_b", "answer": 90.0, "num_list": [16, 0.2, 56]}
+{"id": "18176", "text": "一 批 牡丹花 种 的 发芽率 是 n ， 张 叔叔 打算 培育 n 株 花苗 ， 需要 播种 多少 个 红球 ．", "expr": "/ temp_b temp_a", "answer": 3750.0, "num_list": [0.8, 3000]}
+{"id": "18232", "text": "阳光 小学 在 大礼堂 举行 开学典礼 ， 礼堂 座位 是 n 排 ， 每排 有 n 个 位置 ． 现在 位置 空 出 了 n 个 ， 一共 有 多少 人 参加 这个 开学典礼 ？", "expr": "- * temp_b temp_a temp_c", "answer": 1662.0, "num_list": [9, 186, 12]}
+{"id": "18252", "text": "妈妈 今年 n 岁 ， 小 红 今年 n 岁 ， 明年 妈妈 的 年龄 是 小 红 的 多少倍 ．", "expr": "/ + temp_a 1 + temp_b 1", "answer": 6.0, "num_list": [35, 5]}
+{"id": "18301", "text": "一 个数 的 n 比 它 的 n 多 n ， 求 这个 数 ．", "expr": "/ temp_c - temp_a temp_b", "answer": 360.0, "num_list": [0.3333333333333333, 0.16666666666666666, 60]}
+{"id": "18318", "text": "水果店 有 苹果 n ㎏ ， 卖出 n 后 ， 剩下 的 苹果 正好 是 桔子 的 n ， 水果店 有 桔子 多少 千克 ？", "expr": "/ * temp_a - 1 temp_b temp_c", "answer": 200.00000000000003, "num_list": [180, 0.3333333333333333, 0.6]}
+{"id": "18319", "text": "学校 举行 运动会 ， 参加 入场式 的 仪仗队 同学 共有 n 人 ， 每 n 人 排 一行 ， 每 一行 空 n 米 ． 如果 这个 仪仗队 以 每分钟 n 米 的 速度 通过 主席台 ， 需要 多少 分钟 ．", "expr": "/ * - / temp_a temp_b 1 temp_c temp_d", "answer": 4.0, "num_list": [205, 5, 2, 20]}
+{"id": "18326", "text": "计算 ： （ n + n ） * n * n = ．", "expr": "* * + temp_a temp_b temp_c temp_d", "answer": 103.99999999999999, "num_list": [0.06896551724137931, 0.08695652173913043, 29, 23]}
+{"id": "18332", "text": "希望 小学 六年级 共有 女生 n 人 ， 男生 n 人 ， 男生 比 女生 多 百分之几 ？", "expr": "/ - temp_b temp_a temp_a", "answer": 0.12, "num_list": [25, 28]}
+{"id": "18333", "text": "甲乙 两艘 船 分别 从 两个 码头 同时 相向 而 行 ． 甲 船 每 小时 行驶 n 海里 ， 乙 船 每 小时 行驶 n 海里 ， 两 船 行驶 n 小时 后 相遇 ． 甲 、 乙 两个 码头 相距 多少 海里 ？", "expr": "* + temp_a temp_b temp_c", "answer": 272.0, "num_list": [40, 28, 4]}
+{"id": "18360", "text": "甲地 到 乙地 的 公路 长 n 千米 ， 一辆 客车 和 一辆 货车 同时 从 甲地 开往 乙地 ， 客车 每 小时 行 n 千米 ， 货车 每 小时 行 n 千米 ． 客车 到达 乙地 时 ， 货车 行 了 多少 千米 ？", "expr": "* temp_c / temp_a temp_b", "answer": 200.0, "num_list": [250, 100, 80]}
+{"id": "18362", "text": "n （ n ） 班 有 n 人 ， 其中 n 人 会 下 国际象棋 ， n 人 会 下 中国象棋 ， 两种 象棋 都 不会 下 的 有 n 人 ． 两种 象棋 都 会 下 的 有 多少 人 ？", "expr": "- + + temp_d temp_e temp_f temp_c", "answer": 8.0, "num_list": [4, 1, 40, 15, 23, 10]}
+{"id": "18385", "text": "学校 教学楼 有 n 层 ， 每层 n 间 教室 ， 共 装 n 盏 日光灯 ， 平均 每间 教室 安装 多少 盏 日光灯 ．", "expr": "/ / temp_c temp_a temp_b", "answer": 6.0, "num_list": [4, 5, 120]}
+{"id": "18405", "text": "甲 、 乙 两 人 住 在 同一个 地方 ， 甲 、 乙 骑车 速度 分别 为 n 米 / 分 、 n 米 / 分 ． 乙 从 住处 骑车到 学校 用 时 n 分钟 ， 求 甲 从 家 到 学校 用 时 几分钟 ？", "expr": "/ * temp_b temp_c temp_a", "answer": 18.0, "num_list": [300, 360, 15]}
+{"id": "18415", "text": "一 种 商品 原价 是 n 元 ， 现在 打 n 销售 ， 现在 便宜 了 多少 元 ．", "expr": "* temp_a - 1 temp_b", "answer": 19.999999999999996, "num_list": [100, 0.8]}
+{"id": "18419", "text": "计算 ： n * n + n * n + n * n = ．", "expr": "+ + * temp_a temp_b * temp_c temp_d * temp_e temp_f", "answer": 111100.0, "num_list": [3333, 13, 4444, 4, 5555, 9]}
+{"id": "18450", "text": "学校 图书室 原有 图书 n 册 ， 今年 图书 册数 增加 了 n ． 今年 有 图书 多少 册 ？", "expr": "* temp_a + 1 temp_b", "answer": 4830.0, "num_list": [4200, 0.15]}
+{"id": "18453", "text": "妈妈 买来 一些 梨 和 n 个 苹果 ， 吃 了 n 个 梨 ， 剩下 的 梨 是 苹果 的 n 倍 ， 妈妈 买 了 多少 个 梨 ．", "expr": "+ * temp_a temp_c temp_b", "answer": 16.0, "num_list": [6, 4, 2]}
+{"id": "18517", "text": "两辆 汽车 同时 从 甲 、 乙 两城 出发 相向 而 行 ， 快车 每 小时 行 n 千米 ， 慢车 每 小时 行 n 千米 ， n 小时 后 相遇 ， 则 甲 、 乙 两城 相距 多少 千米 ．", "expr": "* + temp_a temp_b temp_c", "answer": 500.0, "num_list": [57, 43, 5]}
+{"id": "18553", "text": "学校 种植 一批 树苗 ， 其中 樟树 有 n ， 桂花树 的 棵 数 是 樟树 的 了 n ， 广玉兰 的 棵 数 是 桂花树 的 n ． 学校 种植 了 多少 棵 广玉兰 ？", "expr": "* * temp_a temp_b temp_c", "answer": 16.0, "num_list": [30, 0.8, 0.6666666666666666]}
+{"id": "18573", "text": "张师傅 n 天 完成 任务 的 n ， 完成 任务 他 需要 多少 ．", "expr": "* / 1 temp_b temp_a", "answer": 15.0, "num_list": [5, 0.3333333333333333]}
+{"id": "18585", "text": "王 大伯 花 n 元 买 一台 家电 下乡 冰箱 ， 享受 政府 n 的 补贴 ， 这 台 冰箱 原价 = 多少 元 ？", "expr": "/ temp_a - 1 temp_b", "answer": 2000.0, "num_list": [1740, 0.13]}
+{"id": "18609", "text": "一 件 商品 打 n 出售 ， 正好 比 原来 便宜 n 元 ． 这件 商品 原价 多少 元 ？", "expr": "/ temp_b - 1 temp_a", "answer": 199.99999999999997, "num_list": [0.7, 60]}
+{"id": "18617", "text": "甲 、 乙 两车 从 相距 n 千米 的 两地 同时 开出 ， 甲 车 每 小时 行 n 千米 ， 乙 车 每 小时 行 n 千米 ， 经过 几小时 相遇 ？", "expr": "/ temp_a + temp_b temp_c", "answer": 6.0, "num_list": [594, 54, 45]}
+{"id": "18618", "text": "一 个 玻璃瓶 装有 含盐 率 为 n 的 盐水 n 克 ． 如 要 配制 成 含盐 率 为 n 的 盐水 ， 要 加入 多少 克 水 ？", "expr": "- / * temp_b temp_a temp_c temp_b", "answer": 1000.0, "num_list": [0.15, 500, 0.05]}
+{"id": "18626", "text": "n 与 n 的 和 除以 n ， 商 = ？", "expr": "/ + temp_a temp_b temp_c", "answer": 2.0, "num_list": [3.9, 2.9, 3.4]}
+{"id": "18638", "text": "“ n • 一 ” 节 那天 ， 新华书店 举行 促销 活动 ， 所有 书 按 原价 打 n 出售 ． 小 红 买 了 一套 原价 是 n 元 的 《 安徒生 童话 》 丛书 ， 打折 后 比 原价 便宜 多少 元 ？", "expr": "- temp_c * temp_c temp_b", "answer": 30.0, "num_list": [6, 0.85, 200]}
+{"id": "18685", "text": "工程队 修 一条 公路 ， 计划 每天 修 n 米 ， n 天 完成 ． 实际 n 天 就 修 了 n 米 ， 照 这样 的 速度 ， 多少 天 可以 完成 ？", "expr": "/ * temp_a temp_b / temp_d temp_c", "answer": 10.0, "num_list": [100, 40, 2, 800]}
+{"id": "18707", "text": "n + n = ．", "expr": "+ temp_a temp_b", "answer": 1.0, "num_list": [0.8, 0.2]}
+{"id": "18748", "text": "一 件 衣服 打 n 出售 ， 比 原价 便宜 n 元 ， 原价 多少 元 ．", "expr": "/ temp_b - 1 temp_a", "answer": 160.00000000000003, "num_list": [0.8, 32]}
+{"id": "18772", "text": "一 个数 除以 n ， 商 是 n ， 余数 最大 = ．", "expr": "- temp_a 1", "answer": 6.0, "num_list": [7, 9]}
+{"id": "18851", "text": "一 种 毛衣 ， 原价 n 元 ， 现在 的 价钱 比 原来 降低 了 n ， 降价 多少 钱 ？", "expr": "* temp_a temp_b", "answer": 16.0, "num_list": [56, 0.2857142857142857]}
+{"id": "18854", "text": "在 n 米 的 跑道 上 等 距离 植树 ， 最少 要 种 多少 棵 树 ， 才能 保证 至少 有 两棵树 之间 的 距离 小于 n ．", "expr": "+ + / temp_a temp_b 1 1", "answer": 82.0, "num_list": [1200, 15]}
+{"id": "18864", "text": "某地 的 水库 四周 有 长 为 n 米 的 防水 堤 ， 堤上 每隔 n 米 栽 一棵树 ， 然后 在 相邻 的 两棵树 之间 栽 一棵 柳树 ， 应该 准备 两种 树 各 多少 棵 ？", "expr": "/ temp_a temp_b", "answer": 1010.0, "num_list": [8080, 8]}
+{"id": "18883", "text": "压路机 的 滚筒 是 圆柱体 ， 它 的 长 是 n 米 ， 滚筒 横截面 的 半径 是 n 米 ． 如果 每 分 转动 n 周 ， 每 分 可以 压 多 大 的 路面 ？ （ π 取 n ）", "expr": "* * * temp_d * temp_b temp_a temp_a temp_c", "answer": 37.68, "num_list": [2, 0.6, 5, 3.14]}
+{"id": "18902", "text": "一 个 因数 = ， 另 一个 因数 是 n ， 则 它们 的 积 是 n ．", "expr": "/ temp_b temp_a", "answer": 19.0, "num_list": [44, 836]}
+{"id": "18952", "text": "一 辆 小汽车 的 速度 是 n 千米 / 时 ， 一辆 货车 的 速度 是 n 千米 / 时 ， 两车 从 甲地 同时 出发 到 乙地 ， 小汽车 n 小时 到达 乙地 ， 货车 要 几小时 才能 到达 乙地 ？", "expr": "/ * temp_a temp_c temp_b", "answer": 5.0, "num_list": [60, 48, 4]}
+{"id": "18959", "text": "张老师 在 文具店 里 买 了 一支 钢笔 和 一 本书 ， 一支 钢笔 的 单价 n 元 ， 比 一 本书 的 单价 少 n 元 ， 张老师 一 共用 了 多少 元 ？", "expr": "+ + temp_a temp_b temp_a", "answer": 32.8, "num_list": [15.8, 1.2]}
+{"id": "18974", "text": "一 根 绳子 长 n 米 ， 第一次 用 去 全长 的 n ， 第 二 次 用 去 n 米 ， 这根 绳子 短 了 多少 米 ？", "expr": "+ * temp_a temp_b temp_c", "answer": 88.0, "num_list": [120, 0.4, 40]}
+{"id": "18978", "text": "修 一条 长 n 米 的 公路 ， 原 计划 每天 修 n 米 ， 结果 n 天 完成 了 任务 ， 实际 比 原 计划 每天 多 修 多少 米 ？", "expr": "- / temp_a temp_c temp_b", "answer": 100.0, "num_list": [12000, 300, 30]}
+{"id": "19018", "text": "果园 里 有 桃树 n 棵 ， 苹果树 是 桃树 棵 数 的 n ， 这 两种 树 共有 多少 棵 ？", "expr": "+ * temp_a temp_b temp_a", "answer": 210.0, "num_list": [120, 0.75]}
+{"id": "19122", "text": "汽车 n 小时 行驶 n 千米 ， 火车 n 小时 行驶 n 千米 ， 火车 的 速度 比 汽车 的 速度 快 多少 千米 ？", "expr": "- / temp_d temp_c / temp_b temp_a", "answer": 20.0, "num_list": [3, 243, 6, 606]}
+{"id": "19129", "text": "电视机厂 计划 n 天 生产 电视机 n 台 ， 实际 每天 比 计划 多 生产 n 台 ， 实际 多少 天 完成 任务 ？", "expr": "/ temp_b + / temp_b temp_a temp_c", "answer": 24.0, "num_list": [30, 1200, 10]}
+{"id": "19158", "text": "n （ n ） 班 共有 n 人 参加 语 、 数 、 英 n 科 的 兴趣小组 ． 其中 参加 数学 兴趣小组 有 n 人 ， 参加 语文 兴趣小组 有 n 人 ， 只 参加 英语 兴趣小组 的 有 n 人 ． 数学 、 语文 两个 兴趣小组 都 参加 的 有 多少 人 ．", "expr": "- + temp_e temp_f - temp_c temp_g", "answer": 9.0, "num_list": [4, 1, 50, 3, 20, 15, 24]}
+{"id": "19176", "text": "n 比 一个 数 的 n 少 n ， 求 这个 数 ．", "expr": "/ + temp_a temp_c temp_b", "answer": 19.2, "num_list": [3.6, 0.25, 1.2]}
+{"id": "19222", "text": "小 明 看 一 本书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 n 页 ， 两天 共 看 的 页数 与 剩下 页数 的 比 是 n ： n ， 这 本书 共有 多少 页 ？", "expr": "/ temp_b - / temp_c + temp_c temp_d temp_a", "answer": 104.99999999999999, "num_list": [0.14285714285714285, 27, 2, 3]}
+{"id": "19230", "text": "在 一个 有 余数 的 除法 算式 里 ， 余数 是 n ， 那么 除数 最小 = ．", "expr": "+ temp_a 1", "answer": 6.0, "num_list": [5]}
+{"id": "19245", "text": "小 明 用 n 元 买 文具 ， 买 了 n 支 铅笔 ， 每支 n 元 ， 余下 的 钱 买 圆珠笔 ， 每支 n 元 ， 可以 买 多少 支 ？", "expr": "/ - temp_a * temp_c temp_b temp_d", "answer": 2.9999999999999996, "num_list": [10.2, 6, 0.45, 2.5]}
+{"id": "19267", "text": "有 n 吨 黄沙 要 运到 建筑工地 ， 第一次 运走 了 总数 的 n ， 第 二 次 运走 总数 的 n ， 还要 运 多少 吨 才能 运 完 ？", "expr": "* temp_a - - 1 temp_b temp_c", "answer": 56.000000000000014, "num_list": [210, 0.3333333333333333, 0.4]}
+{"id": "19291", "text": "妈妈 带 了 n 元 钱 ， 给 我 买 了 一双 鞋 花 了 n 元 ， 买 一条 裙子 花 了 n 元 ． 还 剩 多少 元 ？", "expr": "- temp_a + temp_b temp_c", "answer": 100.0, "num_list": [500, 228, 172]}
+{"id": "19368", "text": "同学 们 沿 小路 一侧 植树 （ 两端 都 种 ） ， 每隔 n 米 种 一棵 ， 一共 种 了 n 棵 ． 这 条 小路 有 多少 米 ？", "expr": "* - temp_b 1 temp_a", "answer": 312.0, "num_list": [8, 40]}
+{"id": "19377", "text": "小 明 看 一本 n 页 的 故事书 ， 已经 看 了 n ， 已 看 了 多少 页 ？", "expr": "* temp_a temp_b", "answer": 108.0, "num_list": [180, 0.6]}
+{"id": "19390", "text": "一 个 棱 长 为 n 分 米 的 正方体 木块 的 表面积 = 多少 平方分米 ．", "expr": "* * temp_a temp_a temp_a", "answer": 216.0, "num_list": [6]}
+{"id": "19437", "text": "佳 怡 家 去年 收 苹果 n 千克 ， 今年 比 去年 增产 n ， 今年 收 苹果 多少 千克 ？", "expr": "* temp_a + 1 temp_b", "answer": 682.5, "num_list": [650, 0.05]}
+{"id": "19497", "text": "一 桶 油 ， 第一次 倒 出 n ， 第 二 次 比 第一次 少 倒 出 n 千克 ， 桶 里 还 剩 n 千克 ， 这 桶 油 原来 有 多少 千克 ．", "expr": "/ - temp_c temp_b - - 1 temp_a temp_a", "answer": 100.00000000000003, "num_list": [0.4, 10, 30]}
+{"id": "19545", "text": "一 个 数学 检测 只有 两道 题 ， 结果 全班 有 n 人 全 对 ， 有 一 题 有 n 人 做 对 ， 第 二 道 题 有 n 人 做 错 ， 两道 题 都 做 错 的 有 多少 人 ．", "expr": "- temp_c - temp_b temp_a", "answer": 6.0, "num_list": [12, 27, 21]}
+{"id": "19586", "text": "王大妈 收 了 n 吨 瓜 ， 第一天 卖出 总数 的 n ， 第 二 天 卖出 总数 的 n ， 还 剩 总数 的 几分 之 几 没 卖出 ？", "expr": "- - 1 temp_b temp_c", "answer": 0.6333333333333334, "num_list": [0.5, 0.2, 0.16666666666666666]}
+{"id": "19587", "text": "一 辆 汽车 每 小时 行驶 n 千米 ， 从 甲地 到 乙地 共 行驶 了 n 小时 ． 甲 、 乙 两地 相距 多少 千米 ？", "expr": "* temp_a temp_b", "answer": 64.0, "num_list": [80, 0.8]}
+{"id": "19595", "text": "张师傅 去 商店 买 大米 ， 由于 售货员 疏忽 ， 少 给 了 他 n 斤 大米 ， 但 收 了 他 n 元 钱 ， 已知 每 n 斤 大米 n 元 ． 问 售货员 给 了 张师傅 多少 斤 大米 ？", "expr": "- / temp_b / temp_d temp_c temp_a", "answer": 80.00000000000001, "num_list": [10, 36, 3, 1.2]}
+{"id": "19655", "text": "玲玲 和 丫丫 两 人 相距 n 米 ， 玲玲 在 前 每秒 跑 n 米 ， 丫丫 在 后 每秒 跑 n 米 ． 两 人 同时 出发 ， 同 向 而 行 ， 几秒 后 丫丫 能 追 上 玲玲 ？", "expr": "/ temp_a - temp_c temp_b", "answer": 100.0, "num_list": [200, 3, 5]}
+{"id": "19680", "text": "n = 多少 的 n 倍 ．", "expr": "/ temp_a temp_b", "answer": 27.0, "num_list": [540, 20]}
+{"id": "19695", "text": "小 刚 看 一本 课外书 ， 第一天 看 了 全书 的 n ， 第 二 天 看 了 全书 的 n ． 小 军 两天 一共 看 了 这 本书 的 几分 之 几 ？", "expr": "+ temp_a temp_b", "answer": 0.8285714285714285, "num_list": [0.4, 0.42857142857142855]}
+{"id": "19730", "text": "n 小时 的 n = 多少 小时 ．", "expr": "* temp_a temp_b", "answer": 0.7000000000000001, "num_list": [2.4, 0.2916666666666667]}
+{"id": "19741", "text": "小 丽 和 小强 共同 打 一份 稿纸 ， 他们 打字速度 比 是 n ： n ， 完成 任务 时 ， 小 丽 比 小强 多 打 n 个 字 ． 这份 稿件 共有 多少 个 字 ．", "expr": "/ temp_c - / temp_a + temp_a temp_b / temp_b + temp_a temp_b", "answer": 5600.0, "num_list": [5, 3, 1400]}
+{"id": "19746", "text": "三年级 同学 做操 ， 如果 每排 站 n 人 ， 可以 站 n 排 ； 如果 每排 站 n 人 ， 可以 站 几排 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 30.0, "num_list": [12, 20, 8]}
+{"id": "19806", "text": "《 成长 日记 》 一 书 有 n 页 ， 小 华 前 n 天 一共 看 了 n 页 ， 照 这样 计算 ， 余下 的 还 需 多少 天 看 完 ？", "expr": "/ - temp_a temp_c / temp_c temp_b", "answer": 16.0, "num_list": [252, 5, 60]}
+{"id": "19819", "text": "小 丽 读 一本 故事书 ， 第一天 读 了 全书 的 n ， 以后 每天 读 n 页 ， 又 读 了 n 天 正好 读完 ． 这 本书 一共 有 多少 页 ？", "expr": "/ * temp_b temp_c - 1 temp_a", "answer": 140.0, "num_list": [0.1, 21, 6]}
+{"id": "19866", "text": "甲 、 乙 两城 相距 n 千米 ， 一辆 汽车 以 每 小时 n 千米 从 甲 城 开出 ， 行驶 n 小时 ， 离 乙 城 还有 多少 千米 ？", "expr": "- temp_a * temp_b temp_c", "answer": 347.0, "num_list": [875, 48, 11]}
+{"id": "19867", "text": "一 个 圆柱体 的 表面积 比 侧 面积 大 n dm ^ n ， 高 是 n dm ． 这个 圆柱体 的 体积 = 多少 dm ^ n ．", "expr": "* / temp_a temp_b temp_c", "answer": 31.400000000000002, "num_list": [6.28, 2, 10, 3]}
+{"id": "19868", "text": "一 个 饲养场 ， 养鸭 n 只 ， 养 的 鸡 比 养 的 鸭 多 n ， 养 的 鸡 比 鸭 多 多少 只 ？", "expr": "* temp_a temp_b", "answer": 720.0, "num_list": [1200, 0.6]}
+{"id": "19875", "text": "水果店 运进 n 筐 水果 ， 每 筐 n 千克 ． 卖出 n 千克 ， 还 剩 多少 千克 ？", "expr": "- * temp_a temp_b temp_c", "answer": 580.0, "num_list": [36, 25, 320]}
+{"id": "19878", "text": "图书馆 购进 一批 新书 ， 其中 n 本 是 科技 书 ， n 本 是 文艺 书 ， 其余 是 连环画 ． 连环画 占 总数 的 n ， 这 批 新书 有 多少 本 ？", "expr": "/ + temp_a temp_b - 1 temp_c", "answer": 1460.0, "num_list": [385, 710, 0.25]}
+{"id": "19900", "text": "郭 海燕 同学 买 了 n 本 《 科学 趣谈 》 ， 付 了 n 元 ， 找回 n 元 ． 每 本 多少 元 ？", "expr": "/ - temp_b temp_c temp_a", "answer": 14.0, "num_list": [3, 50, 8]}
+{"id": "19906", "text": "小 明 n 小时 行走 n 千米 ， 一只 蜜蜂 的 飞行速度 是 小 明 的 n 倍 ． 这 只 蜜蜂 每 小时 飞行 多少 千米 ？", "expr": "* / temp_b temp_a temp_c", "answer": 19.759999999999998, "num_list": [0.5, 2.6, 3.8]}
+{"id": "19915", "text": "一 个 长方体 的 体积 是 n 立方厘米 ， 底面 是 边长 n 厘米 的 正方形 ， 这个 长方体 的 高 = 多少 厘米 ．", "expr": "/ temp_a * temp_b temp_b", "answer": 10.0, "num_list": [40, 2]}
+{"id": "19921", "text": "n 的 n 比 一个 数 的 n 少 n ， 求 这个 数 ．", "expr": "/ + * temp_a temp_b temp_d temp_c", "answer": 200.0, "num_list": [180, 0.4444444444444444, 0.5, 20]}
+{"id": "19973", "text": "n （ n ） 班 昨天 的 出勤率 是 n ， 昨天 n 人 到校 ， 多少 人 有事 请假 ．", "expr": "- / temp_d temp_c temp_d", "answer": 2.0, "num_list": [5, 1, 0.96, 48]}
+{"id": "20022", "text": "何 老师 买 了 n 本 故事书 ， n 本 科技 书 ， 平均 分给 n 个 读书 小组 ， 每组 可以 分 得 多少 本 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 16.0, "num_list": [110, 114, 14]}
+{"id": "20043", "text": "比 n 多 n 的 数 = ．", "expr": "+ temp_a temp_b", "answer": 34.0, "num_list": [25, 9]}
+{"id": "20076", "text": "二年级 买来 科技 书 n 本 ， 故事书 n 本 ． 把 这些 书 平均 分给 二年级 n 个 班 ， 平均 每个 班 分 多少 本 ？", "expr": "/ + temp_a temp_b temp_c", "answer": 6.0, "num_list": [16, 26, 7]}
+{"id": "20131", "text": "一 堆 煤 ， 第一次 用 去 n ， 第 二 次 用 去 原来 总量 的 n ， 还 剩余 n 吨 ． 这 堆 煤 共有 多少 吨 ？", "expr": "/ temp_c - - 1 temp_a temp_b", "answer": 45.0, "num_list": [0.4, 0.3333333333333333, 12]}
+{"id": "20140", "text": "一 根 n 米 长 的 竹竿 直 插入 水池 中 ， 竹竿 的 入 泥 部分 是 n 米 ， 露出 水面 的 部分 是 n 米 ， 池 水深 多少 ？", "expr": "- - temp_a temp_c temp_b", "answer": 3.6, "num_list": [4.8, 0.4, 0.8]}
+{"id": "20151", "text": "一 根 绳子 的 长度 等于 它 本身 长度 的 n + n 米 ， 这 绳子 长 多少 米 ．", "expr": "/ temp_b - 1 temp_a", "answer": 14.999999999999998, "num_list": [0.3333333333333333, 10]}
+{"id": "20185", "text": "光明 小学 新建 了 一幢 n 层 的 数字 楼 ， 每层 有 n 个 教室 ， 每个 教室 放 n 张 课桌 ， 一共 需要 多少 张 课桌 ？", "expr": "* * temp_a temp_b temp_c", "answer": 960.0, "num_list": [8, 5, 24]}
+{"id": "20186", "text": "学校 图书馆 有 故事书 n 本 ， 是 科技 书 的 n 倍 ． 借出 一部分 科技 书后 ， 剩下 科技 书 n 本 ． 借出 科技 书 多少 本 ？", "expr": "- / temp_a temp_b temp_c", "answer": 10.0, "num_list": [1820, 2, 900]}
+{"id": "20234", "text": "一 项 工程 ， 由于 采用 了 先进 技术 ， 只用 了 n 万元 ， 比 原 计划 节约 投资 n 万元 ， 节约 了 百分之几 ？", "expr": "/ temp_b + temp_a temp_b", "answer": 0.2, "num_list": [14.4, 3.6]}
+{"id": "20236", "text": "被除数 是 除数 的 n 倍 ， 被除数 是 n ， 除数 = ．", "expr": "/ temp_b temp_a", "answer": 125.0, "num_list": [8, 1000]}
+{"id": "20259", "text": "某个 地区 有 一个 活动 ： 用 n 个 空瓶 可以 换 一瓶 水 ， 小 明 现在 有 n 个 空瓶 ， 那么 小 明 可以 喝 到 多少 瓶 水 ．", "expr": "+ + temp_a 1 1", "answer": 5.0, "num_list": [3, 10]}
+{"id": "20281", "text": "鸭 比 鸡 多 n 只 ， 鸡 的 只 数 和 鸭 的 只 数 比 是 n ： n ． 鸭 和 鸡 共有 多少 只 ？", "expr": "* / temp_a - temp_c temp_b + temp_b temp_c", "answer": 490.0, "num_list": [210, 2, 5]}
+{"id": "20297", "text": "一 台 计算机 n 小时 用电 n 千瓦时 ． 这 台 计算机 平均 每 小时 用电 多少 千瓦时 ？", "expr": "/ temp_b temp_a", "answer": 0.24, "num_list": [10, 2.4]}
+{"id": "20300", "text": "n / n 与 n 的 差 ， 商 = ？", "expr": "/ temp_a - temp_b temp_c", "answer": 28.0, "num_list": [1932, 437, 368]}
+{"id": "20302", "text": "一 块 铜 和 锡 的 合金 中 ， 铜 与 锡 的 比 是 n ： n ， 已知 铜 比 锡 重 n 克 ， 这块 合金 有 多少 克 ．", "expr": "* / temp_c - temp_a temp_b + temp_a temp_b", "answer": 2800.0, "num_list": [9, 5, 800]}
+{"id": "20321", "text": "用 一只 水 桶装水 ， 把 水 加 到 原来 的 n 倍 ， 连 桶 重 n 千克 ， 如果 把 水 加 到 原来 的 n 倍 ， 连 桶 重 n 千克 ． 桶 里 原有 水 多少 千克 ？", "expr": "/ - temp_d temp_b - temp_c temp_a", "answer": 4.0, "num_list": [2, 10, 5, 22]}
+{"id": "20327", "text": "五年级 同学 一共 捐款 n 元 ， 四年级 捐 的 比 五年级 多 n ， 四年级 同学 捐款 多少 元 ？", "expr": "* temp_a + 1 temp_b", "answer": 720.0, "num_list": [640, 0.125]}
+{"id": "20360", "text": "外国语 实验 小学 三年级 学生 参加 浇 树 活动 ， n 个 班 一共 浇 了 n 棵 树 ． 平均 每个 班 浇 多少 棵 树 ？", "expr": "/ temp_b temp_a", "answer": 92.0, "num_list": [7, 644]}
+{"id": "20388", "text": "小 婷 跳绳 原来 每分钟 跳 n 下 ， 现在 每分钟 可以 跳 n 下 ． 原来 n 分钟 跳 的 下 数 ， 现在 只要 跳 几分钟 ？", "expr": "/ * temp_a temp_c temp_b", "answer": 3.0, "num_list": [75, 100, 4]}
+{"id": "20436", "text": "n - n 的 差 乘 n 与 n 的 和 ， 积 = ？", "expr": "* - temp_a temp_b + temp_c temp_d", "answer": 400.0, "num_list": [203, 198, 53, 27]}
+{"id": "20445", "text": "甲 数 是 n ， 乙 数 是 n ， 甲 数 是 乙 数 的 百分之几 ？", "expr": "/ temp_a temp_b", "answer": 0.45, "num_list": [18, 40]}
+{"id": "20458", "text": "襄樊市 体育场 是 一个 直径 大约 是 n 米 的 圆柱形 ， 王 叔叔 每天 早上 要 绕 体育场 跑跑 n 圈 一共 大约 跑 多少 米 ？", "expr": "* * 3.14 temp_a temp_b", "answer": 5024.0, "num_list": [400, 4]}
+{"id": "20490", "text": "每天 放 n 场 电影 ， 每场 最 多 可 坐 n 人 ， 每天 最 多 有 多少 人 看 电影 ？", "expr": "* temp_b temp_a", "answer": 2320.0, "num_list": [4, 580]}
+{"id": "20513", "text": "实验 幼儿园 食堂 买来 豆角 和 西红柿 各 n 千克 ， 每千克 豆角 n 元 ， 每千克 西红柿 n 元 ， 买 两种 菜 共 花 多少 钱 ？", "expr": "* + temp_b temp_c temp_a", "answer": 80.0, "num_list": [16, 3.4, 1.6]}
+{"id": "20519", "text": "车站 有 n 千克 蔬菜 要 运到 菜场 出售 ， 运 了 n 车 还 剩 n 千克 ． 平均 每 车运 多少 千克 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 190.0, "num_list": [850, 4, 90]}
+{"id": "20524", "text": "小 丽 的 姐姐 将 一个月 工资 的 n 存入 银行 ， n 作为 保险费 ， n 用于 炒股 ， 最后 剩下 n 元 作为 生活费 ， 她 一个月 工资 多少 元 ．", "expr": "/ temp_d - - - 1 temp_a temp_b temp_c", "answer": 2000.0000000000002, "num_list": [0.25, 0.15, 0.2, 800]}
+{"id": "20583", "text": "如果 从 一捆 粗细 均匀 的 电线 上 截取 n 米 长 的 电线 ， 称 得 它 的 重 为 n 斤 ， 再 称 得 剩余 电线 的 重 为 n 斤 ， 则 原来 这 捆 电线 总长度 为 多少 米 ．", "expr": "+ / temp_c temp_b temp_a", "answer": 101.0, "num_list": [1, 0.2, 20]}
+{"id": "20611", "text": "弟弟 今年 n 岁 ， 哥哥 今年 n 岁 ， n 年 后 ， 哥哥 比 弟弟 大 几岁 ？", "expr": "- temp_b temp_a", "answer": 8.0, "num_list": [4, 12, 10]}
+{"id": "20631", "text": "两个 铺路 队 从 两端 同时 施工 铺 一条 n m 的 路 ， 甲队 每天 铺 n m ， 乙 队 每天 铺 n m ， 多少 天 能 铺 完 这 条 路 ？", "expr": "/ temp_a + temp_b temp_c", "answer": 23.0, "num_list": [2070, 46, 44]}
+{"id": "20646", "text": "五年级 有 学生 n 人 ， 比 女生 多 n ， 女生 有 多少 人 ．", "expr": "/ temp_a + 1 temp_b", "answer": 25.0, "num_list": [29, 0.16]}
+{"id": "20647", "text": "平 海 家园 要 修 一条 n 米 长 的 自来水管 道 ， 如果 每 根 自来水管 长 n 米 ， 至少 需要 多少 根 ？", "expr": "/ temp_a temp_b", "answer": 70.0, "num_list": [420, 6]}
+{"id": "20657", "text": "“ n 一 ” 劳动节 ， 家电 商场 搞 促销 活动 ， 一款 彩电 原价 n 元 ， 现 以 原价 的 n 出售 ， 现在 的 售价 比 原来 便宜 了 多少 元 ？", "expr": "* temp_b - 1 temp_c", "answer": 675.0000000000001, "num_list": [5, 4500, 0.85]}
+{"id": "20771", "text": "一 个 比 的 前项 是 n ， 比值 是 n ， 后 项 = ．", "expr": "/ temp_a temp_b", "answer": 0.5, "num_list": [0.16666666666666666, 0.3333333333333333]}
+{"id": "20781", "text": "有 n 个 铅笔盒 ， 其中 n 个 装有 铅笔 ， n 个 装有 钢笔 ， n 个 既 装有 铅笔 又 有 钢笔 ， 空 笔盒 有 多少 个 ．", "expr": "- temp_a - + temp_b temp_c temp_d", "answer": 3.0, "num_list": [10, 5, 4, 2]}
+{"id": "20787", "text": "西山 村 今年 已 积肥 n 万吨 ， 比 原 计划 多 积 n 万吨 ， 完成 计划 的 几分 之 几 ？", "expr": "/ temp_a - temp_a temp_b", "answer": 1.2058823529411764, "num_list": [82, 14]}
+{"id": "20800", "text": "李师傅 铺设 n 平方米 地砖 需要 n 小时 ． 按照 这样 的 速度 计算 ， 他 铺 好 一个 长 n 米 、 宽 n 米 的 长方形 会议室 ， 需要 多少 时间 ？", "expr": "* * temp_c temp_d temp_b", "answer": 10.666666666666666, "num_list": [1, 0.125, 16, 5.333333333333333]}
+{"id": "20803", "text": "鸡场 养 有 小鸡 n 只 ， 中 鸡 是 小鸡 的 n ， 大 鸡 是 中 鸡 的 n ， 大 鸡 有 多少 只 ？", "expr": "* * temp_a temp_b temp_c", "answer": 1200.0, "num_list": [2240, 0.625, 0.8571428571428571]}
+{"id": "20819", "text": "一 本 《 快乐 学 数学 》 定价 n 元 ， 一本 《 数学 小灵通 》 定价 n 元 ． 王 鹏 有 n 元 钱 ， 他 各 买 了 一本 ， 还 剩下 多少 钱 ？", "expr": "- - temp_c temp_a temp_b", "answer": 2.7, "num_list": [4.5, 2.8, 10]}
+{"id": "20828", "text": "小 邵 带 n 元 去 买 《 数学 小灵通 》 ， 买 了 n 套 ， 还 剩 n 元 ． 每套 价钱 多少 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 18.0, "num_list": [500, 25, 50]}
+{"id": "20848", "text": "李 明 收集 邮票 n 枚 ， 王 红 收集 的 邮票 比 李 明 多 n ． 李 明 比 王 红 少 收集 邮票 多少 枚 ？", "expr": "* temp_a temp_b", "answer": 14.0, "num_list": [49, 0.2857142857142857]}
+{"id": "20940", "text": "学校 有 n 个 同学 ， 分 乘 n 辆 汽车 去 春游 ， 第一辆 车 已经 接 走 了 n 人 ， 如果 其余 n 辆车 乘 的 人数 相同 ， 最后 一辆车 乘 了 几个 同学 ？", "expr": "/ - temp_a temp_c temp_d", "answer": 136.0, "num_list": [808, 6, 128, 5]}
+{"id": "20952", "text": "学校 图书馆 有 科技 书 n 本 ， 文艺 书本 数 比 科技 书本 数 的 n 倍 多 n 本 ， 图书馆 有 科技 书 、 文艺 书 共 多少 本 ．", "expr": "+ + * temp_a temp_b temp_c temp_a", "answer": 2645.0, "num_list": [650, 3, 45]}
+{"id": "20963", "text": "小 明 今年 n 岁 ， 爸爸 年龄 是 小 明 的 n 倍 ， 爸爸 比 小 明 大 几岁 ？", "expr": "- * temp_a temp_b temp_a", "answer": 30.0, "num_list": [15, 3]}
+{"id": "20984", "text": "新华 小学 今年 春季 新 栽 了 一批 树 ， 其中 松树 比 柏树 多 n 棵 ， 柏树 比 松树 少 n ． 新 栽 的 柏树 有 多少 棵 ？", "expr": "- / temp_a temp_b temp_a", "answer": 72.0, "num_list": [12, 0.14285714285714285]}
+{"id": "21017", "text": "城西 学校 买 了 n 只 足球 ， 足球 的 只 数 比 篮球 只 数 的 n 倍 少 n 只 ， 这 两种 求 一共 买 了 多少 只 ？", "expr": "+ / + temp_a temp_c temp_b temp_a", "answer": 45.0, "num_list": [29, 2, 3]}
+{"id": "21128", "text": "商店 运 来 n 筐 黄瓜 和 n 筐 茄子 ， 共 重 n 千克 ． 每 筐 黄瓜 重 n 千克 ， 每 筐 茄子 重 多少 千克 ？", "expr": "/ - temp_c * temp_a temp_d temp_b", "answer": 20.0, "num_list": [5, 4, 230, 30]}
+{"id": "21176", "text": "一 种 商品 现价 n 元 ， 比 原价 降低 了 n ， 这种 商品 比 原价 降低 了 多少 元 ？", "expr": "- / temp_a - 1 temp_b temp_a", "answer": 600.0, "num_list": [2400, 0.2]}
+{"id": "21186", "text": "一 套 服装 的 成本价 是 n 元 ， 零售商 从 生产厂家 以 出厂价 买入 ， 然后 卖出 ． 如果 生产厂家 的 利润率 为 n ， 零售商 的 利润率 为 n ， 则 这 套 服装 的 售价 为 ： 多少 元 ．", "expr": "* * temp_a + 1 temp_b + 1 temp_c", "answer": 78.0, "num_list": [50, 0.2, 0.3]}
+{"id": "21203", "text": "长跑 锻炼 ， 小 雄 跑 了 n 千米 ， 小 雄 跑 的 n 等于 小 刚跑 的 ． 小 刚跑 的 是 小 勇 的 n ． 小 勇 跑 多少 千米 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 3.125, "num_list": [3, 0.8333333333333334, 0.8]}
+{"id": "21211", "text": "竹子 在 生长 旺盛期 每 时 约 增高 n 厘米 ， 钟状 菌 生长 更 快 ， 生长 旺盛期 每 时 约 增高 n 厘米 ． 如果 它们 都 在 生长 旺盛期 ， 开始 时 竹子 高 n 厘米 ， 钟状 菌 高 n 厘米 ， 几时 后 钟状 菌 的 高度 可 赶上 竹子 ？", "expr": "/ - temp_c temp_d - temp_b temp_a", "answer": 1.5, "num_list": [4, 25, 32, 0.5]}
+{"id": "21236", "text": "挖 一条 水渠 ， 如果 每天 挖 全长 的 n 又 n 米 ， 那么 n 天 正好 挖 完 ． 这 一条 水渠 全长 多少 米 ？", "expr": "/ * temp_b temp_c - 1 * temp_a temp_c", "answer": 1199.9999999999989, "num_list": [0.15, 20, 6]}
+{"id": "21239", "text": "沃尔玛 超市 之前 塑料袋 的 日均 使用量 为 n 个 ， 实施 限 塑 令 以后 日 用量 下降 了 n ， 现在 塑料袋 的 日 用量 为 多少 个 ？", "expr": "* temp_a - 1 temp_b", "answer": 5000.0, "num_list": [20000, 0.75]}
+{"id": "21301", "text": "某校 全体学生 列队 ， 不论 他们 人数 相等 的 分成 n 队 ， n 队 ， n 队 ， n 对 ， n 对 ， n 对 ， n 对 或 n 队 ， 都 会 多出 n 人 ， 那么 该校 至少 有 多少 名 学生 ？", "expr": "+ * * temp_d temp_g temp_h temp_i", "answer": 361.0, "num_list": [2, 3, 4, 5, 6, 7, 8, 9, 1]}
+{"id": "21323", "text": "一 个数 的 n 与 n * n 的 积 相等 ． 求 这个 数 ．", "expr": "/ * temp_b temp_c temp_a", "answer": 1.25, "num_list": [0.4, 0.75, 0.6666666666666666]}
+{"id": "21325", "text": "股市 交易 中 ， 无论 买进 和 卖出 ， 均 需要 交纳 交易 资金 的 n 作为 手续费 ． 某 股民 以 每股 n 元 买 过 某种 股票 n 股 ， 过 了 一段时间 ， 又 以 每股 n 元 将 这种 股票 全部 卖出 ． 此 股民 买卖 这 支 股票 赚 了 多少 元 ？ （ 只 列式 不 计算 ）", "expr": "- * * temp_d temp_c - 1 temp_a * * temp_b temp_c + 1 temp_a", "answer": 8871.030000000002, "num_list": [0.003, 10.65, 3000, 13.68]}
+{"id": "21348", "text": "用 n - n 的 差 去除 n ， 商 = ．", "expr": "/ temp_c - temp_a temp_b", "answer": 4.000000000000001, "num_list": [13.1, 6.9, 24.8]}
+{"id": "21370", "text": "农业 机械厂 有 n 吨 煤 ， 已经 烧 了 n 天 ， 平均 每天 烧煤 n 吨 ． 剩下 的 煤 如果 每天 烧 n 吨 ， 还 可以 烧 多少 天 ？", "expr": "/ - temp_a * temp_c temp_b temp_d", "answer": 18.0, "num_list": [39, 16, 1.2, 1.1]}
+{"id": "21398", "text": "化肥厂 计划 生产 一批 化肥 ， 第一天 生产 了 全部 任务 的 n ， 第 二 天 又 生产 了 余下 任务 的 n ， 第 n 天 又 生产 了 前两天 生产 后 余下 的 n ， 结果 还 剩下 n 吨 没有 完成 ． 问 化肥厂 计划 生产 化肥 多少 吨 ？", "expr": "/ / / temp_e - 1 temp_d - 1 temp_b - 1 temp_a", "answer": 99.99999999999999, "num_list": [0.16666666666666666, 0.25, 3, 0.2, 50]}
+{"id": "21403", "text": "一 辆 货车 n 小时 行 了 n 千米 ， 一列 火车 的 速度 是 货车 的 n 倍 ， 求 火车 的 速度 ？", "expr": "* / temp_b temp_a temp_c", "answer": 130.0, "num_list": [3.5, 227.5, 2]}
+{"id": "21421", "text": "一 个 三角形 的 面积 是 n cm ^ n ， 它 的 底 是 n 厘米 ， 高 = ．", "expr": "/ * temp_a temp_b temp_c", "answer": 6.0, "num_list": [15, 2, 5]}
+{"id": "21487", "text": "一 瓶 油 连 瓶 重 n 千克 ， 瓶 重 n 千克 ， 用 去 n 千克 油 后 ， 还 剩下 多少 千克 油 ？", "expr": "- - temp_a temp_b temp_c", "answer": 1.38, "num_list": [3.4, 0.5, 1.52]}
+{"id": "21500", "text": "空调 厂 去年 上半年 完成 全年 计划 任务 的 n ， 下半年 和 上半年 完成 的 同样 多 ， 空调 厂 去年 实际 超额完成 全年 计划 任务 的 几分 之 几 ？", "expr": "- + temp_a temp_a 1", "answer": 0.125, "num_list": [0.5625]}
+{"id": "21505", "text": "王 叔叔 每个 月 的 收入 扣除 n 元 后 按 n 的 税率 交 了 个人所得税 n 元 ， 王 叔叔 的 月 收入 = 多少 元 ？", "expr": "+ temp_a / temp_c temp_b", "answer": 2450.0, "num_list": [2000, 0.05, 22.5]}
+{"id": "21555", "text": "甲 、 乙 两 油库 原 存 油 数量 的 比 是 n ： n ， 现 因 生产 需要 ， 从 甲 库 调出 了 n 桶 油 ， 这时 甲 、 乙 两 库 油 数 相等 ， 求 乙 库 原有 油 多少 桶 ？", "expr": "* / temp_c - temp_a temp_b temp_b", "answer": 135.0, "num_list": [5, 3, 90]}
+{"id": "21557", "text": "小 亮 的 储蓄 箱 中 有 n 元 ， 小 华 储蓄 的 钱 是 小 亮 的 n ． 小 新 储蓄 的 钱 是 小 华 的 n ． 小 新 储蓄 了 多少 元 ？", "expr": "* * temp_a temp_b temp_c", "answer": 10.0, "num_list": [18, 0.8333333333333334, 0.6666666666666666]}
+{"id": "21575", "text": "一 包 茶叶 重 n 千克 ， 倒 出 n 后 还 剩下 多少 克 茶叶 ？", "expr": "* temp_a - temp_a temp_b", "answer": 0.75, "num_list": [1, 0.25]}
+{"id": "21612", "text": "江东 修 一条 长 n 米 的 水渠 ， 第一天 修 了 全长 的 n ， 第 二 天 修 了 全长 的 n ． 一共 修 了 多少 米 ？", "expr": "* temp_a + temp_b temp_c", "answer": 390.0, "num_list": [600, 0.4, 0.25]}
+{"id": "21632", "text": "板桥 小学 四年级 有 女生 n 人 ， 男生 人数 比 女生 的 n 倍 少 n 人 ． 四年级 共有 学生 多少 人 ？", "expr": "+ - * temp_a temp_b temp_c temp_a", "answer": 255.0, "num_list": [120, 2, 105]}
+{"id": "21639", "text": "小朋友 们 在 红果 果 和 绿 泡泡 指导 下 分 糖果 ， 如 每个 人 n 个 还 剩 n 个 ， 如 每个 人 n 个 就 有 n 个 小朋友 分 不到 糖果 ， 那么 有 多少 小朋友 ．", "expr": "/ + temp_c temp_b - temp_c temp_a", "answer": 9.0, "num_list": [10, 6, 12, 1]}
+{"id": "21662", "text": "有 水果篮 n 个 ， 盛 有 橘子 的 有 n 个 ， 当中 n 个 还 放 有 苹果 ； n 个 水果篮 是 空 的 ， 余下 的 只 放 有 香蕉 ？ 问 只 放 有 一种 水果 的 水果篮 有 多少 个 ﹖", "expr": "- - temp_a temp_d temp_c", "answer": 26.0, "num_list": [50, 25, 16, 8]}
+{"id": "21695", "text": "一 个 班 有 学生 n 人 ， 参加 体育 代表队 的 有 n 人 ， 参加 文艺 代表队 的 有 n 人 ， 并且 每个 人 至少 参加 了 一个 队 ， 这个 班 两个 队 都 参加 的 有 几个 人 ？", "expr": "- + temp_b temp_c temp_a", "answer": 13.0, "num_list": [42, 30, 25]}
+{"id": "21714", "text": "商店 运 来 一些 水果 ， 梨 的 筐 数 比 苹果 筐 数 少 n ． 已知 运 来 梨 n 筐 ， 运 来 苹果 多少 筐 ？", "expr": "/ temp_b - 1 temp_a", "answer": 50.0, "num_list": [0.2, 40]}
+{"id": "21726", "text": "王 大伯 养 鹅 的 只 数 是 鸡 的 n ， 是 鸭 的 n ， 养鸡 n 只 ， 养鸭 多少 只 ？", "expr": "/ * temp_c temp_a temp_b", "answer": 224.0, "num_list": [0.4, 0.8571428571428571, 480]}
+{"id": "21794", "text": "王老师 买 n 本 一样 的 故事书 ， 付出 n 元 ， 找回 n 元 ， 每 本 图书 多少 钱 ？", "expr": "/ - temp_b temp_c temp_a", "answer": 3.7, "num_list": [60, 250, 28]}
+{"id": "21848", "text": "一 筐 苹果 的 n 正好 是 n 千克 ， 这 筐 苹果 重 多少 千克 ？", "expr": "/ temp_b temp_a", "answer": 70.0, "num_list": [0.2857142857142857, 20]}
+{"id": "21855", "text": "一 个数 的 n 比 n 的 n 倍 少 n ， 这个 数 = ？", "expr": "/ - * temp_b temp_c temp_d temp_a", "answer": 20.0, "num_list": [0.45, 4.8, 2, 0.6]}
+{"id": "21876", "text": "有 纯酒精 n 克 ， 配制 浓度 为 n 的 酒精 溶液 需 加水 多少 克 ．", "expr": "- / temp_a temp_b temp_a", "answer": 20.0, "num_list": [60, 0.75]}
+{"id": "21881", "text": "修 一段 公路 ， 第一天 修 了 这 段 路 的 n ， 第 二 天 与 第一天 修 的 同样 多 ， 还 剩下 这 段 路 的 几分 之 几 没有 修 ？", "expr": "- - 1 temp_a temp_a", "answer": 0.375, "num_list": [0.3125]}
+{"id": "21882", "text": "为了 保护 n 峡 库区 的 生态 竦 境 ， 国家 给 幸福村 拨款 n 万元 专款 ， 其中 n 用于 退耕还林 ， n 用于 农民 生活 、 生产 补偿 ， 用于 退耕还林 的 比 用于 生活 、 生产 补偿 的 多 多少 万元 ？", "expr": "* temp_b - temp_c temp_d", "answer": 240.0, "num_list": [3, 800, 0.6, 0.3]}
+{"id": "21884", "text": "一 个 工厂 由于 采用 了 新工艺 ， 现在 每 件产品 的 成本 是 n 元 ， 比 原来 降低 了 n ， 原来 每件 成本 = 多少 元 ？", "expr": "/ temp_a - 1 temp_b", "answer": 44.0, "num_list": [37.4, 0.15]}
+{"id": "21887", "text": "小马 的 班上 制作 了 n 张 彩券 销售 ， 这些 彩券 中 只有 一张 能 获奖 ． 小马 要 购买 多少 张 彩券 才 会 有 n 机会 获奖 ．", "expr": "* temp_a temp_b", "answer": 10.0, "num_list": [100, 0.1]}
+{"id": "21946", "text": "多少 除以 n ， 商 和 余数 都 是 n ．", "expr": "+ * temp_b temp_a temp_b", "answer": 528.0, "num_list": [32, 16]}
+{"id": "22011", "text": "一 批 零件 共有 n 个 ， 王师傅 n 小时 做 了 全部 的 n ， 以 这样 的 速度 ， 还 需 几小时 才能 全部 做 完 ？", "expr": "- / 1 / temp_c temp_b temp_b", "answer": 12.0, "num_list": [5400, 6, 0.3333333333333333]}
+{"id": "22015", "text": "花园 小学 组织 学生 植树 ， 五年级 植树 n 棵 ， 正好 是 四年级 的 n 倍 ， 三年级 比 四年级 少 n 棵 ， 三年级 植树 多少 棵 ．", "expr": "- / temp_a temp_b temp_c", "answer": 60.0, "num_list": [160, 2, 20]}
+{"id": "22051", "text": "服装厂 要 做 一批 童装 ， 如果 每天 做 n 套 ， n 天 完成 ， 实际 少 用 n 天 完成 了 任务 ． 实际 每天 做 多少 套 ？", "expr": "/ * temp_a temp_b - temp_b temp_c", "answer": 42.0, "num_list": [35, 18, 3]}
+{"id": "22057", "text": "一 场 足球赛 的 票价 为 n 元 ， 因为 票 很 紧张 ， 涨价 n ， 涨价 后 的 票价 = ？", "expr": "* temp_a + 1 temp_b", "answer": 288.0, "num_list": [240, 0.2]}
+{"id": "22059", "text": "幸福村 要 修 一条 乡村 公路 ， 预计 每天 修 n 米 ， n 天 就 能 完成 ； 如果 n 天 修 完 这 条 公路 ， 平均 每天 要 修 多少 米 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 300.0, "num_list": [240, 15, 12]}
+{"id": "22110", "text": "服装厂 要 加工 一批 儿童服装 ， 如果 每套 用布 n 米 ， 可以 加工 n 套 ． 如果 每套 用布 n 米 ， 可以 加工 多少 套 ？", "expr": "/ * temp_b temp_a temp_c", "answer": 495.0, "num_list": [1.65, 450, 1.5]}
+{"id": "22148", "text": "在 一条 公路 的 一边 ， 每隔 n 米 栽 一棵树 ， 一共 栽 了 n 棵 树 ， 这 条 路 全长 有 多少 米 ？", "expr": "* - temp_b 1 temp_a", "answer": 796.0, "num_list": [4, 200]}
+{"id": "22153", "text": "妈妈 拿 n 元 买 了 n 千克 苹果 ， 找回 n 元 ． 每千克 苹果 多少 元 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 3.6, "num_list": [20, 3, 9.2]}
+{"id": "22183", "text": "姐姐 的 年龄 比 小 红 大 n ， 小 红 比 姐姐 小 n 岁 ． 小 红 今年 多少岁 ．", "expr": "/ temp_b temp_a", "answer": 12.0, "num_list": [0.16666666666666666, 2]}
+{"id": "22186", "text": "放寒假 了 ， 叔叔 送给 强强 一本 有 许多 个 故事 的 书 ， 强强 计划 每天 看 同样 个数 的 故事 ， 用 n 天 可 看 完 ． 但 强强 在 看书 时 发现 故事 很 有趣 ， 实际 每天 比 原 计划 多 看 n 个 故事 ， 结果 提前 n 天 看 完 了 故事书 ． 这本 故事书 一共 有 多少 个 故事 ．", "expr": "* / * temp_b - temp_a temp_c temp_c temp_a", "answer": 240.0, "num_list": [20, 3, 4]}
+{"id": "22195", "text": "一 个 农场 计划 n 天 完成 收割 任务 ， 由于 每天 多 收割 n 公顷 ， 结果 n 天 就 完成 了 任务 ． 实际 每天 收割 多少 公顷 ？", "expr": "+ / * temp_c temp_b - temp_a temp_c temp_b", "answer": 19.6, "num_list": [28, 7, 18]}
+{"id": "22202", "text": "建筑 一座 楼房 ， 实际 投资 n 万元 ， 超过 计划 n ， 计划 投资 多少 万元 ？", "expr": "/ temp_a + 1 temp_b", "answer": 800.0, "num_list": [840, 0.05]}
+{"id": "22220", "text": "某 希望 小学 有 男生 n 人 ， 女生 人数 比 男生 多 n ， 学校 里 共有 学生 多少 人 ？", "expr": "+ * temp_a + 1 temp_b temp_a", "answer": 270.0, "num_list": [120, 0.25]}
+{"id": "22239", "text": "一 张 光盘 能 刻录 资料 n 兆 ， 现已 用 它 的 n ， 还 剩下 多少 兆 空白 部分 ？", "expr": "* temp_a - 1 temp_b", "answer": 119.99999999999997, "num_list": [600, 0.8]}
+{"id": "22255", "text": "一 个 长方形 宽 是 n 分 米 ， 长 是 宽 的 n 倍 ， 这个 长方形 的 面积 = ．", "expr": "* * temp_a temp_b temp_a", "answer": 48.0, "num_list": [4, 3]}
+{"id": "22259", "text": "果园 里 有 桃树 n 棵 ， 桃树 的 棵 树 是 苹果树 的 n ， 苹果树 有 多少 棵 ？", "expr": "/ temp_a temp_b", "answer": 49.0, "num_list": [42, 0.8571428571428571]}
+{"id": "22294", "text": "有 一桶 油 ， 第一次 用 去 n ， 第 二 次 又 用 去 n 千克 ， 两次 一 共用 去 n 千克 ． 这 桶 油 重 多少 千克 ？", "expr": "/ - temp_c temp_b temp_a", "answer": 16.0, "num_list": [0.2, 0.4, 3.6]}
+{"id": "22332", "text": "某 电器 有限公司 要 生产 n 台 彩电 迎接 建国 n 周年 庆典 ， 前 n 天 平均 每天 生产 n 台 ． 余下 的 要 在 n 天 内 完成 ， 平均 每天 应 生产 多少 台 ？", "expr": "/ - temp_a * temp_d temp_c temp_e", "answer": 500.0, "num_list": [5000, 60, 5, 400, 6]}
+{"id": "22380", "text": "植物园 上午 有 游客 n 人 ， 中午 有 n 人 离去 ， 下午 又 来 了 n 人 ， 这时 园内 有 游客 多少 人 ？", "expr": "+ - temp_a temp_b temp_c", "answer": 975.0, "num_list": [935, 357, 397]}
+{"id": "22395", "text": "李 阿姨 花 了 n 元 钱 买 了 n 箱 苹果 ， 每箱 苹果 多少 元 钱 ．", "expr": "/ temp_a temp_b", "answer": 40.0, "num_list": [120, 3]}
+{"id": "22396", "text": "第 n 届 亚运会 于 n 年 n 月 n 日 至 n 日 再 中国 广州 进行 ， 广州 是 中国 第 二 个 取得 亚运会 主办权 的 城市 ． 届时 广州 的 体育馆 数量 达 n 个 ， 比 原来 体育馆 数量 增加 n ， 广州 原有 体育馆 多少 个 ？", "expr": "/ temp_f + 1 temp_g", "answer": 60.0, "num_list": [16, 2010, 11, 12, 27, 72, 0.2]}
+{"id": "22444", "text": "笑笑 有 n 件 上衣 ， n 条 裙子 ， 她 有 多少 种 不同 的 穿 法 ．", "expr": "* temp_a temp_b", "answer": 8.0, "num_list": [4, 2]}
+{"id": "22574", "text": "甲 、 乙 两车 从 A 、 B 两地 同时 相向 而 行 ， 甲 车 每 小时 开 n km ， 乙 车 从 B 地 开 到 A 地 需 n 小时 ． 两车 相遇 时 ， 甲 、 乙 两车 行驶 的 路程 比 是 n ： n ， 相遇 时 甲 车 行驶 了 多少 千米 ？", "expr": "* temp_a * temp_b / temp_d + temp_c temp_d", "answer": 150.0, "num_list": [60, 4, 3, 5]}
+{"id": "22584", "text": "甲 、 乙 两 人 在 周长 为 n 米 的 圆形 跑道 的 同一 地点 同时 起跑 ， 甲 每秒 跑 n 米 ， 乙 每秒 跑 n 米 ， 经过 多少 秒钟 ， 甲 比 乙 多 跑 一圈 ．", "expr": "/ temp_a - temp_b temp_c", "answer": 100.0, "num_list": [200, 6, 4]}
+{"id": "22620", "text": "修 一条 n 千米 的 公路 ， 已 修好 n ， 还 剩 多少 千米 没 修 ？", "expr": "* temp_a - 1 temp_b", "answer": 330.0, "num_list": [450, 0.26666666666666666]}
+{"id": "22633", "text": "小 明 今年 n 岁 ， 爷爷 的 年龄 比 小 明 的 n 倍 小 n 岁 ， 爷爷 今年 多少岁 ？", "expr": "- * temp_a temp_b temp_c", "answer": 66.0, "num_list": [14, 5, 4]}
+{"id": "22667", "text": "一 个 厂 计划 全年 生产 洗衣机 n 万台 ， 实际 生产 了 n 万台 ， 超过 了 百分之几 ？", "expr": "/ - temp_b temp_a temp_a", "answer": 0.20000000000000004, "num_list": [6, 7.2]}
+{"id": "22672", "text": "聪聪 要 看 一本 n 页 的 书 ， 他 每天 看 n 页 ， 看 了 n 天 ， 还 剩下 多少 页 没有 看 ？", "expr": "- temp_a * temp_b temp_c", "answer": 54.0, "num_list": [484, 86, 5]}
+{"id": "22682", "text": "甲 数 的 n 是 乙 数 的 n ， 乙 数 是 n ， 甲 数 = ．", "expr": "/ * temp_c temp_b temp_a", "answer": 25.0, "num_list": [0.4, 0.8333333333333334, 12]}
+{"id": "22714", "text": "修 一条 n 米 的 路 ， 前 n 天 修 了 全长 的 n ， 照 这样 计算 ， 修 完全 程 还要 多少 天 ？", "expr": "/ - 1 temp_c / temp_c temp_b", "answer": 34.0, "num_list": [200, 6, 0.15]}
+{"id": "22726", "text": "两个 修路 队 合 修 一条 公路 ． 甲队 修 了 全长 的 n ， 乙 队 比 甲队 多 修 了 n ． 乙 队 修 了 这 条 公路 的 几分 之 几 ？", "expr": "+ temp_a temp_b", "answer": 0.5555555555555556, "num_list": [0.4444444444444444, 0.1111111111111111]}
+{"id": "22739", "text": "李 刚 家 要 栽种 一批 树苗 ， 这种 树苗 的 成活率 一般 为 n - n ， 如果 要 栽 活 n 棵 树苗 ， 那么 至少 应 栽 多少 棵 ．", "expr": "/ temp_c temp_b", "answer": 1875.0, "num_list": [0.75, 0.8, 1500]}
+{"id": "22775", "text": "六年级 同学 上山 植 松树 n 棵 、 柏树 n 棵 ． 松树 的 棵 数 是 柏树 的 多少倍 ？", "expr": "/ temp_a temp_b", "answer": 4.0, "num_list": [96, 24]}
+{"id": "22821", "text": "一 个 卷烟厂 上 月 香烟 的 销售额 为 n 万元 ． 如果 按 销售额 的 n 缴纳 消费税 ， 上 月 应 缴纳 消费 税款 多少 万元 ？", "expr": "* temp_a temp_b", "answer": 896.0000000000001, "num_list": [1600, 0.56]}
+{"id": "22852", "text": "老 n 屯 今年 修 了 n 条 水渠 ， 总长 n 米 ， 等于 去年 修 的 n 倍 ． 今年 比 去年 多 修 多少 米 ？", "expr": "- temp_c / temp_c temp_d", "answer": 1072.0, "num_list": [5, 4, 1608, 3]}
+{"id": "22913", "text": "水果店 运 来 苹果 n 千克 ， 梨 相当于 苹果 的 n ， 是 桔子 的 n ． 桔子 重 多少 千克 ？", "expr": "/ * temp_a temp_b temp_c", "answer": 128.0, "num_list": [120, 0.8, 0.75]}
+{"id": "22928", "text": "修 一条 路 ， 第一天 修 了 全长 的 n ， 第 二 天 修 了 全长 的 n ， 两天 一共 修 了 n 米 ， 这 条 路 有 多少 米 ？", "expr": "/ temp_c + temp_a temp_b", "answer": 4000.0, "num_list": [0.2, 0.25, 1800]}
+{"id": "22981", "text": "从 甲地 到 乙 地铺 一条 长 n 米 的 路 ， 铺 了 n 天 后 离 乙地 还有 n 米 ， 平均 每天 铺 了 多少 米 ？", "expr": "/ - temp_a temp_c temp_b", "answer": 25.0, "num_list": [840, 24, 240]}
+{"id": "22994", "text": "商店 出售 一种 电视机 ， 原价 n 元 ， 现在 降低 了 n ， 降低 了 多少 元 ？", "expr": "* temp_a temp_b", "answer": 560.0, "num_list": [1540, 0.36363636363636365]}
+{"id": "23017", "text": "一 个 平行四边形 的 面积 是 n 平方分米 ， 高 是 n 分 米 ， 底 = 多少 分 米 ．", "expr": "/ temp_a temp_b", "answer": 4.0, "num_list": [4.8, 1.2]}
+{"id": "23027", "text": "一 条 水渠 ， 已经 修 了 n 千米 ， 未 修 的 是 已修 的 n 倍 ， 这 条 水渠 全长 多少 千米 ？", "expr": "* temp_a + temp_b 1", "answer": 20.72, "num_list": [5.6, 2.7]}
+{"id": "23054", "text": "我国 第一 长河 - - 长江 全长 n km ， 黄河 比 长江 的 n 要 短 n km ． 黄河 全长 多少 千米 ？", "expr": "- * temp_a temp_b temp_c", "answer": 5464.0, "num_list": [6380, 0.9, 278]}
+{"id": "23066", "text": "一 本 文艺 书 ， 小 明 第一天 看 了 全书 的 n ， 第 二 天 看 了 余下 的 n ， 还 剩下 n 页 ， 这 本书 共有 多少 页 ．", "expr": "/ temp_c - - 1 temp_a * - 1 temp_a temp_b", "answer": 179.99999999999997, "num_list": [0.3333333333333333, 0.6, 48]}
+{"id": "23085", "text": "学校 建 综合楼 ， 实际 投资 n 万元 ， 比 计划 节约 了 n ， 计划 投资 多少 万元 ？", "expr": "/ temp_a - 1 temp_b", "answer": 200.0, "num_list": [170, 0.15]}
+{"id": "23131", "text": "每包 n 本 ， 一共 要 寄 n 本书 ， 需要 几包 ？", "expr": "/ temp_b temp_a", "answer": 8.0, "num_list": [30, 240]}
+{"id": "23146", "text": "广场 新种 了 一批 花木 ， 其中 n 是 玫瑰 ， n 是 月季 ． 已知 月季 有 n 棵 ， 玫瑰 有 多少 棵 ？", "expr": "* / temp_c temp_b temp_a", "answer": 30.0, "num_list": [0.3125, 0.375, 36]}
