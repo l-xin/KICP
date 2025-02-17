@@ -30,3 +30,15 @@ torchrun --nnode 1 --nproc_per_node=2 src/model/main.py --cuda 0,1 --dataset fbq
 ```
 
 For more running arguments, please refer to [src/model/main.py](src/model/main.py).
+
+## Citation
+If you find our work helpful, please consider citing our paper.
+```
+@inproceedings{lin2024knowledge,
+  title={A Knowledge-Injected Curriculum Pretraining Framework for Question Answering},
+  author={Lin, Xin and Su, Tianhuang and Huang, Zhenya and Xue, Shangzi and Liu, Haifeng and Chen, Enhong},
+  booktitle={Proceedings of the ACM on Web Conference 2024},
+  pages={1986--1997},
+  year={2024}
+}
+```
